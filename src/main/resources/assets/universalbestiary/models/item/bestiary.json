@@ -5,20 +5,20 @@
     },
     "overrides": [
         {
-            "predicate": { "completion": 1 },
-            "model": "universalbestiary:item/bestiary_4"
-        },
-        {
-            "predicate": { "completion": 0.75 },
-            "model": "universalbestiary:item/bestiary_3"
+            "predicate": { "completion": 0.25 },
+            "model": "universalbestiary:item/bestiary_1"
         },
         {
             "predicate": { "completion": 0.5 },
             "model": "universalbestiary:item/bestiary_2"
         },
         {
-            "predicate": { "completion": 0.25 },
-            "model": "universalbestiary:item/bestiary_1"
+            "predicate": { "completion": 0.75 },
+            "model": "universalbestiary:item/bestiary_3"
+        },
+        {
+            "predicate": { "completion": 1 },
+            "model": "universalbestiary:item/bestiary_4"
         }
     ]
 }

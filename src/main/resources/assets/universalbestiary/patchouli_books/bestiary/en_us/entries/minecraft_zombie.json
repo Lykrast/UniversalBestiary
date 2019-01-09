@@ -1,24 +1,24 @@
 {
-    "name": "Zombie",
-    "icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:zombie'}}",
-    "category": "monsters",
+	"name": "Zombie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:zombie'}}",
+	"category": "monsters",
 	"flag": "universalbestiary:entity:minecraft:zombie",
 	"advancement": "universalbestiary:minecraft_zombie",
-    "pages": [
-        {
-            "type": "text",
-            "text": "The $(mob)Zombie$() is a common monster that spawns in dark places in the Overworld, including the surface at night. It tries to get in melee range to attack its target, which are both players and $(mob)Villagers$(). It is quite slow and burns when exposed to sunlight.$(p)A $(mob)Zombie$() may spawn wearing armor or weapons, making it tougher and protecting it from sunlight if it wears a helmet."
-        },
-        {
-            "type": "entity",
-            "entity": "minecraft:zombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Zombie$() is a common monster that spawns in dark places in the Overworld, including the surface at night. It tries to get in melee range to attack its target, which are both players and $(mob)Villagers$(). It is quite slow and burns when exposed to sunlight.$(p)A $(mob)Zombie$() may spawn wearing armor or weapons, making it tougher and protecting it from sunlight if it wears a helmet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:zombie",
 			"text": "$(li)20 Health$()$(li)2 Armor$()$(li)2-4 Damage$()"
-        },
-        {
-            "type": "spotlight",
-            "item": "minecraft:rotten_flesh",
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
 			"link_recipe": true,
 			"text": "$(mob)Zombies$() drop $(item)Rotten Flesh$() on death. It can be eaten in an emergency, but it will often deteriorate the eater's hunger after being consumed."
-        }
-    ]
+		}
+	]
 }
