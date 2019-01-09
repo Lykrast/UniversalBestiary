@@ -1,0 +1,13 @@
+{
+	"type": "forge:ore_shaped",
+	"pattern": [
+		"  G",
+		" S ",
+		"S  "
+	],
+	"key": {
+		"G": { "type": "forge:ore_dict", "ore": "blockGlass" },
+		"S": { "type": "forge:ore_dict", "ore": "stickWood" }
+	},
+	"result": { "item": "universalbestiary:identifier" }
+}
