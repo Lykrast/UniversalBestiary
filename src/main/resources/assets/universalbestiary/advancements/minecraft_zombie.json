@@ -1,14 +1,9 @@
 {
 	"parent": "universalbestiary:root",
 	"criteria": {
-		"killed": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": { "entity": { "type": "minecraft:zombie" } }
-		},
-		"killed_by": {
-			"trigger": "minecraft:entity_killed_player",
+		"unlock": {
+			"trigger": "universalbestiary:unlock",
 			"conditions": { "entity": { "type": "minecraft:zombie" } }
 		}
-	},
-	"requirements": [ [ "killed", "killed_by" ] ]
+	}
 }

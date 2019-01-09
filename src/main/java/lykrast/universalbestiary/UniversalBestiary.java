@@ -3,6 +3,8 @@ package lykrast.universalbestiary;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import net.minecraft.advancements.CriteriaTriggers;
+import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -22,10 +24,12 @@ public class UniversalBestiary {
     public static final String VERSION = "@VERSION@";
 
 	public static Logger logger = LogManager.getLogger(MODID);
+	
+	public static Item identifier;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-		
+		CriteriaTriggers.register(BestiaryTrigger.INSTANCE);
     }
 
     @EventHandler
