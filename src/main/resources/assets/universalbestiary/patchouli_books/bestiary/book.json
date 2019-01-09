@@ -1,0 +1,8 @@
+{
+	"name": "patchouli.universalbestiary.title",
+	"landing_text": "patchouli.universalbestiary.landing",
+	"version": 1,
+	"advancement_namespaces": [ "universalbestiary" ],
+	"model": "universalbestiary:bestiary",
+	"creative_tab": "misc"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Zombie",
+    "icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:zombie'}}",
+    "category": "monsters",
+	"advancement": "universalbestiary:minecraft_zombie",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(thing)Zombie$()."
+        },
+        {
+            "type": "entity",
+            "entity": "minecraft:zombie"
+        }
+    ]
+}

@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 	acceptedMinecraftVersions = "[1.12, 1.13)")
 public class UniversalBestiary {
     public static final String MODID = "universalbestiary";
-    public static final String NAME = "Example Mod";
+    public static final String NAME = "Universal Bestiary";
     public static final String VERSION = "@VERSION@";
 
 	public static Logger logger = LogManager.getLogger(MODID);
