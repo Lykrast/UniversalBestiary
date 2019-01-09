@@ -3,11 +3,14 @@ package lykrast.universalbestiary;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import net.minecraft.init.Blocks;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
+import vazkii.patchouli.api.PatchouliAPI;
+import vazkii.patchouli.api.PatchouliAPI.IPatchouliAPI;
 
 @Mod(modid = UniversalBestiary.MODID, 
 	name = UniversalBestiary.NAME, 
@@ -27,7 +30,11 @@ public class UniversalBestiary {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        // some example code
-        logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+    	//Flags for checking which mobs exist
+    	IPatchouliAPI patchouli = PatchouliAPI.instance;
+    	for (ResourceLocation rl : ForgeRegistries.ENTITIES.getKeys()) {
+    		patchouli.setConfigFlag(MODID + ":entity:" + rl, true);
+    		logger.debug("Found entity " + rl);;
+    	}
     }
 }

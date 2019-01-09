@@ -2,6 +2,7 @@
     "name": "Zombie",
     "icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:zombie'}}",
     "category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:zombie",
 	"advancement": "universalbestiary:minecraft_zombie",
     "pages": [
         {
