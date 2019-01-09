@@ -3,11 +3,11 @@
 	"criteria": {
 		"killed": {
 			"trigger": "minecraft:player_killed_entity",
-			"conditions": { "entity": { "type": "zombie" } }
+			"conditions": { "entity": { "type": "minecraft:zombie" } }
 		},
 		"killed_by": {
 			"trigger": "minecraft:entity_killed_player",
-			"conditions": { "entity": { "type": "zombie" } }
+			"conditions": { "entity": { "type": "minecraft:zombie" } }
 		}
 	},
 	"requirements": [ [ "killed", "killed_by" ] ]
