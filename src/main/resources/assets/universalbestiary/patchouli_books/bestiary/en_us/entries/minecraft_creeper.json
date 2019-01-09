@@ -1,0 +1,24 @@
+{
+	"name": "Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:creeper'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:creeper",
+	"advancement": "universalbestiary:minecraft_creeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Creeper$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:creeper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Creepers$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

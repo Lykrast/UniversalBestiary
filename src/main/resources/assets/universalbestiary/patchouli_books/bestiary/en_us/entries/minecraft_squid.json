@@ -1,0 +1,26 @@
+{
+	"name": "Squid",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:squid'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:squid",
+	"advancement": "universalbestiary:minecraft_squid",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Squid$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:squid",
+			"scale": 0.5,
+			"offset": -0.65,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Squids$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

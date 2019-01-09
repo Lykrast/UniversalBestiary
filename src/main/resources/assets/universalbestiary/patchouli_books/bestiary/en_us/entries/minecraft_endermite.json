@@ -1,0 +1,26 @@
+{
+	"name": "Endermite",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:endermite'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:endermite",
+	"advancement": "universalbestiary:minecraft_endermite",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Endermite$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:endermite",
+			"scale": 1.5,
+			"offset": -0.35,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Endermites$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Mule",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:mule'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:mule",
+	"advancement": "universalbestiary:minecraft_mule",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mule$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:mule",
+			"scale": 0.7,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Mules$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

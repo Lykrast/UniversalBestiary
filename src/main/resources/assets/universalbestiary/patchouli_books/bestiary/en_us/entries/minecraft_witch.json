@@ -1,0 +1,26 @@
+{
+	"name": "Witch",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:witch'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:witch",
+	"advancement": "universalbestiary:minecraft_witch",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Witch$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:witch",
+			"scale": 0.9,
+			"offset": 0.3,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Witchs$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

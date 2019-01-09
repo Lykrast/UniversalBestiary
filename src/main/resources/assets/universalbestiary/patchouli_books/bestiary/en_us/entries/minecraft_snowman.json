@@ -1,0 +1,24 @@
+{
+	"name": "Snow Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:snowman'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:snowman",
+	"advancement": "universalbestiary:minecraft_snowman",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Snow Golem$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:snowman",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Snow Golems$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"name": "Llama",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:llama'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:llama",
+	"advancement": "universalbestiary:minecraft_llama",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Llama$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:llama",
+			"scale": 0.8,
+			"offset": 0.3,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Llamas$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

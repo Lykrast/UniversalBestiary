@@ -1,0 +1,26 @@
+{
+	"name": "Slime",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:slime'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:slime",
+	"advancement": "universalbestiary:minecraft_slime",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Slime$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:slime",
+			"scale": 2,
+			"offset": -0.6,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Slimes$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

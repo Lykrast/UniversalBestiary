@@ -1,0 +1,25 @@
+{
+	"name": "Cave Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:cave_spider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:cave_spider",
+	"advancement": "universalbestiary:minecraft_cave_spider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cave Spider$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:cave_spider",
+			"scale": 0.7,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Cave Spiders$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Wither Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:wither_skeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:wither_skeleton",
+	"advancement": "universalbestiary:minecraft_wither_skeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wither Skeleton$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:wither_skeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Wither Skeletons$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

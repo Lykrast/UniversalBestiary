@@ -1,0 +1,26 @@
+{
+	"name": "Magma Cube",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:magma_cube'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:magma_cube",
+	"advancement": "universalbestiary:minecraft_magma_cube",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Magma Cube$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:magma_cube",
+			"scale": 2,
+			"offset": -0.6,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Magma Cubes$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

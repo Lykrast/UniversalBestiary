@@ -1,0 +1,25 @@
+{
+	"name": "Wolf",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:wolf'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:wolf",
+	"advancement": "universalbestiary:minecraft_wolf",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wolf$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:wolf",
+			"scale": 0.7,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Wolfs$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

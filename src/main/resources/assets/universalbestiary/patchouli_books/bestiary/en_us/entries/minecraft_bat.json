@@ -1,0 +1,26 @@
+{
+	"name": "Bat",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:bat'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:bat",
+	"advancement": "universalbestiary:minecraft_bat",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Bat$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:bat",
+			"scale": 1.5,
+			"offset": 0.1,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Bats$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

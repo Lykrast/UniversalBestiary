@@ -1,0 +1,24 @@
+{
+	"name": "Zombie Pigman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:zombie_pigman'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:zombie_pigman",
+	"advancement": "universalbestiary:minecraft_zombie_pigman",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Zombie Pigman$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:zombie_pigman",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Zombie Pigmans$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Stray",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:stray'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:stray",
+	"advancement": "universalbestiary:minecraft_stray",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Stray$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:stray",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Strays$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

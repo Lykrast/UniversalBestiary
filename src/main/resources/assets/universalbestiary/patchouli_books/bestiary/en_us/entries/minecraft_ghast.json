@@ -1,0 +1,26 @@
+{
+	"name": "Ghast",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:ghast'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:ghast",
+	"advancement": "universalbestiary:minecraft_ghast",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ghast$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:ghast",
+			"scale": 0.5,
+			"offset": -1,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Ghasts$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

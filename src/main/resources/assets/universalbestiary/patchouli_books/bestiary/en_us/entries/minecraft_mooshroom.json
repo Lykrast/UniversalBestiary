@@ -1,0 +1,26 @@
+{
+	"name": "Mooshroom",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:mooshroom'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:mooshroom",
+	"advancement": "universalbestiary:minecraft_mooshroom",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mooshroom$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:mooshroom",
+			"scale": 0.8,
+			"offset": 0.2,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Mooshrooms$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

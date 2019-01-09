@@ -1,0 +1,25 @@
+{
+	"name": "Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:spider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:spider",
+	"advancement": "universalbestiary:minecraft_spider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Spider$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:spider",
+			"scale": 0.7,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Spiders$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

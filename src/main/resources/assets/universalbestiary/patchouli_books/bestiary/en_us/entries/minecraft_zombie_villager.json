@@ -1,0 +1,24 @@
+{
+	"name": "Zombie Villager",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:zombie_villager'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:zombie_villager",
+	"advancement": "universalbestiary:minecraft_zombie_villager",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Zombie Villager$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:zombie_villager",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Zombie Villagers$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

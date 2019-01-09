@@ -1,0 +1,24 @@
+{
+	"name": "Iron Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:villager_golem'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:villager_golem",
+	"advancement": "universalbestiary:minecraft_villager_golem",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Iron Golem$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:villager_golem",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Iron Golems$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

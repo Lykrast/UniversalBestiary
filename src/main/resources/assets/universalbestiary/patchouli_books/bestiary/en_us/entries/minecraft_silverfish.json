@@ -1,0 +1,25 @@
+{
+	"name": "Silverfish",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:silverfish'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:silverfish",
+	"advancement": "universalbestiary:minecraft_silverfish",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Silverfish$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:silverfish",
+			"offset": -0.3,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Silverfishs$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

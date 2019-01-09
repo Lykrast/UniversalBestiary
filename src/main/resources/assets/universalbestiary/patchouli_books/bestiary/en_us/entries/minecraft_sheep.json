@@ -1,0 +1,25 @@
+{
+	"name": "Sheep",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:sheep'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:sheep",
+	"advancement": "universalbestiary:minecraft_sheep",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Sheep$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:sheep",
+			"scale": 0.8,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Sheeps$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

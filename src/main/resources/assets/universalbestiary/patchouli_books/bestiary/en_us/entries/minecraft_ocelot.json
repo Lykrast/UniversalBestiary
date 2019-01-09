@@ -1,0 +1,25 @@
+{
+	"name": "Ocelot",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:ocelot'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:ocelot",
+	"advancement": "universalbestiary:minecraft_ocelot",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ocelot$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:ocelot",
+			"scale": 0.7,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Ocelots$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

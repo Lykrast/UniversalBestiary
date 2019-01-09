@@ -1,0 +1,24 @@
+{
+	"name": "Evoker",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:evocation_illager'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:evocation_illager",
+	"advancement": "universalbestiary:minecraft_evocation_illager",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Evoker$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:evocation_illager",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Evokers$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

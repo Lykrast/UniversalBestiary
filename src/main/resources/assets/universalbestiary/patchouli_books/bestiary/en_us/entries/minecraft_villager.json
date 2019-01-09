@@ -1,0 +1,24 @@
+{
+	"name": "Villager",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:villager'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:villager",
+	"advancement": "universalbestiary:minecraft_villager",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Villager$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:villager",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Villagers$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

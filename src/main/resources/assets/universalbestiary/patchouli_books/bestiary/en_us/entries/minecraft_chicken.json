@@ -1,0 +1,24 @@
+{
+	"name": "Chicken",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:chicken'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:chicken",
+	"advancement": "universalbestiary:minecraft_chicken",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Chicken$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:chicken",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Chickens$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

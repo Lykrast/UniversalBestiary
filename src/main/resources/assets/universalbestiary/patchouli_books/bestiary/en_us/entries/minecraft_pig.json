@@ -1,0 +1,25 @@
+{
+	"name": "Pig",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:pig'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:pig",
+	"advancement": "universalbestiary:minecraft_pig",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Pig$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:pig",
+			"scale": 0.6,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Pigs$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

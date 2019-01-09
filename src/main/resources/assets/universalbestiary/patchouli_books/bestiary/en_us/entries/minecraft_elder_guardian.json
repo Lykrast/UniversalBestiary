@@ -1,0 +1,25 @@
+{
+	"name": "Elder Guardian",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:elder_guardian'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:minecraft:elder_guardian",
+	"advancement": "universalbestiary:minecraft_elder_guardian",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Elder Guardian$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:elder_guardian",
+			"scale": 0.35,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Elder Guardians$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"name": "Rabbit",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:rabbit'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:rabbit",
+	"advancement": "universalbestiary:minecraft_rabbit",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Rabbit$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:rabbit",
+			"scale": 1.5,
+			"offset": -0.2,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Rabbits$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

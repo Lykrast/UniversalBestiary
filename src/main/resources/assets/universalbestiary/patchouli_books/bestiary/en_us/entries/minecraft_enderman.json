@@ -1,0 +1,24 @@
+{
+	"name": "Enderman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:enderman'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:enderman",
+	"advancement": "universalbestiary:minecraft_enderman",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Enderman$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:enderman",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Endermans$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

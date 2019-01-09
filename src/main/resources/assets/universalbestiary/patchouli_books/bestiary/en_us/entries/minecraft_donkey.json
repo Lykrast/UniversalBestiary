@@ -1,0 +1,25 @@
+{
+	"name": "Donkey",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:donkey'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:donkey",
+	"advancement": "universalbestiary:minecraft_donkey",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Donkey$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:donkey",
+			"scale": 0.7,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Donkeys$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

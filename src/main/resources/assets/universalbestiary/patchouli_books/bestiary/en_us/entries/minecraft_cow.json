@@ -1,0 +1,25 @@
+{
+	"name": "Cow",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:cow'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:minecraft:cow",
+	"advancement": "universalbestiary:minecraft_cow",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cow$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:cow",
+			"scale": 0.8,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Cows$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

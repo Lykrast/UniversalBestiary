@@ -1,0 +1,25 @@
+{
+	"name": "Skeleton Horse",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:skeleton_horse'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:skeleton_horse",
+	"advancement": "universalbestiary:minecraft_skeleton_horse",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Skeleton Horse$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:skeleton_horse",
+			"scale": 0.7,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Skeleton Horses$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

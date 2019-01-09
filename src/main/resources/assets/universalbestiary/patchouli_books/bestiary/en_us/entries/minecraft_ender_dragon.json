@@ -1,0 +1,25 @@
+{
+	"name": "Ender Dragon",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:ender_dragon'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:minecraft:ender_dragon",
+	"advancement": "universalbestiary:minecraft_ender_dragon",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ender Dragon$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:ender_dragon",
+			"offset": -6,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Ender Dragons$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Wither",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:wither'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:minecraft:wither",
+	"advancement": "universalbestiary:minecraft_wither",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wither$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:wither",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Withers$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

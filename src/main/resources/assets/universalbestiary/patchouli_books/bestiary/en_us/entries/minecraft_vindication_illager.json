@@ -1,0 +1,24 @@
+{
+	"name": "Vindicator",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:vindication_illager'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:minecraft:vindication_illager",
+	"advancement": "universalbestiary:minecraft_vindication_illager",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Vindicator$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "minecraft:vindication_illager",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Vindicators$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}
