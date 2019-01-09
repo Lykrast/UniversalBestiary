@@ -4,5 +4,10 @@
 	"version": 1,
 	"advancement_namespaces": [ "universalbestiary" ],
 	"model": "universalbestiary:bestiary",
-	"creative_tab": "misc"
+	"creative_tab": "misc",
+	"macros": {
+		"$(item)": "$(#b0b)",
+		"$(mob)": "$(#e50)",
+		"$(thing)": "$(#490)"
+	}
 }
