@@ -7,19 +7,19 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Elder Guardian$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Elder Guardian$() is a miniboss. 3 are found in each $(thing)Ocean Monument$().$(p)It is a much bigger $(l:minecraft_guardian)$(mob)Guardian$(), sharing the same set of attacks and behavior, but moves around less. It also inflicts long $(thing)Mining Fatigue$() on nearby players, preventing them from breaking through its chamber."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:elder_guardian",
 			"scale": 0.35,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)80 Health$()$(li)5-12 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:sponge",
 			"link_recipe": true,
-			"text": "$(mob)Elder Guardians$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Elder Guardians$() drop the same items as $(l:minecraft_guardian)$(mob)Guardians$() on death, but also drop $(item)Sponge$(). It can be placed next to $(thing)Water$() to absorb several blocks at once.$(p)After doing so the $(item)Sponge$() becomes wet and needs to be dried in a $(item)Furnace$() to be used again."
 		}
 	]
 }

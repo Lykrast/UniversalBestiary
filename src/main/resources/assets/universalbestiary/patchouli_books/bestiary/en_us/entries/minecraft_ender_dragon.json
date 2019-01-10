@@ -7,19 +7,25 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Ender Dragon$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Ender Dragon$() is a boss that guards the $(thing)End$(). It flies around the main island and attacks trespassers on sight. Any harm done to it is quickly healed by the $(item)End Crystals$() on top of the various $(item)Obsidian$() pillars, which need to be destroyed first.$(p)It can dive at its targets, dealing damage on impact, or fire fireballs that leave a damage area where they land."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:ender_dragon",
 			"offset": -6,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)200 Health$()$(li)6-15 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:dragon_breath",
 			"link_recipe": true,
-			"text": "$(mob)Ender Dragons$() drop $(item)Rottelesh$() on death."
+			"text": "$(item)Dragon Breath$() can be collected by using $(item)Glass Bottles$() on the damage areas left by its fireballs. It can be used to brew $(item)Lingering Potions$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:dragon_egg",
+			"link_recipe": true,
+			"text": "On its death, the $(mob)Ender Dragon$() opens a portal back to the $(thing)Overworld$(), a portal to the outer islands and leaves behind a $(item)Dragon Egg$(). The latter is purely decorative and can be kept as a trophy.$(p)Placing 4 $(item)End Crystals$() around the $(thing)Overworld$() portal will ressurect the $(mob)Ender Dragon$()."
 		}
 	]
 }

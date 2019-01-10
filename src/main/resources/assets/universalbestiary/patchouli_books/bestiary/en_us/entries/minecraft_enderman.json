@@ -7,18 +7,18 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Enderman$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Enderman$() is a monster rarely found in dark places in the $(thing)Overworld$() and commonly found in the $(thing)End$(). It attacks players after being looked at by teleporting towards them and using melee attacks.$(p)It is vulnerable to $(thing)Water$() and flees when in contact with sunlight, but uses its teleportation abilities to dodge any projectiles thrown at it."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:enderman",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)40 Health$()$(li)4-10 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:ender_pearl",
 			"link_recipe": true,
-			"text": "$(mob)Endermans$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Endermans$() drop $(item)Ender Pearls$() on death. These can be thrown to teleport the user where it lands, at the cost of some life."
 		}
 	]
 }

@@ -7,20 +7,20 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Ghast$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Ghast$() is a monster found in the $(thing)Nether$(). It floats around and shoots exploding fireballs at players on sight.$(p)These fireballs leave behind a fiery crater, but can also be reflected by hitting them with good timing."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:ghast",
 			"scale": 0.5,
 			"offset": -1,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)10 Health$()$(li)6 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:ghast_tear",
 			"link_recipe": true,
-			"text": "$(mob)Ghasts$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Ghasts$() drop $(item)Ghast Tears$() on death. They can be used to brew $(item)Potions of Regeneration$() or to craft $(item)End Crystals$()."
 		}
 	]
 }

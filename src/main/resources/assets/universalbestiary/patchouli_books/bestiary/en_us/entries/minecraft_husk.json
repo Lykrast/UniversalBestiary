@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Husk$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Husk$() is a variant of the $(l:minecraft_zombie)$(mob)Zombie$() that spawn in $(thing)Deserts$(). Compared to them, it inflicts $(thing)Hunger$() on its targets when hitting them and does not burn in sunlight."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:husk",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Husks$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)20 Health$()$(li)2 Armor$()$(li)2-4 Damage$()"
 		}
 	]
 }

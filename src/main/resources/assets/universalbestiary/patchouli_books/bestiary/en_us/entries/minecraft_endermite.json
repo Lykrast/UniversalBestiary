@@ -7,20 +7,14 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Endermite$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Endermite$() is a small monster that rarely spawn when $(l:minecraft_enderman)$(mob)Ender Pearls$() are thrown. It attacks nearby players with melee attacks and disappears after a few minutes."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:endermite",
 			"scale": 1.5,
 			"offset": -0.35,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Endermites$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)8 Health$()$(li)2-3 Damage$()"
 		}
 	]
 }

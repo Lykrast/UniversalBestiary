@@ -7,18 +7,18 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Evoker$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Evoker$() is a monster found in $(thing)Woodland Mansions$(). It attacks nearby players and $(l:minecraft_villager)$(mob)Villagers$() by summoning $(l:minecraft_vex)$(mob)Vexes$() and claws on the ground. Claws close up after a short delay dealing damage to anything standing on them."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:evocation_illager",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)24 Health$()$(li)6 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:totem_of_undying",
 			"link_recipe": true,
-			"text": "$(mob)Evokers$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Evokers$() drop a $(item)Totem of Undying$() on death. If a player dies while holding one in their off-hand, it is destroyed to save the player from death."
 		}
 	]
 }

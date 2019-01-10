@@ -7,19 +7,25 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Guardian$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Guardian$() is a monster found patrolling around $(thing)Ocean Monuments$(). It attacks players and $(l:minecraft_squid)$(mob)Squids$() on sight with a laser attack. The laser takes several second to deal damage after it starts being fired, and can be dodged by cutting line of sight or approaching the $(mob)Guardian$(). It also has spikes on its shell that hurt players attacking in melee when they are extended."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:guardian",
 			"scale": 0.35,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)30 Health$()$(li)4-9 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:prismarine_shard",
 			"link_recipe": true,
-			"text": "$(mob)Guardians$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Guardians$() drop $(item)Prismarine Shards$() on death. These can be crafted into various forms of $(item)Prismarine$() for decoration."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:prismarine_crystals",
+			"link_recipe": true,
+			"text": "They also rarely drop $(item)Prismarine Crystals$(), which can be crafted into $(item)Sea Lanterns$()."
 		}
 	]
 }
