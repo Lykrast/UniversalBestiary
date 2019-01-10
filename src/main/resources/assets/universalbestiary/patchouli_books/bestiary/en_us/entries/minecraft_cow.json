@@ -7,19 +7,25 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Cow$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Cow$() is an animal commonly found in the $(thing)Overworld$(). It flees when hit and can be bred using $(item)Wheat$().$(p)It is a great source of food and various other materials. See the next pages for details on them."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:cow",
 			"scale": 0.8,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)10 Health$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:leather",
 			"link_recipe": true,
-			"text": "$(mob)Cows$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Cows$() drop $(item)Raw Beef$() on death, a great source of food when cooked. They also drop $(item)Leather$(), which can be made into armor or various other items such as $(item)Books$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:milk_bucket",
+			"link_recipe": true,
+			"text": "Using an empty $(item)Bucket$() on a $(mob)Cow$() fills it with $(item)Milk$(). It can then be drinked to clear all potion effects on the user."
 		}
 	]
 }

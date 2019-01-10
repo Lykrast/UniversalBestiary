@@ -7,18 +7,18 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Zombie Pigman$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Zombie Pigman$() is a common monster found in the $(thing)Nether$(). It doesn't attack player unless it or one of its friends gets attacked first.$(p)Unlike $(l:minecraft_zombie)$(mob)Zombies$(), $(mob)Zombie Pigmen$() are immune to fire and always spawn wearing a $(item)Golden Sword$(), making their melees attacking even deadlier. They also do not attack $(l:minecraft_villager)$(mob)Villagers$()."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:zombie_pigman",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)20 Health$()$(li)2 Armor$()$(li)5-12 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:gold_nugget",
 			"link_recipe": true,
-			"text": "$(mob)Zombie Pigmans$() drop $(item)Rottelesh$() on death."
+			"text": "Just like $(l:minecraft_zombie)$(mob)Zombies$(), $(mob)Zombie Pigmen$() drop $(l:minecraft_zombie)$(item)Rotten Flesh$() on death. They also drop $(item)Gold Nuggets$(), which can be combined to make $(item)Gold Ingots$()."
 		}
 	]
 }

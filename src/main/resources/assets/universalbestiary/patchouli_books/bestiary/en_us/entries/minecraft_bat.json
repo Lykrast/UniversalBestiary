@@ -7,20 +7,14 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Bat$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Bat$() is a flying passive animal that spawns in caves of the $(thing)Overworld$(). It hangs upside down on ceilings until approached, at which point it will attempt to flee from the offending player."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:bat",
 			"scale": 1.5,
 			"offset": 0.1,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Bats$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)6 Health$()"
 		}
 	]
 }

@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Donkey$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Donkey$() is an animal that is very similar to $(l:minecraft_horse)$(mob)Horses$(). Compared to them, it is smaller and cannot wear armor once tamed. It can however be given a $(item)Chest$(), allowing it to transport 15 stacks of items.$(p)Breeding one with a $(l:minecraft_horse)$(mob)Horse$() produces a sterile $(l:minecraft_mule)$(mob)Mule$() as offspring."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:donkey",
 			"scale": 0.7,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Donkeys$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)15-30 Health$()"
 		}
 	]
 }

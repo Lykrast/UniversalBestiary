@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Cave Spider$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Cave Spider$() is a monster solely found in $(thing)Mineshafts$(). It is very similar to a normal $(l:minecraft_spider)$(mob)Spider$(), but is much smaller and poisons its target when attacking. While the poison cannot kill, it still deals a lot of damage and can leave a player very vulnerable."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:cave_spider",
 			"scale": 0.7,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Cave Spiders$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)12 Health$()$(li)2-3 Damage$()"
 		}
 	]
 }

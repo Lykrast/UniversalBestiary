@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Zombie Villager$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Zombie Villager$() is a $(l:minecraft_villager)$(mob)Villager$() that has been turned into a $(l:minecraft_zombie)$(mob)Zombie$(). It is functionally identical to the latter.$(p)It spawns in the same places as $(l:minecraft_zombie)$(mob)Zombies$(), but can also appear if one kills a $(l:minecraft_villager)$(mob)Villager$().$(p)Affecting one with $(thing)Weakness$() by any mean and feeding it a $(item)Golden Apple$() will cure it after a few minutes."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:zombie_villager",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Zombie Villagers$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)20 Health$()$(li)2 Armor$()$(li)2-4 Damage$()"
 		}
 	]
 }

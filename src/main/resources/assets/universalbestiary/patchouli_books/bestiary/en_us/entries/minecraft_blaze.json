@@ -7,18 +7,18 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Blaze$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Blaze$() is a monster commonly found in $(thing)Nether Fortresses$(). It floats in the air and attacks players on sight.$(p)Its attacks consists of volleys of 3 fireballs. Fireballs set whatever they hit on fire, be it players or blocks. $(mob)Blazes$() are also immune to fire and take damage from $(thing)Water$() and $(item)Snowballs$()."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:blaze",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)20 Health$()$(li)4-9 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:blaze_rod",
 			"link_recipe": true,
-			"text": "$(mob)Blazes$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Blazes$() drop $(item)Blaze Rods$() on death. These can be used as $(item)Furnace$() fuel, or broken down into $(item)Blaze Powder$(), an essential material for brewing $(item)Potions$()."
 		}
 	]
 }
