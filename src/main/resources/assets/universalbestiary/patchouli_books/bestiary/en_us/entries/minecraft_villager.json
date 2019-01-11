@@ -1,7 +1,7 @@
 {
 	"name": "Villager",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:villager'}}",
-	"category": "animals",
+	"category": "helpers",
 	"flag": "universalbestiary:entity:minecraft:villager",
 	"advancement": "universalbestiary:minecraft_villager",
 	"pages": [

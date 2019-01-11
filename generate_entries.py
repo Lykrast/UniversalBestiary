@@ -3,7 +3,7 @@ import argparse
 parser = argparse.ArgumentParser(description='Generate entries for the given mob and put the files in the correct place')
 parser.add_argument('registry', help='Registry name of the entity, eg minecraft:zombie')
 parser.add_argument('display', help='Display name of the entity, eg Zombie')
-parser.add_argument('category', help='Category of the entity, must be a (animals), m (monsters) or b (bosses)')
+parser.add_argument('category', help='Category of the entity, must be a (animals), h (helpers), m (monsters) or b (bosses)')
 
 args = parser.parse_args()
 
@@ -13,12 +13,14 @@ category = args.category
 
 if category == 'a' or category == 'A' or category == 'animals':
 	category = 'animals'
+if category == 'h' or category == 'H' or category == 'helpers':
+	category = 'helpers'
 elif category == 'm' or category == 'M' or category == 'monsters':
 	category = 'monsters'
 elif category == 'b' or category == 'B' or category == 'bosses':
 	category = 'bosses'
 else:
-	raise ValueError('Category argument was invalid. Must be a (animals), m (monsters) or b (bosses).')
+	raise ValueError('Category argument was invalid. Must be a (animals), h (helpers), m (monsters) or b (bosses).')
 
 print('Reading templates')
 

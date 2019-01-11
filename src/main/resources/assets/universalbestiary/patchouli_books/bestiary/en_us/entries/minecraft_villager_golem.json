@@ -1,7 +1,7 @@
 {
 	"name": "Iron Golem",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:villager_golem'}}",
-	"category": "animals",
+	"category": "helpers",
 	"flag": "universalbestiary:entity:minecraft:villager_golem",
 	"advancement": "universalbestiary:minecraft_villager_golem",
 	"pages": [

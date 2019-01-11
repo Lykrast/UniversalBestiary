@@ -1,7 +1,7 @@
 {
 	"name": "Snow Golem",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:snowman'}}",
-	"category": "animals",
+	"category": "helpers",
 	"flag": "universalbestiary:entity:minecraft:snowman",
 	"advancement": "universalbestiary:minecraft_snowman",
 	"pages": [

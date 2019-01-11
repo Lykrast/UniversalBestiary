@@ -1,0 +1,6 @@
+{
+	"name": "Helpers",
+	"description": "Helpers are usually passive beings that help players. Harming or killing them is very often unproductive as their services are often more valuable than their drops.",
+	"icon": "minecraft:emerald",
+	"sortnum": 1
+}
