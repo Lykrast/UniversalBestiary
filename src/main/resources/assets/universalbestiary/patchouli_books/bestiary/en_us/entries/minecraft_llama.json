@@ -7,20 +7,14 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Llama$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Llama$() is neutral animal that spawns in $(thing)Mountains$() and $(thing)Savannas$(). It spits at anything that attacks it, as well as at nearby $(l:minecraft_wolf)$(mob)Wolves$(), making them flee. It can be tamed by riding it until it stops kicking the rider. After that, it can be given a $(item)Chest$() to transport items, $(item)Carpet$() to make it prettier and $(item)Hay Bale$() to breed it. Tamed $(mob)Llamas$() can be led with a $(item)Leash$(), causing other tamed $(mob)Llamas$() to follow."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:llama",
 			"scale": 0.8,
 			"offset": 0.3,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Llamas$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)15-30 Health$()$(li)1 Damage$()"
 		}
 	]
 }

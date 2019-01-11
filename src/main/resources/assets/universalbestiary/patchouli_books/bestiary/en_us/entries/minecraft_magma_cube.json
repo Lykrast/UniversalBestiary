@@ -7,20 +7,20 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Magma Cube$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Magma Cube$() is a monster found in the $(thing)Nether$(). It moves by making sucessive jumps and deals damage on contact.$(p)Like $(l:minecraft_slime)$(mob)Slimes$(), it comes in different sizes and will split up into several smaller $(mob)Magma Cubes$() on death. It is also immune to fire."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:magma_cube",
 			"scale": 2,
 			"offset": -0.6,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)1-16 Health$()$(li)3-12 Armor$()$(li)3-6 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:magma_cream",
 			"link_recipe": true,
-			"text": "$(mob)Magma Cubes$() drop $(item)Rottelesh$() on death."
+			"text": "The smallest $(mob)Magma Cubes$() drop $(item)Magma Cream$() on death. It can be used to craft $(item)Potions of Fire Resistance$(), which are especially useful in the $(thing)Nether$()."
 		}
 	]
 }

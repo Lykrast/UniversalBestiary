@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Parrot$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Parrot$() is an animal that spawns in $(thing)Jungles$(). It flies around and imitates the sounds of other nearby mobs.$(p)It can be tamed using $(item)Seeds$(), causing it to follow its owner and occasionally perch on its shoulder. Unlike most other animals, it cannot be bred."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:parrot",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Parrots$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)6 Health$()"
 		}
 	]
 }

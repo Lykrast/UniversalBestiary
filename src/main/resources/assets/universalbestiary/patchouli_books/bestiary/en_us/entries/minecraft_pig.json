@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Pig$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Pig$() is an animal commonly found in the $(thing)Overworld$(). It flees when hit and can be bred using $(item)Carrots$(), $(item)Potatoes$() or $(item)Beetroots$().$(p)It is a good source of food when killed, but can also be given a $(item)Saddle$(). Unlike $(l:minecraft_horse)$(mob)Horses$(), a ridden $(mob)Pig$() cannot be controlled unless its rider is holding a $(item)Carrot on a Stick$()."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:pig",
 			"scale": 0.6,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Pigs$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)10 Health$()"
 		}
 	]
 }

@@ -7,20 +7,14 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Mooshroom$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Mooshroom$() is the only animal that spawns in $(thing)Mushroom Fields$(). It is very similar to a normal $(l:minecraft_cow)$(mob)Cow$(), dropping the same items, giving $(item)Milk$() and being breedable with $(item)Wheat$().$(p)However, it can also be milked with a $(item)Bowl$() to give $(item)Mushroom Stew$(), or sheared with $(item)Shears$() to give $(item)Mushrooms$(), permanently turning it in to a $(l:minecraft_cow)$(mob)Cow$()."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:mooshroom",
 			"scale": 0.8,
 			"offset": 0.2,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Mooshrooms$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)10 Health$()"
 		}
 	]
 }

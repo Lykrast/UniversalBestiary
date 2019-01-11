@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Ocelot$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Ocelot$() is an animal that spawns in $(thing)Jungles$(). It flees when approached, but otherwise attacks nearby $(l:minecraft_chicken)$(mob)Chickens$() and causes $(l:minecraft_creeper)$(mob)Creepers$() to flee.$(p)Standing still and holding fish causes the $(mob)Ocelot$() to slowly approach. When near enough, it can be fed the fish which might tame it, changing its fur and causing it to follow its owner."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:ocelot",
 			"scale": 0.7,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Ocelots$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)10 Health$()$(li)3 Damage$()"
 		}
 	]
 }

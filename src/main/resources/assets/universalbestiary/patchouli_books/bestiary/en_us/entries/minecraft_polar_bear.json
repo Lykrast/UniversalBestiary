@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Polar Bear$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Polar Bear$() is a neutral animal found in icy biomes in the $(thing)Overworld$(). It often spawns with one or more cubs, which flee when hit.$(p)Attacking a $(mob)Polar Bear$() or getting too close to one of its cub will cause it to attack the player, mauling it at melee range.$(p)Unlike most other animals, it cannot be bred."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:polar_bear",
 			"scale": 0.5,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Polar Bears$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)15 Health$()$(li)4-9 Damage$()"
 		}
 	]
 }

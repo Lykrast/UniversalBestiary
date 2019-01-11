@@ -7,18 +7,24 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Chicken$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Chicken$() is an animal commonly found in the $(thing)Overworld$(). It flees when hit and can be bred using $(item)Seeds$().$(p)It is a good source of food and various other materials. See the next pages for details on them."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:chicken",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)4 Health$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:feather",
 			"link_recipe": true,
-			"text": "$(mob)Chickens$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Chickens$() drop $(item)Feather$() on death. These are mostly used to craft $(item)Arrows$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:egg",
+			"link_recipe": true,
+			"text": "$(mob)Chickens$() also lay $(item)Eggs$() every few minutes. These can be used to make food like $(item)Pumpkin Pie$() or launched. Launched $(item)Eggs$() have a chance of spawning a baby $(mob)Chicken$() on impact."
 		}
 	]
 }

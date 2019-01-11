@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Mule$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Mule$() is the offspring of a $(l:minecraft_horse)$(mob)Horse$() and a $(l:minecraft_donkey)$(mob)Donkey$(). Like the latter, it cannot wear armor but can be equipped with a $(item)Chest$() to transport items.$(p)Unlike its parents, a $(mob)Mule$() is always sterile, and as such cannot breed."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:mule",
 			"scale": 0.7,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Mules$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)15-30 Health$()"
 		}
 	]
 }
