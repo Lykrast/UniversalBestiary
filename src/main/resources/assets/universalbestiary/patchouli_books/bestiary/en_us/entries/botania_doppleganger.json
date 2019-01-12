@@ -1,0 +1,31 @@
+{
+	"name": "Guardian of Gaia",
+	"icon": "botania:gaiahead",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:botania:doppleganger",
+	"advancement": "universalbestiary:botania_doppleganger",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Guardian of Gaia$() is a boss summoned by performing the $(thing)Ritual of Gaia$(). As it spawns, it traps nearby players in its arena, preventing them from running away, but disappears if all players manage to leave it.$(p)It teleports around in its arena, summoning various magic attacks on nearby players that can deal high amounts of damage if not dodged."
+		},
+		{
+			"type": "entity",
+			"entity": "botania:doppleganger",
+			"offset": 0.1,
+			"text": "$(li)320 Health per nearby player$()$(li)15 Armor ($(thing)Ritual of Gaia II$())$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "botania:manaresource:5",
+			"link_recipe": true,
+			"text": "The $(mob)Guardian of Gaia$() gives $(item)Gaia Spirits$() to all players that hit it on death. These are used to craft a large variety of late game items, but can also be crafted into $(item)Gaia Spirit Ingots$() in order to perform the $(thing)Ritual of Gaia II$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "botania:dice",
+			"link_recipe": true,
+			"text": "If the $(mob)Guardian of Gaia$() was summoned by the $(thing)Ritual of Gaia II$(), it will give a multitude of other items, including a $(item)Dice of Fate$(). Using it gives the user one of the 6 $(thing)Relics of the Aesir$(), powerful artifacts that can only be obtained once per player."
+		}
+	]
+}

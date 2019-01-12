@@ -1,0 +1,18 @@
+{
+	"name": "Pink Wither",
+	"icon": "botania:pinkinator",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:botania:pink_wither",
+	"advancement": "universalbestiary:botania_pink_wither",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Pink Wither$() is a harmless artificial monster created by using $(item)The Pinkinator$() on a $(l:minecraft_wither)$(mob)Wither$(). It flees when hit and heals itself when damaged. It doesn't drop anything except $(thing)Experience$() when killed."
+		},
+		{
+			"type": "entity",
+			"entity": "botania:pink_wither",
+			"text": "$(li)150 Health$()"
+		}
+	]
+}
