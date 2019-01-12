@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Silverfish$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Silverfish$() is a monster found in $(thing)Strongholds$() and $(thing)Mountains$(). It can hide inside various stone blocks, emerging when the block is broken to attack the miner.$(p)It attacks in melee and can call other $(mob)Silverfishes$() hidden in stone nearby to emerge when it is damaged."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:silverfish",
 			"offset": -0.3,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Silverfishs$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)8 Health$()$(li)1 Damage$()"
 		}
 	]
 }

@@ -7,20 +7,20 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Squid$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Squid$() is a common animal found in bodies of $(thing)Water$(). It swims around aimlessly and flees when attacked.$(p)It suffocates if it stays out of $(thing)Water$() for too long."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:squid",
 			"scale": 0.5,
 			"offset": -0.65,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)10 Health$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:dye:0",
 			"link_recipe": true,
-			"text": "$(mob)Squids$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Squids$() drop $(item)Ink Sacs$() on death. It is used as a black dye, and as such is used to paint various items black, like $(l:minecraft_sheep)$(mob)Wool$()."
 		}
 	]
 }

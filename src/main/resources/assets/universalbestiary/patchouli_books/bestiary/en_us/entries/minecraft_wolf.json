@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Wolf$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Wolf$() is an animal that spawns in $(thing)Taigas$(). It hunts $(l:minecraft_rabbit)$(mob)Rabbits$(), $(l:minecraft_sheep)$(mob)Sheeps$() and $(l:minecraft_skeleton)$(mob)Skeletons$() on sight by lunging at them dealing damage on contact. It will also attack players that attack it.$(p)It can be tamed by giving it $(l:minecraft_skeleton)$(mob)Bones$(), making it follow the tamer and assisting it in combat. Tamed $(mob)Wolves$() do not attack passive mobs on sight."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:wolf",
 			"scale": 0.7,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Wolfs$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)8 Health$()$(li)3-6 Damage$()"
 		}
 	]
 }

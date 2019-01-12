@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Vindicator$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Vindicator$() is a monster found in $(thing)Woodland Mansions$(). It attacks nearby players and $(l:minecraft_villager)$(mob)Villagers$() by charging in melee, dealing damage on contact.$(p)It can drop $(item)Emeralds$() on death."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:vindication_illager",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Vindicators$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)24 Health$()$(li)7-19 Damage$()"
 		}
 	]
 }

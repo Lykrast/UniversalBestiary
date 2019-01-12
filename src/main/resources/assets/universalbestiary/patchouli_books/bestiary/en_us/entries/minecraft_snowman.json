@@ -1,24 +1,31 @@
 {
 	"name": "Snow Golem",
-	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:snowman'}}",
+	"icon": "minecraft:snow",
 	"category": "helpers",
 	"flag": "universalbestiary:entity:minecraft:snowman",
 	"advancement": "universalbestiary:minecraft_snowman",
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Snow Golem$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Snow Golem$() is an artificial creature that can be assembled by players. It targets nearby hostile monsters and throws $(item)Snowballs$() at them, provoking them but not dealing damage.$(p)It leaves a trail of $(item)Snow$() behind, takes damage under rain and in hot biomes. The $(item)Pumpkin$() on its head can be hidden by shearing it with $(item)Shears$()."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:snowman",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)4 Health$()"
 		},
 		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Snow Golems$() drop $(item)Rottelesh$() on death."
+			"type": "multiblock",
+			"multiblock": {
+				"mapping": {
+					"0": "minecraft:snow",
+					"S": "minecraft:snow",
+					"P": "minecraft:pumpkin"
+				},
+				"pattern": [[ "P" ], [ "S" ], [ "0" ]],
+				"symmetrical": true
+			},
+			"text": "Assembling a $(mob)Snow Golem$(), place the $(item)Pumpkin$() last."
 		}
 	]
 }

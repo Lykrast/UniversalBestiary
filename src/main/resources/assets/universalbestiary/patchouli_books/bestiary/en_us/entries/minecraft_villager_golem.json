@@ -1,24 +1,30 @@
 {
 	"name": "Iron Golem",
-	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:villager_golem'}}",
+	"icon": "minecraft:iron_block",
 	"category": "helpers",
 	"flag": "universalbestiary:entity:minecraft:villager_golem",
 	"advancement": "universalbestiary:minecraft_villager_golem",
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Iron Golem$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Iron Golem$() is an artificial creature that can be assembled by players or found in $(thing)Villages$(). It targets nearby hostile monsters and attacks them by throwing them in the air, dealing high damage.$(p)$(mob)Iron Golems$() found in $(thing)Villagess$() will retaliate if attacked by a player."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:villager_golem",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)100 Health$()$(li)7-10 Damage$()"
 		},
 		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Iron Golems$() drop $(item)Rottelesh$() on death."
+			"type": "multiblock",
+			"multiblock": {
+				"mapping": {
+					"0": "minecraft:iron_block",
+					"I": "minecraft:iron_block",
+					"P": "minecraft:pumpkin"
+				},
+				"pattern": [[ " P " ], [ "III" ], [ " 0 " ]]
+			},
+			"text": "Assembling an $(mob)Iron Golem$(), place the $(item)Pumpkin$() last."
 		}
 	]
 }

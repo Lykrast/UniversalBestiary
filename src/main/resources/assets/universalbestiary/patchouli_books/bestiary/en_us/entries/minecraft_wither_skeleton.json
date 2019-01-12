@@ -7,18 +7,18 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Wither Skeleton$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Wither Skeleton$() is a variant of the $(l:minecraft_skeleton)$(mob)Skeleton$() that spawn in $(thing)Nether Fortresses$(). Compared to normal $(l:minecraft_skeleton)$(mob)Skeletons$(), it is taller, immune to fire and attacks in melee, inflicting $(thing)Wither$() on its targets."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:wither_skeleton",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)20 Health$()$(li)5-12 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:skull:1",
 			"link_recipe": true,
-			"text": "$(mob)Wither Skeletons$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Wither Skeletons$() rarely drop a $(item)Wither Skeleton Skull$() on death. It can be worn, placed as a trophy or used to summon a $(l:minecraft_wither)$(mob)Wither$()."
 		}
 	]
 }

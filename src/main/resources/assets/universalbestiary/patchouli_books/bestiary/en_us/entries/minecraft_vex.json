@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Vex$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Vex$() is a monster summoned by $(l:minecraft_evocation_illager)$(mob)Evokers$(). It attacks players and $(l:minecraft_villager)$(mob)Villagers$() by lunging at them, dealing damage on contact.$(p)It moves by flying around and can pass through solid walls. After a few minutes, it starts taking damage until it dies."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:vex",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Vexs$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)14 Health$()$(li)5-13 Damage$()"
 		}
 	]
 }

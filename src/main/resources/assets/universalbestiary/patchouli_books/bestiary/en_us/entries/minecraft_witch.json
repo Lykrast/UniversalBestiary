@@ -7,20 +7,14 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Witch$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Witch$() is a monster that spawns in dark places in the $(thing)Overworld$(). It attacks players on sight by launching various $(item)Splash Potions$() at them, applying their effect on impact. These can apply $(thing)Slowness$(), $(thing)Poison$(), $(thing)Weakness$() or $(thing)Instant Damage$(). When the situation arise, it may also drink various potions. These can be $(thing)Water Breathing$(), $(thing)Fire Resistance$(), $(thing)Healing$() or $(thing)Swiftness$()."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:witch",
 			"scale": 0.9,
 			"offset": 0.3,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Witchs$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)26 Health$()$(li)6 Damage$()"
 		}
 	]
 }

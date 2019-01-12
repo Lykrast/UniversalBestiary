@@ -7,20 +7,20 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Slime$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Slime$() is a monster that spawns in $(thing)Swamps$() and in rare places underground in the $(thing)Overworld$(). It moves by making sucessive jumps and deals damage on contact.$(p)It comes in different sizes and will split up into several smaller $(mob)Slimes$() on death. The smallest $(mob)Slimes$() do not deal damage."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:slime",
 			"scale": 2,
 			"offset": -0.6,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)1-16 Health$()$(li)0-6 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:slime_ball",
 			"link_recipe": true,
-			"text": "$(mob)Slimes$() drop $(item)Rottelesh$() on death."
+			"text": "The smallest $(mob)Slimes$() drop $(item)Slimeballs$() on death. These can be used to craft several items, like $(item)Sticky Pistons$()."
 		}
 	]
 }

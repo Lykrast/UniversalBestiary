@@ -1,24 +1,35 @@
 {
 	"name": "Wither",
-	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:wither'}}",
+	"icon": "minecraft:skull:1",
 	"category": "bosses",
 	"flag": "universalbestiary:entity:minecraft:wither",
 	"advancement": "universalbestiary:minecraft_wither",
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Wither$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Wither$() is a boss that can be summoned by players. It floats around, fring explosive skulls that apply $(thing)Wither$() on impact to all nearby living creatures, including players.$(p)When it falls below half heart, it loses its ability to float but becomes immune to projectiles."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:wither",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)300 Health$()$(li)4 Armor$()$(li)5-12 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:nether_star",
 			"link_recipe": true,
-			"text": "$(mob)Withers$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Withers$() drop a $(item)Nether Star$() on death. It can be used to craft a $(item)Beacon$()."
+		},
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"mapping": {
+					"0": "minecraft:soul_sand",
+					"S": "minecraft:soul_sand"
+				},
+				"pattern": [[ "SSS" ], [ " 0 " ]]
+			},
+			"text": "Summoning a $(mob)Wither$(), place 3 $(l:minecraft_wither_skeleton)$(item)Wither Skeleton Skulls$() above it once built."
 		}
 	]
 }

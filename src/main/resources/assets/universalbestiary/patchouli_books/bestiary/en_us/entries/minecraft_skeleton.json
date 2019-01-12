@@ -7,18 +7,18 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Skeleton$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Skeleton$() is a common monster that spawns in dark places in the $(thing)Overworld$(), including the surface at night. It attacks players on sight by keeping its distances and firing with a $(item)Bow$(). It burns when exposed to sunlight.$(p)A $(mob)Skeleton$() may spawn wearing armor, making it tougher and protecting it from sunlight if it wears a helmet."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:skeleton",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)20 Health$()$(li)1-5 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:bone",
 			"link_recipe": true,
-			"text": "$(mob)Skeletons$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Skeletons$() drop $(item)Bones$() on death. They can be used to tame $(l:minecraft_wolf)$(mob)Wolves$() or to make $(item)Bone Meal$() to fertilize plants."
 		}
 	]
 }

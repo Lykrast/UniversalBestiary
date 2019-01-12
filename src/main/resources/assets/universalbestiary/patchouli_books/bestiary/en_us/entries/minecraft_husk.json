@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Husk$() is a variant of the $(l:minecraft_zombie)$(mob)Zombie$() that spawn in $(thing)Deserts$(). Compared to them, it inflicts $(thing)Hunger$() on its targets when hitting them and does not burn in sunlight."
+			"text": "The $(mob)Husk$() is a variant of the $(l:minecraft_zombie)$(mob)Zombie$() that spawn in $(thing)Deserts$(). Compared to normal $(l:minecraft_zombie)$(mob)Zombies$(), it inflicts $(thing)Hunger$() on its targets when hitting them and does not burn in sunlight."
 		},
 		{
 			"type": "entity",

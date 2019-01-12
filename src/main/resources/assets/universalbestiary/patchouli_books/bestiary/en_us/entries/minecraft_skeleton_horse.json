@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Skeleton Horse$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Skeleton Horse$() is a rare monster that spawns during $(thing)Thunderstorms$(). If approached, several $(l:minecraft_skeleton)$(mob)Skeletons$() riding $(mob)Skeleton Horses$() appear and will attack the player.$(p)When its rider $(l:minecraft_skeleton)$(mob)Skeleton$() is defeated, the $(mob)Skeleton Horse$() becomes passive and acts like a stylish tamed $(l:minecraft_horse)$(mob)Horse$()."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:skeleton_horse",
 			"scale": 0.7,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Skeleton Horses$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)15-30 Health$()"
 		}
 	]
 }

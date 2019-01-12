@@ -7,19 +7,25 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Spider$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Spider$() is a common monster that spawns in dark places in the $(thing)Overworld$(), including the surface at night. It can climb walls and spot players through walls, which it attacks on sight unless it is under sunlight.$(p)It attacks by leaping at its target, dealing damage on contact."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:spider",
 			"scale": 0.7,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)16 Health$()$(li)2-3 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:string",
 			"link_recipe": true,
-			"text": "$(mob)Spiders$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Spiders$() drop $(item)String$() on death. It can be crafted into various items, such as $(item)Bows$() or $(item)Fishing Rods$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:spider_eye",
+			"link_recipe": true,
+			"text": "$(mob)Spiders$() may also sometimes drop a $(item)Spider Eye$() on death. It can be brewed into $(item)Potions of Poison$()."
 		}
 	]
 }

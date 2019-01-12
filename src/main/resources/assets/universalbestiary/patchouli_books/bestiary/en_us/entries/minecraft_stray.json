@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Stray$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Stray$() is a variant of the $(l:minecraft_skeleton)$(mob)Skeleton$() that spawn in icy biomes. Compared to normal $(l:minecraft_skeleton)$(mob)Skeletons$(), it inflicts $(thing)Slowness$() on its targets when hitting them with its $(item)Arrows$().$(p)It can also drop $(item)Arrows of Slowness$() on death."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:stray",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Strays$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)20 Health$()$(li)1-5 Damage$()"
 		}
 	]
 }

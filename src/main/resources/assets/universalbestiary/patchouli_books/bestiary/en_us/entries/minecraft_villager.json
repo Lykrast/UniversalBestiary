@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Villager$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Villager$() is a creature found inside $(thing)Villages$() in the $(thing)Overworld$(). It flees when hit but can exchange various items in exchange of $(item)Emeralds$().$(p)Some $(mob)Villagers$() will harvest crops in their $(thing)Village$(), and may breed if their $(thing)Villages$() becomes big enough."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:villager",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Villagers$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)20 Health$()"
 		}
 	]
 }

@@ -1,6 +1,6 @@
 {
 	"name": "Ender Dragon",
-	"icon": "minecraft:spawn_egg{EntityTag:{id:'minecraft:ender_dragon'}}",
+	"icon": "minecraft:skull:5",
 	"category": "bosses",
 	"flag": "universalbestiary:entity:minecraft:ender_dragon",
 	"advancement": "universalbestiary:minecraft_ender_dragon",
