@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Wither Skeleton$() is a variant of the $(l:minecraft_skeleton)$(mob)Skeleton$() that spawn in $(thing)Nether Fortresses$(). Compared to normal $(l:minecraft_skeleton)$(mob)Skeletons$(), it is taller, immune to fire and attacks in melee, inflicting $(thing)Wither$() on its targets."
+			"text": "The $(mob)Wither Skeleton$() is a variant of the $(l:minecraft_skeleton)$(mob)Skeleton$() that spawns in $(thing)Nether Fortresses$(). Compared to normal $(l:minecraft_skeleton)$(mob)Skeletons$(), it is taller, immune to fire and attacks in melee, inflicting $(thing)Wither$() on its targets."
 		},
 		{
 			"type": "entity",

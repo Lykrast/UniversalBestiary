@@ -1,0 +1,26 @@
+{
+	"name": "Imp",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'natura:imp'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:natura:imp",
+	"advancement": "universalbestiary:natura_imp",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Imp$() is an animal found in the $(thing)Nether$(). It flees when hit and can be bred using $(item)Glowshroom Stew$(). It is also immune to fire.$(p)While its meat is a potential source of food, it is also poisonous, even after being cooked."
+		},
+		{
+			"type": "entity",
+			"entity": "natura:imp",
+			"scale": 0.75,
+			"offset": 0.2,
+			"text": "$(li)40 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "natura:materials:6",
+			"link_recipe": true,
+			"text": "$(mob)Imps$() drop $(item)Imp Leather$() on death. It can be crafted into a fire resistant armor, or into mundane $(l:minecraft_cow)$(item)Leather$()."
+		}
+	]
+}

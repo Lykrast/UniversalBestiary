@@ -1,0 +1,25 @@
+{
+	"name": "Heatscar Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'natura:heatscarspider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:natura:heatscarspider",
+	"advancement": "universalbestiary:natura_heatscarspider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Heatscar Spider$() is a variant of the $(l:minecraft_spider)$(mob)Spider$() that spawns in the $(thing)Nether$(). Compared to normal $(l:minecraft_spider)$(mob)Spiders$(), it is much bigger, thougher and is resistant to fire.$(p)When killed it spawns several $(l:natura_babyheatscarspider)$(mob)Baby Heatscar Spiders$()."
+		},
+		{
+			"type": "entity",
+			"entity": "natura:heatscarspider",
+			"scale": 0.7,
+			"text": "$(li)50 Health$()$(li)4 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "natura:materials:7",
+			"link_recipe": true,
+			"text": "$(mob)Heatscar Spiders$() and $(l:natura_babyheatscarspider)$(mob)Baby Heatscar Spiders$() drop $(item)Flamestring$() on death. It can be used to make various $(item)Bows$() with the wood of the various tress of the $(thing)Nether$()"
+		}
+	]
+}

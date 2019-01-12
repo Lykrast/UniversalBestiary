@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Pirate$() is a variant of the $(l:minecraft_skeleton)$(mob)Skeleton$() that spawn in $(thing)Pirate Ships$(). Unlike normal $(l:minecraft_skeleton)$(mob)Skeletons$() it doesn't burn in sunlight and may wield an $(item)Iron Sword$() instead of a $(item)Bow$().$(p)Each $(thing)Pirate Ship$() has a captain that wears armor, wields a $(item)Diamond Sword$() and has a $(l:minecraft_parrot)$(mob)Parrot$() on its shoulder."
+			"text": "The $(mob)Pirate$() is a variant of the $(l:minecraft_skeleton)$(mob)Skeleton$() that spawns in $(thing)Pirate Ships$(). Unlike normal $(l:minecraft_skeleton)$(mob)Skeletons$() it doesn't burn in sunlight and may wield an $(item)Iron Sword$() instead of a $(item)Bow$().$(p)Each $(thing)Pirate Ship$() has a captain that wears armor, wields a $(item)Diamond Sword$() and has a $(l:minecraft_parrot)$(mob)Parrot$() on its shoulder."
 		},
 		{
 			"type": "entity",

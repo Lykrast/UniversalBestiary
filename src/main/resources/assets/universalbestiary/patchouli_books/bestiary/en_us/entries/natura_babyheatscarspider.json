@@ -1,0 +1,19 @@
+{
+	"name": "Baby Heatscar Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'natura:babyheatscarspider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:natura:babyheatscarspider",
+	"advancement": "universalbestiary:natura_babyheatscarspider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Baby Heatscar Spider$() is a variant of the $(l:minecraft_spider)$(mob)Spider$() that spawns in the $(thing)Nether$(), or when an adult $(l:natura_heatscarspider)$(mob)Heatscar Spider$(). Compared to normal $(l:minecraft_spider)$(mob)Spiders$(), it is simply immune to fire and drops $(l:natura_heatscarspider)$(mob)Flamestring$() instead of $(l:minecraft_spider)$(mob)String$()."
+		},
+		{
+			"type": "entity",
+			"entity": "natura:babyheatscarspider",
+			"scale": 0.7,
+			"text": "$(li)16 Health$()$(li)2-3 Damage$()"
+		}
+	]
+}

@@ -13,7 +13,7 @@ category = args.category
 
 if category == 'a' or category == 'A' or category == 'animals':
 	category = 'animals'
-if category == 'h' or category == 'H' or category == 'helpers':
+elif category == 'h' or category == 'H' or category == 'helpers':
 	category = 'helpers'
 elif category == 'm' or category == 'M' or category == 'monsters':
 	category = 'monsters'

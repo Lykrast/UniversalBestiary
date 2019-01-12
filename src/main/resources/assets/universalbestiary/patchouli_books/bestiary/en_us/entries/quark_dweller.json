@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Dweller$() is a variant of the $(l:minecraft_zombie)$(mob)Zombie$() that spawn deep underground. Compared to normal $(l:minecraft_zombie)$(mob)Zombies$(), it is slightly tougher, never wears armor and is invisible until it lands an attack for the first time."
+			"text": "The $(mob)Dweller$() is a variant of the $(l:minecraft_zombie)$(mob)Zombie$() that spawns deep underground. Compared to normal $(l:minecraft_zombie)$(mob)Zombies$(), it is slightly tougher, never wears armor and is invisible until it lands an attack for the first time."
 		},
 		{
 			"type": "entity",

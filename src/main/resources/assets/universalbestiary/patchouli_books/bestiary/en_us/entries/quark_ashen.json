@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Ashen$() is a variant of the $(l:minecraft_skeleton)$(mob)Skeleton$() that spawn deep underground. Compared to normal $(l:minecraft_skeleton)$(mob)Skeletons$(), it inflicts $(thing)Blindness$() on its targets when hitting them with its $(item)Arrows$()."
+			"text": "The $(mob)Ashen$() is a variant of the $(l:minecraft_skeleton)$(mob)Skeleton$() that spawns deep underground. Compared to normal $(l:minecraft_skeleton)$(mob)Skeletons$(), it inflicts $(thing)Blindness$() on its targets when hitting them with its $(item)Arrows$()."
 		},
 		{
 			"type": "entity",
