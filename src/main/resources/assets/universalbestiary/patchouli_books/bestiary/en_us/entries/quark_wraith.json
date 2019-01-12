@@ -1,0 +1,24 @@
+{
+	"name": "Wraith",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'quark:wraith'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:quark:wraith",
+	"advancement": "universalbestiary:quark_wraith",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wraith$() is a monster that spawns in the $(thing)Nether$() on patches of $(item)Soul Sand$(). It imitates the sound of random mobs and chases players on sight to attack them in melee.$(p)It is immune to knockback and its attack inflict $(thing)Slowness$() on their target and causes the $(mob)Wraith$() to jump backwards."
+		},
+		{
+			"type": "entity",
+			"entity": "quark:wraith",
+			"text": "$(li)40 Health$()$(li)2-4 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "quark:soul_bead",
+			"link_recipe": true,
+			"text": "$(mob)Wraiths$() drop $(item)Soul Beads$() on death. They can be consumed to inflict $(thing)Curse$() on the eater for several minutes, causing monsters to spawn much more frequently around.$(p)It can also be crafted into $(item)Soul Powder$(), which when used shows the direction of the nearest $(thing)Nether Fortress$()."
+		}
+	]
+}

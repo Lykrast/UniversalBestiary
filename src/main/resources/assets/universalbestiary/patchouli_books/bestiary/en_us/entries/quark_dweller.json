@@ -1,0 +1,18 @@
+{
+	"name": "Dweller",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'quark:dweller'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:quark:dweller",
+	"advancement": "universalbestiary:quark_dweller",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Dweller$() is a variant of the $(l:minecraft_zombie)$(mob)Zombie$() that spawn deep underground. Compared to normal $(l:minecraft_zombie)$(mob)Zombies$(), it is slightly tougher, never wears armor and is invisible until it lands an attack for the first time."
+		},
+		{
+			"type": "entity",
+			"entity": "quark:dweller",
+			"text": "$(li)20 Health$()$(li)3 Armor$()$(li)2-4 Damage$()"
+		}
+	]
+}

@@ -38,7 +38,7 @@ public class UniversalBestiary {
     	IPatchouliAPI patchouli = PatchouliAPI.instance;
     	for (ResourceLocation rl : ForgeRegistries.ENTITIES.getKeys()) {
     		patchouli.setConfigFlag(MODID + ":entity:" + rl, true);
-    		logger.debug("Found entity " + rl);;
+    		logger.debug("Found entity " + rl);
     	}
     }
 }
