@@ -1,0 +1,30 @@
+{
+	"name": "Ancient Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'embers:ancient_golem'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:embers:ancient_golem",
+	"advancement": "universalbestiary:embers_ancient_golem",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ancient Golem$() is a monster that spawns in dark places in the $(thing)Overworld$() and sometimes in $(thing)Ruins$(). It attacks nearby players on sight, slowly approaching them to attack in melee while firing energy projectiles that travel in a straight line. It is immune to knockback."
+		},
+		{
+			"type": "entity",
+			"entity": "embers:ancient_golem",
+			"text": "$(li)40 Health$()$(li)4-6 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "embers:archaic_brick",
+			"link_recipe": true,
+			"text": "$(mob)Ancient Golems$() drop $(item)Archaic Bricks$() on death. They are primarly used to make various decorative blocks."
+		},
+		{
+			"type": "spotlight",
+			"item": "embers:ancient_motive_core",
+			"link_recipe": true,
+			"text": "$(mob)Ancient Golems$() can also drop an $(item)Ancient Motive Core$() on death. It can be crafted into an $(item)Ancient Codex$() which contains essential information on how to find and use $(thing)Ember$()."
+		}
+	]
+}
