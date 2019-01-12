@@ -7,19 +7,19 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Shulker$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Shulker$() is a monster commonly found in $(thing)End Cities$(). It disguises itself as a block until a player comes nearby. When attacking, it peeks out of its shell and fires slow projectiles that home on their targets. These projectiles can be destroyed mid flight, but if they hit their target they will inflict $(thing)Levitation$() for several second. It is also immune to fire and can teleport around when in danger."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:shulker",
 			"scale": 0.8,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)30 Health$()$(li)20 Armor when not peeking$()$(li)4 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:shulker_shell",
 			"link_recipe": true,
-			"text": "$(mob)Shulkers$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Shulkers$() may drop a $(item)Shulker Shell$() on death. It can be used to craft $(item)Shulker Boxes$()."
 		}
 	]
 }

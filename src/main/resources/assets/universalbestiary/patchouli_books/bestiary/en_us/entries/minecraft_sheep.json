@@ -7,19 +7,19 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Sheep$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Sheep$() is an animal commonly found in the $(thing)Overworld$(). It flees when hit and can be bred using $(item)Wheat$().$(p)It is a good source of food and is mostly used for its $(item)Wool$()."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:sheep",
 			"scale": 0.8,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)8 Health$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:wool",
 			"link_recipe": true,
-			"text": "$(mob)Sheeps$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Sheeps$() drop $(item)Wool$() on death or when sheared with $(item)Shears$(). $(mob)Sheeps$() will eat $(item)Grass$() on the ground to regrow it if they are sheared.$(p)Using any dye on a $(mob)Sheep$() will permanently color the $(item)Wool$() it gives."
 		}
 	]
 }

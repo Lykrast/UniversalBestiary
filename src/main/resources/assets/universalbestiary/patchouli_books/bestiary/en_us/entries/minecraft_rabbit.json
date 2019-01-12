@@ -7,20 +7,26 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Rabbit$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Rabbit$() is an animal found in some biomes in the $(thing)Overworld$(). It hops around and flees when hit. The color of its fur depends on the biome it spawned in.$(p)It also will periodically eat $(item)Carrot$() crops nearby. It can be bred using $(item)Carrots$(), $(item)Golden Carrots$() or $(item)Dandelions$(). Its meat is a poor source of food alone but it can be crafted into $(item)Rabbit Stew$()."
 		},
 		{
 			"type": "entity",
 			"entity": "minecraft:rabbit",
 			"scale": 1.5,
 			"offset": -0.2,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)3 Health$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "minecraft:rabbit_hide",
 			"link_recipe": true,
-			"text": "$(mob)Rabbits$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Rabbits$() also drop $(item)Rabbit Hide$() on death. It can be crafted into $(l:minecraft_cow)$(item)Leather$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rabbit_foot",
+			"link_recipe": true,
+			"text": "$(mob)Rabbits$() also rarely drop a $(item)Rabbit's Foot$() on death. It can be used to brew $(item)Potions of Leaping$()."
 		}
 	]
 }
