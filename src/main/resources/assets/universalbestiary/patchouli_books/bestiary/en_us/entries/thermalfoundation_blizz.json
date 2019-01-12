@@ -1,0 +1,24 @@
+{
+	"name": "Blizz",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thermalfoundation:blizz'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thermalfoundation:blizz",
+	"advancement": "universalbestiary:thermalfoundation_blizz",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Blizz$() is a monster that spawns in cold and snowy biomes. It floats in the air and attacks players on sight.$(p)Its attacks consists of volleys of 3 projectiles. These projectiles apply $(thing)Slowness$() on hit."
+		},
+		{
+			"type": "entity",
+			"entity": "thermalfoundation:blizz",
+			"text": "$(li)20 Health$()$(li)5 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "thermalfoundation:material:2048",
+			"link_recipe": true,
+			"text": "$(mob)Blizzes$() drop $(item)Blizz Rods$() on death. It can be crafted into $(item)Blizz Powder$(), which can then be brewed into $(item)Potions of Absorption$() or crafted into $(item)Cryotheum Dust$()."
+		}
+	]
+}
