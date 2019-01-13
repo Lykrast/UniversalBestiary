@@ -47,7 +47,10 @@ public class BestiaryTrigger implements ICriterionTrigger<BestiaryTrigger.Instan
 
 	@Override
 	public void addListener(@Nonnull PlayerAdvancements player, @Nonnull ICriterionTrigger.Listener<BestiaryTrigger.Instance> listener) {
-		playerTrackers.computeIfAbsent(player, PlayerTracker::new).listeners.add(listener);
+		//Don't track advancements whose entities don't exist
+		//Since triggering the advancement require checking all listeners this should make it so only the useful ones are checked for
+		if (!listener.getCriterionInstance().isDisabled())
+			playerTrackers.computeIfAbsent(player, PlayerTracker::new).listeners.add(listener);
 	}
 
 	@Override
@@ -122,9 +125,7 @@ public class BestiaryTrigger implements ICriterionTrigger<BestiaryTrigger.Instan
 
 	public void trigger(EntityPlayerMP player, Entity entity) {
 		PlayerTracker tracker = playerTrackers.get(player.getAdvancements());
-		if(tracker != null) {
-			tracker.trigger(player, entity);
-		}
+		if(tracker != null) tracker.trigger(player, entity);
 	}
 
 	static class Instance implements ICriterionInstance {
@@ -142,6 +143,11 @@ public class BestiaryTrigger implements ICriterionTrigger<BestiaryTrigger.Instan
 
 		boolean test(EntityPlayerMP player, Entity entity) {
 			return predicate.test(player, entity);
+		}
+		
+		//Disabled instances are not listened for
+		boolean isDisabled() {
+			return predicate == NULL_PREDICATE;
 		}
 	}
 	
