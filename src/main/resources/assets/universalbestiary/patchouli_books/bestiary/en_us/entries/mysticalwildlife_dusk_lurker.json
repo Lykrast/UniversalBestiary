@@ -1,0 +1,37 @@
+{
+	"name": "Dusk Lurker",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalwildlife:dusk_lurker'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalwildlife:dusk_lurker",
+	"advancement": "universalbestiary:mysticalwildlife_dusk_lurker",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Dusk Lurker$() is an animal that spawns in $(thing)Forests$(). It wanders around, staring at nearby players and fleeing when approached.$(p)Its meat is a good source of food, if it can be approached. It can also be bred with $(l:minecraft_rabbit)$(item)Rabbit$() or $(item)Cicaptera$(), but only during the night."
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalwildlife:dusk_lurker",
+			"scale": 0.5,
+			"text": "$(li)12 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "mysticalwildlife:dusk_lurker_fur",
+			"link_recipe": true,
+			"text": "$(mob)Dusk Lurkers$() drop $(item)Dusk Lurker Fur$() on death. It can be crafted into the same things that mundane $(l:minecraft_cow)$(item)Leather$() can."
+		},
+		{
+			"type": "spotlight",
+			"item": "mysticalwildlife:dusk_ash",
+			"link_recipe": true,
+			"text": "$(mob)Dusk Lurkers$() also drop $(item)Dusk Ash$() on death or when brushed with a $(item)Brush$(). It is used as a black dye, and as such is used to paint various items black, like $(l:minecraft_sheep)$(mob)Wool$().$(p)It can only be brushed a few times every few minutes."
+		},
+		{
+			"type": "spotlight",
+			"item": "mysticalwildlife:dusk_lurker_fur_tuft",
+			"link_recipe": true,
+			"text": "Brushing a $(mob)Dusk Lurker$() also gives $(item)Dusk Lurker Fur Tufts$(), which can be crafted into $(item)Dusk Lurker Fur$()."
+		}
+	]
+}

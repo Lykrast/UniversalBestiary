@@ -1,0 +1,19 @@
+{
+	"name": "Krill",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalwildlife:krill'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalwildlife:krill",
+	"advancement": "universalbestiary:mysticalwildlife_krill",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Krill$() is an animal found in $(thing)Beaches$(). It wanders around and flees when hit. It can be bred with $(item)Seeds$().$(p)Its meat is a poor source of food, but when standing on sandy blocks it will occasionally forage the ground. Usually it will only find mundane $(item)Sticks$() or $(item)Flint$(), but rarely it can be lucky and find rare items such as $(item)Diamonds$()."
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalwildlife:krill",
+			"offset": -0.2,
+			"text": "$(li)6 Health$()$(li)6 Armor$()"
+		}
+	]
+}

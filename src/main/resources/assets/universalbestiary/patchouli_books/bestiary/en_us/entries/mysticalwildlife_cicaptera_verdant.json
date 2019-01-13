@@ -1,0 +1,25 @@
+{
+	"name": "Verdant Cicaptera",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalwildlife:cicaptera_verdant'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalwildlife:cicaptera_verdant",
+	"advancement": "universalbestiary:mysticalwildlife_cicaptera_verdant",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Verdant Cicaptera$() is an animal found in $(thing)Forests$(). Like other Cicapteras, it wanders around and flees when hit. Its meat is a decent source of food although it can be hard to catch and to kill due to its shell.$(p)It can be bred with $(item)Apples$(), and can bred with any other Cicaptera."
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalwildlife:cicaptera_verdant",
+			"offset": -0.3,
+			"text": "$(li)10 Health$()$(li)6 Armor 4 Toughness$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "mysticalwildlife:cicaptera_husk:1",
+			"link_recipe": true,
+			"text": "$(mob)Verdant Cicapteras$() drop $(item)Verdant Cicaptera Husks$() on death. It is used as a green dye, and as such is used to paint various items green, like $(l:minecraft_sheep)$(mob)Wool$()."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Plumper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalwildlife:plumper'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalwildlife:plumper",
+	"advancement": "universalbestiary:mysticalwildlife_plumper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Plumper$() is an animal found in $(thing)Beaches$(). It slowly wanders around and flees when hit. It can be bred with $(item)Fish$().$(p)Its meat is an excellent and easy to get source of food."
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalwildlife:plumper",
+			"scale": 0.65,
+			"text": "$(li)12 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "mysticalwildlife:plumper_blubber",
+			"link_recipe": true,
+			"text": "$(mob)Plumpers$() drop $(item)Plumper Blubber$() on death. It can be used as a weak $(item)Furnace$() fuel, or as a substitue for $(item)Tallow$(), $(item)Beeswax$() or $(item)Pressed Wax$() in various recipes."
+		}
+	]
+}

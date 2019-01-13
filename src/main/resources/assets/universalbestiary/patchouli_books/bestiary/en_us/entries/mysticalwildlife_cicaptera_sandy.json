@@ -1,0 +1,25 @@
+{
+	"name": "Sandy Cicaptera",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalwildlife:cicaptera_sandy'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalwildlife:cicaptera_sandy",
+	"advancement": "universalbestiary:mysticalwildlife_cicaptera_sandy",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Sandy Cicaptera$() is an animal found in $(thing)Deserts$(). Like other Cicapteras, it wanders around and flees when hit. Its meat is a decent source of food although it can be hard to catch and to kill due to its shell.$(p)It can be bred with $(item)Cactus$(), and can bred with any other Cicaptera."
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalwildlife:cicaptera_sandy",
+			"offset": -0.3,
+			"text": "$(li)10 Health$()$(li)6 Armor 4 Toughness$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "mysticalwildlife:cicaptera_husk:3",
+			"link_recipe": true,
+			"text": "$(mob)Sandy Cicapteras$() drop $(item)Sandy Cicaptera Husks$() on death. It is used as a yellow dye, and as such is used to paint various items yellow, like $(l:minecraft_sheep)$(mob)Wool$()."
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"name": "Vrontausaurus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalwildlife:vrontausaurus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalwildlife:vrontausaurus",
+	"advancement": "universalbestiary:mysticalwildlife_vrontausaurus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Vrontausaurus$() is an animal that spawns in $(thing)Mountains$(). It wanders around and fights back if attacked with melee attacks that shake its target's screen for a few seconds.$(p)Its meat is an excellent source of food, if it can be safely killed. It can also be bred with $(l:minecraft_pig)$(item)Porkchop$(), $(l:minecraft_cow)$(item)Beef$() or $(l:minecraft_sheep)$(item)Mutton$(), but only while it is raining."
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalwildlife:vrontausaurus",
+			"scale": 0.8,
+			"text": "$(li)30 Health$()$(li)5 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "mysticalwildlife:vrontausaurus_fur",
+			"link_recipe": true,
+			"text": "$(mob)Vrontausauruses$() drop $(item)Vrontausaurus Fur$() on death. It can be crafted into the same things that mundane $(l:minecraft_cow)$(item)Leather$() can."
+		},
+		{
+			"type": "spotlight",
+			"item": "mysticalwildlife:vrontausaurus_fur_tuft",
+			"link_recipe": true,
+			"text": "Brushing a $(mob)Vrontausaurus$() with a $(item)Brush$() gives $(item)Vrontausaurus Fur Tufts$(), which can be crafted into $(item)Vrontausaurus Fur$(). It can only be brushed a few times every few minutes, and brushing may release some electricity, dealing minor damage to the brusher."
+		}
+	]
+}

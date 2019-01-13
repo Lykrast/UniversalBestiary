@@ -1,0 +1,19 @@
+{
+	"name": "Yaga Hog",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalwildlife:yaga_hog'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalwildlife:yaga_hog",
+	"advancement": "universalbestiary:mysticalwildlife_yaga_hog",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Yaga Hog$() is an animal found in $(thing)Swamps$(). It wanders around and flees when attacked, leaving a cloud of $(thing)Poison$() behind. Its meat is a poor source of food.$(p)It can be bred with $(item)Bread$(), and the $(item)Dirt$() on its back can be brushed off with a $(item)Brush$(). When all $(item)Dirt$() has been removed, it will grow back after several minutes, sped up if it is standing in $(thing)Water$()."
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalwildlife:yaga_hog",
+			"scale": 0.6,
+			"text": "$(li)10 Health$()$(li)2 Armor$()"
+		}
+	]
+}

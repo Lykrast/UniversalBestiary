@@ -1,0 +1,25 @@
+{
+	"name": "Wintry Cicaptera",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalwildlife:cicaptera_wintry'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalwildlife:cicaptera_wintry",
+	"advancement": "universalbestiary:mysticalwildlife_cicaptera_wintry",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wintry Cicaptera$() is an animal found in snowy biomes. Like other Cicapteras, it wanders around and flees when hit. Its meat is a decent source of food although it can be hard to catch and to kill due to its shell.$(p)It can be bred with $(item)Seeds$(), and can bred with any other Cicaptera."
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalwildlife:cicaptera_wintry",
+			"offset": -0.3,
+			"text": "$(li)10 Health$()$(li)6 Armor 4 Toughness$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "mysticalwildlife:cicaptera_husk:4",
+			"link_recipe": true,
+			"text": "$(mob)Wintry Cicapteras$() drop $(item)Wintry Cicaptera Husks$() on death. It is used as a white dye, and as such is used to paint various items white, like $(l:minecraft_sheep)$(mob)Wool$()."
+		}
+	]
+}

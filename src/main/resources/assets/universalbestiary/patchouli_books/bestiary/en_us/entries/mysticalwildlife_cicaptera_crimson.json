@@ -1,0 +1,25 @@
+{
+	"name": "Crimson Cicaptera",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalwildlife:cicaptera_crimson'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalwildlife:cicaptera_crimson",
+	"advancement": "universalbestiary:mysticalwildlife_cicaptera_crimson",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Crimson Cicaptera$() is an animal found in hot biomes. Unlike other Cicapteras, it fights back when attacked, ramming its target at high speed. Its meat is a decent source of food although due to its retaliation and its hard shell it can be difficult to kill.$(p)It can be bred with $(item)Cactus$(), and can bred with any other Cicaptera."
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalwildlife:cicaptera_crimson",
+			"offset": -0.3,
+			"text": "$(li)10 Health$()$(li)6 Armor 4 Toughness$()$(li)3 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "mysticalwildlife:cicaptera_husk:2",
+			"link_recipe": true,
+			"text": "$(mob)Crimson Cicapteras$() drop $(item)Crimson Cicaptera Husks$() on death. It is used as a red dye, and as such is used to paint various items red, like $(l:minecraft_sheep)$(mob)Wool$()."
+		}
+	]
+}
