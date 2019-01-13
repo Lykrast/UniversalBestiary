@@ -16,7 +16,8 @@ import vazkii.patchouli.api.PatchouliAPI.IPatchouliAPI;
 
 @Mod(modid = UniversalBestiary.MODID, 
 	name = UniversalBestiary.NAME, 
-	version = UniversalBestiary.VERSION, 
+	version = UniversalBestiary.VERSION,
+	dependencies = "required-after:patchouli",
 	acceptedMinecraftVersions = "[1.12, 1.13)")
 public class UniversalBestiary {
     public static final String MODID = "universalbestiary";
