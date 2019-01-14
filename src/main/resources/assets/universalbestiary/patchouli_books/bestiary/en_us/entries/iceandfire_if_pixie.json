@@ -1,0 +1,32 @@
+{
+	"name": "Pixie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:if_pixie'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:iceandfire:if_pixie",
+	"advancement": "universalbestiary:iceandfire_if_pixie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Pixie$() is a creature found in $(thing)Pixie Villages$(). It floats around, approaching nearby players that aren't looking at it to steal an item from their inventory before flying away. The item can be recovered by hitting the $(mob)Pixie$().$(p)Throwing $(item)Cake$() at a $(mob)Pixie$() tames it. Tamed $(mob)Pixies$() follow their master and grant them various buffs depending on their color, and can be healed with $(item)Sugar$()."
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:if_pixie",
+			"scale": 1.5,
+			"offset": -0.1,
+			"text": "$(li)10 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:pixie_dust",
+			"link_recipe": true,
+			"text": "$(mob)Pixies$() drop $(item)Pixie Dust$() on death. It can be eaten to gain $(thing)Levitation$() and $(thing)Glowing$() for a few seconds, or crafted into $(item)Ambrosia$(), which grants $(thing)Strength$(), $(thing)Absorption$(), $(thing)Jump Boost$() and $(thing)Luck$() for several minutes."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:jar_pixie:0",
+			"link_recipe": true,
+			"text": "A $(mob)Pixie$() can also be trapped by using a $(item)Jar$() on it. When placed down, $(item)Pixie Dust$() can be harvested from the obtained $(item)Pixie Jar$() by right clicking on it while the $(mob)Pixie$() inside is sitting down, which can take a few days.$(p)Breaking the $(item)Pixie Jar$() releases the trapped $(mob)Pixie$()."
+		}
+	]
+}

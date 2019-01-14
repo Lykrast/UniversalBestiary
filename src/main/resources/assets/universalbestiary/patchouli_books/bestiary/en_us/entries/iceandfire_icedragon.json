@@ -1,0 +1,25 @@
+{
+	"name": "Ice Dragon",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:icedragon'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:iceandfire:icedragon",
+	"advancement": "universalbestiary:iceandfire_icedragon",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ice Dragon$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:icedragon",
+			"offset": -0.4,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Ice Dragons$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

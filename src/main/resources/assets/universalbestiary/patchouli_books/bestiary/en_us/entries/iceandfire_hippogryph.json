@@ -1,0 +1,25 @@
+{
+	"name": "Hippogryph",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:hippogryph'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:iceandfire:hippogryph",
+	"advancement": "universalbestiary:iceandfire_hippogryph",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Hippogryph$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:hippogryph",
+			"scale": 0.5,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Hippogryphs$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

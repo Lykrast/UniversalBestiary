@@ -1,0 +1,25 @@
+{
+	"name": "Cyclops",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:cyclops'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:iceandfire:cyclops",
+	"advancement": "universalbestiary:iceandfire_cyclops",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cyclops$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:cyclops",
+			"offset": 0.5,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Cyclopss$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

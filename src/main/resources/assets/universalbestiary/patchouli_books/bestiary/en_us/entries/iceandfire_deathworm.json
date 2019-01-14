@@ -1,0 +1,25 @@
+{
+	"name": "Death Worm",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:deathworm'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:iceandfire:deathworm",
+	"advancement": "universalbestiary:iceandfire_deathworm",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Death Worm$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:deathworm",
+			"scale": 0.1,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Death Worms$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

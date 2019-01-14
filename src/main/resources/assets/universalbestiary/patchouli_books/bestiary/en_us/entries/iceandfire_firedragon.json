@@ -1,0 +1,25 @@
+{
+	"name": "Fire Dragon",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:firedragon'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:iceandfire:firedragon",
+	"advancement": "universalbestiary:iceandfire_firedragon",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Fire Dragon$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:firedragon",
+			"offset": -0.4,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Fire Dragons$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"name": "Cockatrice",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:if_cockatrice'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:iceandfire:if_cockatrice",
+	"advancement": "universalbestiary:iceandfire_if_cockatrice",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cockatrice$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:if_cockatrice",
+			"scale": 0.3,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Cockatrices$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

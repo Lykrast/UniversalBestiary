@@ -1,0 +1,25 @@
+{
+	"name": "Stymphalian Bird",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:stymphalianbird'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:iceandfire:stymphalianbird",
+	"advancement": "universalbestiary:iceandfire_stymphalianbird",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Stymphalian Bird$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:stymphalianbird",
+			"scale": 0.75,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Stymphalian Birds$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

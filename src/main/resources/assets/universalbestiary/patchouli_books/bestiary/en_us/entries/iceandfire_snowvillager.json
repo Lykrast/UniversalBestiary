@@ -1,0 +1,18 @@
+{
+	"name": "Snow Villager",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:snowvillager'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:iceandfire:snowvillager",
+	"advancement": "universalbestiary:iceandfire_snowvillager",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Snow Villager$() is a creature found in $(thing)Snow Villages$(). It flees when hit but can exchange various items in exchange of $(item)Sapphires$(), similarly to mundane $(l:minecraft_villager)$(mob)Villagers$()."
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:snowvillager",
+			"text": "$(li)20 Health$()"
+		}
+	]
+}

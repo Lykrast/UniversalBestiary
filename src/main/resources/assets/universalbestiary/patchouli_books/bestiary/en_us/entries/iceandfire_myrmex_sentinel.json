@@ -1,0 +1,25 @@
+{
+	"name": "Myrmex Sentinel",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:myrmex_sentinel'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:iceandfire:myrmex_sentinel",
+	"advancement": "universalbestiary:iceandfire_myrmex_sentinel",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Myrmex Sentinel$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:myrmex_sentinel",
+			"scale": 0.8,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Myrmex Sentinels$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}
