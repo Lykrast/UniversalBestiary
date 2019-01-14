@@ -7,19 +7,25 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Cockatrice$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Cockatrice$() is a monster found in $(thing)Savannas$(). It attacks nearby players on sight, staring at them with its deadly gaze. Looking at it during its stare causes $(thing)Wither$() and $(thing)Slowness$(). If its target is blind or gets too close, it will switch to melee attacks. Surviving its gaze for long enough will tame it, making it follow its owner and fight by its side."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:if_cockatrice",
 			"scale": 0.3,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)40 Health$()$(li)2 Armor$()$(li)5 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:witherbone",
 			"link_recipe": true,
-			"text": "$(mob)Cockatrices$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Cockatrices$() (as well as $(l:minecraft_wither_skeleton)$(mob)Wither Skeletons$()) drop $(item)Witherbones$() on death. They can be crafted into various powerful tools using the remains of other monsters, like $(item)Dragon Bones$() from $(l:iceandfire_firedragon)$(mob)Fire$() or $(l:iceandfire_icedragon)$(mob)Ice Dragons$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:rotten_egg",
+			"link_recipe": true,
+			"text": "$(l:minecraft_chicken)$(mob)Chickens$() may occasionally lay $(item)Rotten Eggs$(). They can be thrown and may hatch a baby $(mob)Cockatrice$() automatically tamed by the thrower."
 		}
 	]
 }
