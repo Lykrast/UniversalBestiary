@@ -1,0 +1,24 @@
+{
+	"name": "The Harvester",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'harvestersnight:harvester'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:harvestersnight:harvester",
+	"advancement": "universalbestiary:harvestersnight_harvester",
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(mob)The Harvester$() is a boss that sometimes spawns on the surface of the $(thing)Overworld$() at night. Its spawn is signaled by a thunder strike and its loud laughter. It floats arounds and can pass through walls. It attacks players on sight, either charging at them for a melee strike or standing still while summoning claws at its target's feet. The latter can be dodged by continually moving around."
+		},
+		{
+			"type": "entity",
+			"entity": "harvestersnight:harvester{HandItems:[{Count:1,id:'harvestersnight:harvester_scythe'},{}]}",
+			"text": "$(li)100 Health$()$(li)6-7 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "harvestersnight:harvester_scythe",
+			"link_recipe": true,
+			"text": "$(mob)The Harvester$() drops $(item)The Harvester's Scythe$() on death. It is a durable melee weapon that can also be used as a tool. Whenever it is used to break grass or leaves, it will instantly clear a 7x3x7 area of other grass and leaves centered on the broken block."
+		}
+	]
+}
