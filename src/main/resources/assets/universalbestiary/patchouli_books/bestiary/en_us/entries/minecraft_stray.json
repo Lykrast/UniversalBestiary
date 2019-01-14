@@ -11,7 +11,7 @@
 		},
 		{
 			"type": "entity",
-			"entity": "minecraft:stray",
+			"entity": "minecraft:stray{HandItems:[{Count:1,id:'minecraft:bow'},{}]}",
 			"text": "$(li)20 Health$()$(li)1-5 Damage$()"
 		}
 	]

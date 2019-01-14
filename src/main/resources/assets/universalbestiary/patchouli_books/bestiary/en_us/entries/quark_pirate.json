@@ -11,7 +11,8 @@
 		},
 		{
 			"type": "entity",
-			"entity": "quark:pirate",
+			"entity": "quark:pirate{HandItems:[{Count:1,id:'minecraft:iron_sword'},{}],ArmorItems:[{},{},{},{Count:1,id:'quark:pirate_hat'}]}",
+			"offset": 0.1,
 			"text": "$(li)20 Health$()$(li)2-10 Damage$()"
 		},
 		{

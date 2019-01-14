@@ -11,7 +11,7 @@
 		},
 		{
 			"type": "entity",
-			"entity": "minecraft:wither_skeleton",
+			"entity": "minecraft:wither_skeleton{HandItems:[{Count:1,id:'minecraft:stone_sword'},{}]}",
 			"text": "$(li)20 Health$()$(li)5-12 Damage$()"
 		},
 		{

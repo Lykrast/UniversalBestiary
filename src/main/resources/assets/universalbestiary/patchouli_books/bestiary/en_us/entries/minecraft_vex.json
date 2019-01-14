@@ -11,7 +11,7 @@
 		},
 		{
 			"type": "entity",
-			"entity": "minecraft:vex",
+			"entity": "minecraft:vex{HandItems:[{Count:1,id:'minecraft:iron_sword'},{}]}",
 			"text": "$(li)14 Health$()$(li)5-13 Damage$()"
 		}
 	]

@@ -11,7 +11,7 @@
 		},
 		{
 			"type": "entity",
-			"entity": "minecraft:zombie_pigman",
+			"entity": "minecraft:zombie_pigman{HandItems:[{Count:1,id:'minecraft:golden_sword'},{}]}",
 			"text": "$(li)20 Health$()$(li)2 Armor$()$(li)5-12 Damage$()"
 		},
 		{
