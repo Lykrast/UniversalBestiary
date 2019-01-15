@@ -1,25 +1,61 @@
 {
 	"name": "Ice Dragon",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:icedragon'}}",
-	"category": "monsters",
+	"category": "bosses",
 	"flag": "universalbestiary:entity:iceandfire:icedragon",
 	"advancement": "universalbestiary:iceandfire_icedragon",
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Ice Dragon$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Ice Dragon$() is a boss that can be found in $(thing)Dragon Roosts$() or $(thing)Dragon Caves$(). It flies around its home and attacks nearby living creatures with its bite and ice breath. It can freely break through blocks and its ice attacks can do massive damage to terrain.$(p)$(mob)Ice Dragons$() found in $(thing)Dragon Caves$() are even bigger and thougher."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:icedragon",
 			"offset": -0.4,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)20-500 Health$()$(li)1-18 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:dragonbone",
 			"link_recipe": true,
-			"text": "$(mob)Ice Dragons$() drop $(item)Rottelesh$() on death."
+			"text": "On death, $(mob)Ice Dragons$() turn into a corpse. Right clicking it with an empty hand gives various drops, such as $(item)Dragon Bones$(). It can be crafted into various powerful tools."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:dragonscales_blue",
+			"link_recipe": true,
+			"text": "Corpses also give $(item)Dragon Scales$(). Their colors depend on the color of the slain $(mob)Ice Dragon$() and can be crafted into strong armor."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:ice_dragon_flesh",
+			"link_recipe": true,
+			"text": "Corpses also give $(item)Ice Dragon Flesh$(). It is very nutritious food, but inflicts $(thing)Slowness$() on the eater."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:ice_dragon_blood",
+			"link_recipe": true,
+			"text": "Using a $(item)Glass Bottle$() on a fresh corpse gives $(item)Ice Dragon Blood$(). It can be used to imbue a $(item)Dragon Bone Sword$() with ice."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:dragonegg_blue",
+			"link_recipe": true,
+			"text": "Female $(mob)Ice Dragons$() can also drop a $(item)Dragon Egg$(). It can be hatched by putting in $(thing)Water$() surrounded by $(item)Ice$(), eventually hatching into a tamed baby $(mob)Ice Dragon$(). It will eventually grow up to become a powerful pet."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:ice_dragon_heart",
+			"link_recipe": true,
+			"text": "Corpses also drop a single $(item)Ice Dragon Heart$(). It has no uses besides being kept as a trophy."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:dragon_skull",
+			"link_recipe": true,
+			"text": "Lastly, corpses drop a single $(item)Dragon Skull$() whose size and shape depends on the slain $(mob)Ice Dragon$(). It can be crafted into a $(item)Dragon Command Staff$() or kept as a trophy."
 		}
 	]
 }

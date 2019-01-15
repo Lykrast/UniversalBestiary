@@ -1,25 +1,61 @@
 {
 	"name": "Fire Dragon",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:firedragon'}}",
-	"category": "monsters",
+	"category": "bosses",
 	"flag": "universalbestiary:entity:iceandfire:firedragon",
 	"advancement": "universalbestiary:iceandfire_firedragon",
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Fire Dragon$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Fire Dragon$() is a boss that can be found in $(thing)Dragon Roosts$() or $(thing)Dragon Caves$(). It flies around its home and attacks nearby living creatures with its bite and fire breath. It can freely break through blocks and its fire attacks can do massive damage to terrain.$(p)$(mob)Fire Dragons$() found in $(thing)Dragon Caves$() are even bigger and thougher."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:firedragon",
 			"offset": -0.4,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)20-500 Health$()$(li)1-18 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:dragonbone",
 			"link_recipe": true,
-			"text": "$(mob)Fire Dragons$() drop $(item)Rottelesh$() on death."
+			"text": "On death, $(mob)Fire Dragons$() turn into a corpse. Right clicking it with an empty hand gives various drops, such as $(item)Dragon Bones$(). It can be crafted into various powerful tools."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:dragonscales_red",
+			"link_recipe": true,
+			"text": "Corpses also give $(item)Dragon Scales$(). Their colors depend on the color of the slain $(mob)Fire Dragon$() and can be crafted into strong armor."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:fire_dragon_flesh",
+			"link_recipe": true,
+			"text": "Corpses also give $(item)Fire Dragon Flesh$(). It is very nutritious food, but sets the eater on fire when consumed."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:fire_dragon_blood",
+			"link_recipe": true,
+			"text": "Using a $(item)Glass Bottle$() on a fresh corpse gives $(item)Fire Dragon Blood$(). It can be used to imbue a $(item)Dragon Bone Sword$() with fire."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:dragonegg_red",
+			"link_recipe": true,
+			"text": "Female $(mob)Fire Dragons$() can also drop a $(item)Dragon Egg$(). It can be hatched by keeping it over a fire, eventually hatching into a tamed baby $(mob)Fire Dragon$(). It will eventually grow up to become a powerful pet."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:fire_dragon_heart",
+			"link_recipe": true,
+			"text": "Corpses also drop a single $(item)Fire Dragon Heart$(). It has no uses besides being kept as a trophy."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:dragon_skull",
+			"link_recipe": true,
+			"text": "Lastly, corpses drop a single $(item)Dragon Skull$() whose size and shape depends on the slain $(mob)Fire Dragon$(). It can be crafted into a $(item)Dragon Command Staff$() or kept as a trophy."
 		}
 	]
 }
