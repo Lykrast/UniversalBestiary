@@ -7,19 +7,19 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Stymphalian Bird$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Stymphalian Bird$() is a monster found in $(thing)Swamps$(). It flies around alongside its flock, attacking players and animals on sight with a barrage of deadly feathers.$(p)Killing a single bird in a flock causes the rest to flee the killer."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:stymphalianbird",
 			"scale": 0.75,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)24 Health$()$(li)4 Armor$()$(li)1-4 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:stymphalian_bird_feather",
 			"link_recipe": true,
-			"text": "$(mob)Stymphalian Birds$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Stymphalian Birds$() drop $(item)Stymphalian Bird Feathers$() on death, and sometimes when on a feather projectile's impact. They can be crafted into powerful $(item)Stymphalian Arrows$()."
 		}
 	]
 }

@@ -7,19 +7,25 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Death Worm$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Death Worm$() is a monster found in $(thing)Deserts$(). It quickly moves burrowed under the $(item)Sand$() and attacks anything that comes nearby, including players and monsters, by lashing out with its jaws."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:deathworm",
 			"scale": 0.1,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)6-30 Health$()$(li)3 Armor$()$(li)1-9 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:deathworm_chitin",
 			"link_recipe": true,
-			"text": "$(mob)Death Worms$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Death Worms$() drop $(item)Death Worm Chitin$() on death of their respective color. It can be crafted into powerful armor."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:iceandfire.deathworm_egg",
+			"link_recipe": true,
+			"text": "$(mob)Death Worms$() may also drop a $(item)Death Worm Egg$() on death. It can be thrown to spawn a baby tamed $(mob)Death Worm$() that will slowly grow over time and patrols a 50 blocks area around its birth place. Unlike other tamed creatures, it acts exactly like a wild $(mob)Death Worm$(), but will simply never attack its owner."
 		}
 	]
 }
