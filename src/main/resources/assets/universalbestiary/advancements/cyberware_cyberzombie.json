@@ -3,7 +3,7 @@
 	"criteria": {
 		"unlock": {
 			"trigger": "universalbestiary:unlock",
-			"conditions": { "entity": { "type": "cyberware:cyberzombie", "nbt": "{brute:false}" } }
+			"conditions": { "entity": { "type": "cyberware:cyberzombie" } }
 		}
 	}
 }
