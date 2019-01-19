@@ -1,0 +1,20 @@
+{
+	"name": "Aqua Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aqua_creepers:aqua_creeper'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:aqua_creepers:aqua_creeper",
+	"advancement": "universalbestiary:aqua_creepers_aqua_creeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Aqua Creeper$() is a monster that spawns in $(thing)Oceans$(), $(thing)Rivers$() and $(thing)Swamps$(). It can swim very fast and attacks players on sight with melee attacks before blowing itself up.$(p)If it gets on land it will start helpessly jumping around before blowing itself up, usually damaging the landscape as well."
+		},
+		{
+			"type": "entity",
+			"entity": "aqua_creepers:aqua_creeper",
+			"scale": 0.8,
+			"offset": -0.2,
+			"text": "$(li)20 Health$()$(li)4 Damage (melee)$()$(li)Up to 49 Damage (explosion)$()"
+		}
+	]
+}
