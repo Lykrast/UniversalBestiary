@@ -1,0 +1,18 @@
+{
+	"name": "Luggage",
+	"icon": "openblocks:luggage",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:openblocks:luggage",
+	"advancement": "universalbestiary:openblocks_luggage",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Luggage$() is an artificial creature that can be crafted. When placed it follows its owner, picking up items it finds on the ground.$(p)Right clicking it opens its internal 27 slots inventory. Sneaking and right clicking it turns it back into its item form, keeping its inventory inside."
+		},
+		{
+			"type": "entity",
+			"entity": "openblocks:luggage",
+			"text": "$(li)Immune to damage$()"
+		}
+	]
+}

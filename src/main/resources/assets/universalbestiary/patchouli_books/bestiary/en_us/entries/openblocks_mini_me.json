@@ -1,0 +1,19 @@
+{
+	"name": "Mini Me",
+	"icon": "openblocks:golden_egg",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:openblocks:mini_me",
+	"advancement": "universalbestiary:openblocks_mini_me",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mini Me$() is an artificial creature obtained by letting a $(item)Golden Egg$() hatch. It takes the appearence of its creator and wanders around, breaking flowers and $(item)Torches$()."
+		},
+		{
+			"type": "entity",
+			"entity": "openblocks:mini_me{owner:'MHF_Steve'}",
+			"offset": 0.1,
+			"text": "$(li)10 Health$()"
+		}
+	]
+}
