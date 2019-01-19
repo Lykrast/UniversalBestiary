@@ -7,19 +7,19 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Siren$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Siren$() is a monster found in on $(thing)Siren Islands$() in $(thing)Oceans$(). It sings a song that forces players that hear it to approach it, unless that player is wearing $(item)Earplugs$().$(p)When its prey is close enough, it stops singing and start attacking with melee attacks. It moves very fast in water but is sluggish on land."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:siren",
 			"scale": 0.5,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)50 Health$()$(li)6 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:shiny_scales",
 			"link_recipe": true,
-			"text": "$(mob)Sirens$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Sirens$() drop $(item)Shiny Scales$() on death. They can be brewed into $(item)Potions of Water Breathing$()."
 		}
 	]
 }

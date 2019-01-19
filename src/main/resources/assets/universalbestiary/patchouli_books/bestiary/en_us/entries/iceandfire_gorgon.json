@@ -7,18 +7,18 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Gorgon$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Gorgon$() is a monster found in $(thing)Gorgon Temples$(). It attacks all nearby monsters and players, using its deadly gaze to instantly turn them into stone statues. The attack can be avoided by looking away from it, but not doing so results in instant death. If its target or itself is blinded, like by a $(item)Blindfold$(), it will switch to venomous melee strikes."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:gorgon",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)100 Health$()$(li)1 Armor$()$(li)3 Damage / Instant death$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:gorgon_head",
 			"link_recipe": true,
-			"text": "$(mob)Gorgons$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Gorgons$() drop a $(item)Gorgon Head$() on death. It can be used once to turn any creature into stone, just like the $(mob)Gorgon's$() attack.$(p)Statues can be broken with any $(item)Pickaxe$() to get $(item)Cobblestone$()."
 		}
 	]
 }

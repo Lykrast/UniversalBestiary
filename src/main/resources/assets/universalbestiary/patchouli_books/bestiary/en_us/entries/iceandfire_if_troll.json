@@ -7,18 +7,30 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Troll$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Troll$() is a monster that spawns underground in $(thing)Forests$(). It uses its massive weapons to smash players on sight, and is immune to $(item)Arrows$().$(p)When exposed to sunlight, it permanently turns to stone. In this state, it can be broken with any $(item)Pickaxe$() to get $(item)Cobblestone$()."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:if_troll",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)50 Health$()$(li)9 Armor$()$(li)10 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:troll_leather_forest",
 			"link_recipe": true,
-			"text": "$(mob)Trolls$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Trolls$() drop $(item)Troll Leather$() of their respective type on death. It can be crafted into projectile-resistant armor."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:troll_tusk",
+			"link_recipe": true,
+			"text": "$(mob)Trolls$() also drop $(item)Troll Tusks$() on death. It can be crafted into $(item)Bone Meal$() to fertilize crops."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:troll_weapon.axe",
+			"link_recipe": true,
+			"text": "$(mob)Trolls$() may also rarely drop their weapons on death, such as a $(item)Troll's Axe$(). There are multiple variants but all act identical, being a slow melee weapon that deals high damage.$(p)If a $(mob)Troll$() does not drop its weapon, it may drop pieces of it."
 		}
 	]
 }
