@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Myrmex Royal$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Myrmex Royal$() is a monster that appears in $(thing)Myrmex Hives$(). Once hatched it will fly out of its colony to seek out another $(mob)Myrmex Royal$() to mate with, attacking players and animals it finds along the way with its bite and its venomous stinger. When it finds a suitable mate, they will both fall to the ground. One of them dies, while the other turns into a $(l:iceandfire_myrmex_queen)$(mob)Myrmex Queen$() that will dig out its new $(thing)Myrmex Hive$()."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:myrmex_royal",
 			"scale": 0.55,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Myrmex Royals$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)50 Health$()$(li)12 Armor$()$(li)6 Damage$()"
 		}
 	]
 }

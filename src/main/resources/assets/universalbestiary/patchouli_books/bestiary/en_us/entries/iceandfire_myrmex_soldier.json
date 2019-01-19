@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Myrmex Soldier$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Myrmex Soldier$() is a monster found inside $(thing)Myrmex Hives$(). It protects its $(l:iceandfire_myrmex_queen)$(mob)Myrmex Queen$() by attacking nearby intruding players or monsters with its bite and a venomous stinger."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:myrmex_soldier",
-			"scale": 0.6,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Myrmex Soldiers$() drop $(item)Rottelesh$() on death."
+			"scale": 0.5,
+			"text": "$(li)40 Health$()$(li)6 Armor$()$(li)6 Damage$()"
 		}
 	]
 }

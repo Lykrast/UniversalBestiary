@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Myrmex Sentinel$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Myrmex Sentinel$() is a monster found near entrances of $(thing)Myrmex Hives$(). It takes an ambush position and blend itself with its surrounding, waiting for a player or monster to approach. When a target is found, it will then attack with deadly melee strikes and its venomous stinger."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:myrmex_sentinel",
 			"scale": 0.8,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Myrmex Sentinels$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)60 Health$()$(li)12 Armor$()$(li)9 Damage$()"
 		}
 	]
 }

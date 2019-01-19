@@ -7,19 +7,19 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Hippocampus$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Hippocampus$() is an animal found in $(thing)Oceans$(). While it is sluggish on land, it can swim at very high speed underwater. It can be tamed by feeding it $(l:minecraft_elder_guardian)$(mob)Sponges$(), and can then be provided with a $(item)Saddle$() to use it as a mount, given armor or a $(item)Chest$() to allow it to transport items. Riding a $(mob)Hippocampus$() allows the rider to breath underwater. It can also be bred with $(l:minecraft_guardian)$(item)Prismarine Crystals$() once tamed."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:hippocampus",
 			"scale": 0.4,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)40 Health$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:shiny_scales",
 			"link_recipe": true,
-			"text": "$(mob)Hippocampuss$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Hippocampi$() drop $(item)Shiny Scales$() on death. They can be brewed into $(item)Potions of Water Breathing$()."
 		}
 	]
 }

@@ -7,19 +7,19 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Hippogryph$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Hippogryph$() is an animal found in $(thing)Mountains$(). It flies around and attacks nearby players and animals when it gets hungry using its claws.$(p)Throwing $(l:minecraft_rabbit)$(item)Rabbit's Feet$() at it while it is on the ground will tame it. After that, it can be provided with a $(item)Saddle$() to use as a mount, given armor or a $(item)Chest$() to transport items. It will also fight alongside its owner and defend it."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:hippogryph",
 			"scale": 0.5,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)40 Health$()$(li)5 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:hippogryph_egg",
 			"link_recipe": true,
-			"text": "$(mob)Hippogryphs$() drop $(item)Rottelesh$() on death."
+			"text": "Tamed $(mob)Hippogryphs$() can be bred with $(item)Rabbit Stew$(), causing one of them to lay a $(item)Hippogryph Egg$(). It can be thrown to create a baby untamed $(mob)Hippogryph$()."
 		}
 	]
 }

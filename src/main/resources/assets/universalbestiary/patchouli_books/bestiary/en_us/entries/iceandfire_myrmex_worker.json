@@ -7,19 +7,31 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Myrmex Worker$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Myrmex Worker$() is a monster found around $(thing)Myrmex Hives$(). It forages food and resources for its colony, and attacks any intruding player with its bite and a venomous stinger."
 		},
 		{
 			"type": "entity",
 			"entity": "iceandfire:myrmex_worker",
 			"scale": 0.6,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)20 Health$()$(li)4 Armor$()$(li)3 Damage$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "iceandfire:myrmex_desert_chitin",
 			"link_recipe": true,
-			"text": "$(mob)Myrmex Workers$() drop $(item)Rottelesh$() on death."
+			"text": "All $(mob)Myrmexes$() drop $(item)Myrmex Chitin$() of their respective environment on death. It can be crafted into armor, tools and weapons."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:myrmex_desert_resin",
+			"link_recipe": true,
+			"text": "All $(mob)Myrmexes$() also drop $(item)Myrmex Resin$() of their respective environment on death. Dropping it near a $(thing)Myrmex Hive$() and letting $(mob)Myrmex Workers$() forage it will slowly increase the player's reputation towards that $(thing)Myrmex Hives$(), eventually stopping attacks on sight and even allowing trades."
+		},
+		{
+			"type": "spotlight",
+			"item": "iceandfire:myrmex_stinger",
+			"link_recipe": true,
+			"text": "Lastly, all $(mob)Myrmexes$() may also drop a $(item)Myrmex Stinger$() on death. It can be crafted into a $(item)Myrmex Stinger Sword$() or a $(item)Myrmex Staff$(), which can be used to control a $(thing)Myrmex Hive$() as long as the user has enough reputation towards it."
 		}
 	]
 }
