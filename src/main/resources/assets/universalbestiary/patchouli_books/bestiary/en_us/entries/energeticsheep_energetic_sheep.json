@@ -1,0 +1,25 @@
+{
+	"name": "Energetic Sheep",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'energeticsheep:energetic_sheep'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:energeticsheep:energetic_sheep",
+	"advancement": "universalbestiary:energeticsheep_energetic_sheep",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Energetic Sheep$() is a variant of the $(l:minecraft_sheep)$(mob)Sheep$(). It generates $(thing)Redstone Flux$() whenever it eats $(item)Grass$() to regrow its $(item)Energetic Wool$(), which also makes it move faster. It can then be extracted by various means, such as $(item)Energetic Shears$()."
+		},
+		{
+			"type": "entity",
+			"entity": "energeticsheep:energetic_sheep",
+			"scale": 0.8,
+			"text": "$(li)8 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "energeticsheep:energetic_wool",
+			"link_recipe": true,
+			"text": "$(mob)Energetic Sheeps$() drop $(item)Energetic Wool$() on death or when sheared with normal $(item)Shears$(). It is similar to $(l:minecraft_sheep)$(mob)Wool$(), but stores $(thing)Redstone Flux$() which can be extracted with any machine that can extract $(thing)Redstone Flux$() out of items. It also hurts on touch."
+		}
+	]
+}
