@@ -1,0 +1,20 @@
+{
+	"name": "Merpig",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'merpig:merpig'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:merpig:merpig",
+	"advancement": "universalbestiary:merpig_merpig",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Merpig$() is an animal found in $(thing)Oceans$(). It peacefully swims around and can be equipped with a $(item)Saddle$() to be used as a mount. It is very fast underwater but cannot move on land.$(p)When ridden, it can be controlled using $(item)Seagrass on a stick$()."
+		},
+		{
+			"type": "entity",
+			"entity": "merpig:merpig",
+			"scale": 0.4,
+			"offset": 0.1,
+			"text": "$(li)20 Health$()"
+		}
+	]
+}
