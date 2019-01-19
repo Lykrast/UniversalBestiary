@@ -1,0 +1,18 @@
+{
+	"name": "Cyberzombie Brute",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'cyberware:cyberzombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:cyberware:cyberzombie",
+	"advancement": "universalbestiary:cyberware_cyberzombie_brute",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cyberzombie Brute$() is a rarer variant of the $(l:cyberware_cyberzombie)$(mob)Cyberzombie$(). It is taller, tougher, hits harder and wears even more $(item)Cyberware$() than a normal $(l:cyberware_cyberzombie)$(mob)Cyberzombie$().$(p)Its spawn rate can be greatly increased by using a $(item)Radio Kit$() or any similar item."
+		},
+		{
+			"type": "entity",
+			"entity": "cyberware:cyberzombie{brute:true}",
+			"text": "$(li)26 Health$()$(li)2 Armor$()$(li)3-5 Damage$()"
+		}
+	]
+}

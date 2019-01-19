@@ -1,0 +1,18 @@
+{
+	"name": "Cyberzombie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'cyberware:cyberzombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:cyberware:cyberzombie",
+	"advancement": "universalbestiary:cyberware_cyberzombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cyberzombie$() is a rare variant of the $(l:minecraft_zombie)$(mob)Zombie$(). It spawns wearing random pieces of $(item)Cyberware$(), which can grant it various enhanced abilities. When killed it may drop one of its worn $(item)Cyberwares$() in salvaged quality.$(p)Its spawn rate can be increased by using a $(item)Radio Kit$() or any similar item."
+		},
+		{
+			"type": "entity",
+			"entity": "cyberware:cyberzombie",
+			"text": "$(li)20 Health$()$(li)2 Armor$()$(li)2-4 Damage$()"
+		}
+	]
+}
