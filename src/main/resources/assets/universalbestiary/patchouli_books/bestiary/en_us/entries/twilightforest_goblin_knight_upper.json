@@ -12,6 +12,8 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:goblin_knight_upper",
+			"scale": 0.5,
+			"offset": -0.2,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

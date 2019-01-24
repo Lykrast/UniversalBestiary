@@ -12,6 +12,8 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:winter_wolf",
+			"scale": 0.4,
+			"offset": 0.3,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

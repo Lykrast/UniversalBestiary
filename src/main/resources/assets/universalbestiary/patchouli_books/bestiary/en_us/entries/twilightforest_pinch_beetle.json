@@ -12,6 +12,7 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:pinch_beetle",
+			"scale": 0.5,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

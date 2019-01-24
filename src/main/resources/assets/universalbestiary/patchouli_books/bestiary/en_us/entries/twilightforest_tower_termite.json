@@ -12,6 +12,7 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:tower_termite",
+			"offset": -0.3,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

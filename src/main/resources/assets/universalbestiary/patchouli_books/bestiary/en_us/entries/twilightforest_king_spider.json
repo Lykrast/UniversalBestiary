@@ -12,6 +12,7 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:king_spider",
+			"scale": 0.45,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

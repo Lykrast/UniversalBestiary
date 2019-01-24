@@ -12,6 +12,7 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:wraith",
+			"offset": 0.15,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

@@ -12,6 +12,7 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:unstable_ice_core",
+			"offset": 0.3,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

@@ -12,6 +12,8 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:maze_slime",
+			"scale": 2,
+			"offset": -0.6,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

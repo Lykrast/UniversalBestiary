@@ -12,7 +12,7 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:armored_giant",
-			"offset": 1,
+			"offset": 0.5,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

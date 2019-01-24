@@ -12,6 +12,7 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:minotaur",
+			"offset": 0.2,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

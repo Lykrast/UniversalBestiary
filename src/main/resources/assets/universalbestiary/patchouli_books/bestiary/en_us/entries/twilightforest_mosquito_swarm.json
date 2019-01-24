@@ -12,6 +12,8 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:mosquito_swarm",
+			"scale": 1.4,
+			"offset": 0.75,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{

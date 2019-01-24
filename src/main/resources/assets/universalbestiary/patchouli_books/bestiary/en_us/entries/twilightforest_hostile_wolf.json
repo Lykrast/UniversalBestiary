@@ -12,6 +12,7 @@
 		{
 			"type": "entity",
 			"entity": "twilightforest:hostile_wolf",
+			"scale": 0.7,
 			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		},
 		{
