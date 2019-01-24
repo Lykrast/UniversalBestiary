@@ -1,0 +1,24 @@
+{
+	"name": "Naga",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:naga'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:twilightforest:naga",
+	"advancement": "universalbestiary:twilightforest_naga",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Naga$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:naga",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Nagas$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

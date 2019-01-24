@@ -1,0 +1,24 @@
+{
+	"name": "Minoshroom",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:minoshroom'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:twilightforest:minoshroom",
+	"advancement": "universalbestiary:twilightforest_minoshroom",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Minoshroom$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:minoshroom",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Minoshrooms$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Pinch Beetle",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:pinch_beetle'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:pinch_beetle",
+	"advancement": "universalbestiary:twilightforest_pinch_beetle",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Pinch Beetle$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:pinch_beetle",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Pinch Beetles$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

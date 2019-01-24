@@ -1,0 +1,24 @@
+{
+	"name": "Twilight Wraith",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:wraith'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:wraith",
+	"advancement": "universalbestiary:twilightforest_wraith",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Twilight Wraith$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:wraith",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Twilight Wraiths$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

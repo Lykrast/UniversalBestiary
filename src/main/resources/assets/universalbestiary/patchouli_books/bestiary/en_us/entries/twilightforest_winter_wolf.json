@@ -1,0 +1,24 @@
+{
+	"name": "Winter Wolf",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:winter_wolf'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:winter_wolf",
+	"advancement": "universalbestiary:twilightforest_winter_wolf",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Winter Wolf$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:winter_wolf",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Winter Wolfs$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

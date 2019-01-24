@@ -1,0 +1,24 @@
+{
+	"name": "Twilight Lich",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:lich'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:twilightforest:lich",
+	"advancement": "universalbestiary:twilightforest_lich",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Twilight Lich$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:lich",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Twilight Lichs$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

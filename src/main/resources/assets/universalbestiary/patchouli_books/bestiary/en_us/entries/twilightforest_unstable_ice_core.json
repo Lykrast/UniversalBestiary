@@ -1,0 +1,24 @@
+{
+	"name": "Unstable Ice Core",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:unstable_ice_core'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:unstable_ice_core",
+	"advancement": "universalbestiary:twilightforest_unstable_ice_core",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Unstable Ice Core$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:unstable_ice_core",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Unstable Ice Cores$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Dwarf Rabbit",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:bunny'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:twilightforest:bunny",
+	"advancement": "universalbestiary:twilightforest_bunny",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Dwarf Rabbit$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:bunny",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Dwarf Rabbits$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

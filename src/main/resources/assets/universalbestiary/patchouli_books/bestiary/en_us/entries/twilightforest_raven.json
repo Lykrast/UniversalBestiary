@@ -1,0 +1,24 @@
+{
+	"name": "Forest Raven",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:raven'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:twilightforest:raven",
+	"advancement": "universalbestiary:twilightforest_raven",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Forest Raven$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:raven",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Forest Ravens$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

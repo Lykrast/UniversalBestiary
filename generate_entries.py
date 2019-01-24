@@ -22,6 +22,8 @@ elif category == 'b' or category == 'B' or category == 'bosses':
 else:
 	raise ValueError('Category argument was invalid. Must be a (animals), h (helpers), m (monsters) or b (bosses).')
 
+print('Making a {} entry for {} ({})'.format(category, display, registry))
+
 print('Reading templates')
 
 with open('./templates/advancement.json', 'r') as file_adv:

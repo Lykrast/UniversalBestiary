@@ -1,0 +1,24 @@
+{
+	"name": "Lich Minion",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:lich_minion'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:lich_minion",
+	"advancement": "universalbestiary:twilightforest_lich_minion",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Lich Minion$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:lich_minion",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Lich Minions$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

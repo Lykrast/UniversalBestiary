@@ -1,0 +1,24 @@
+{
+	"name": "Towerwood Borer",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:tower_termite'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:tower_termite",
+	"advancement": "universalbestiary:twilightforest_tower_termite",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Towerwood Borer$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:tower_termite",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Towerwood Borers$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

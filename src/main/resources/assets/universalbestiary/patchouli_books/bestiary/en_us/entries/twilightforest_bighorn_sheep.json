@@ -1,0 +1,25 @@
+{
+	"name": "Bighorn Sheep",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:bighorn_sheep'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:twilightforest:bighorn_sheep",
+	"advancement": "universalbestiary:twilightforest_bighorn_sheep",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Bighorn Sheep$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:bighorn_sheep",
+			"offset": 0.1,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Bighorn Sheeps$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

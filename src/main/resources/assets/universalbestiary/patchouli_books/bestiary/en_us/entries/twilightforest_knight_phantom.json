@@ -1,0 +1,24 @@
+{
+	"name": "Knight Phantom",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:knight_phantom'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:twilightforest:knight_phantom",
+	"advancement": "universalbestiary:twilightforest_knight_phantom",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Knight Phantom$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:knight_phantom",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Knight Phantoms$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

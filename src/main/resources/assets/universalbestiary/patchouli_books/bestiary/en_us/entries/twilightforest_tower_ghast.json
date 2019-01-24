@@ -1,0 +1,25 @@
+{
+	"name": "Carminite Ghastguard",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:tower_ghast'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:tower_ghast",
+	"advancement": "universalbestiary:twilightforest_tower_ghast",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Carminite Ghastguard$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:tower_ghast",
+			"scale": 0.9,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Carminite Ghastguards$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

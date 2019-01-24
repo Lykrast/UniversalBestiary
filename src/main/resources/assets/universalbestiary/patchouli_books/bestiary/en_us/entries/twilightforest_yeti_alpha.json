@@ -1,0 +1,26 @@
+{
+	"name": "Alpha Yeti",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:yeti_alpha'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:twilightforest:yeti_alpha",
+	"advancement": "universalbestiary:twilightforest_yeti_alpha",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Alpha Yeti$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:yeti_alpha",
+			"scale": 0.8,
+			"offset": 0.6,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Alpha Yetis$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Cave Troll",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:troll'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:troll",
+	"advancement": "universalbestiary:twilightforest_troll",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cave Troll$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:troll",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Cave Trolls$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

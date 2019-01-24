@@ -1,0 +1,25 @@
+{
+	"name": "Fire Beetle",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:fire_beetle'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:fire_beetle",
+	"advancement": "universalbestiary:twilightforest_fire_beetle",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Fire Beetle$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:fire_beetle",
+			"scale": 0.7,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Fire Beetles$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

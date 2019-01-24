@@ -1,0 +1,24 @@
+{
+	"name": "Carminite Ghastling",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:mini_ghast'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:mini_ghast",
+	"advancement": "universalbestiary:twilightforest_mini_ghast",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Carminite Ghastling$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:mini_ghast",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Carminite Ghastlings$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Mist Wolf",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:mist_wolf'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:mist_wolf",
+	"advancement": "universalbestiary:twilightforest_mist_wolf",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mist Wolf$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:mist_wolf",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Mist Wolfs$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

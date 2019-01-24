@@ -1,0 +1,24 @@
+{
+	"name": "Redcap Goblin",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:redcap'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:redcap",
+	"advancement": "universalbestiary:twilightforest_redcap",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Redcap Goblin$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:redcap",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Redcap Goblins$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

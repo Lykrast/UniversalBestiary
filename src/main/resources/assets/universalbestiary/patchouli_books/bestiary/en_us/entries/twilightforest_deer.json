@@ -1,0 +1,26 @@
+{
+	"name": "Wild Deer",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:deer'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:twilightforest:deer",
+	"advancement": "universalbestiary:twilightforest_deer",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wild Deer$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:deer",
+			"scale": 0.6,
+			"offset": 0.4,
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Wild Deers$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}

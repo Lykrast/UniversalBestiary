@@ -1,0 +1,24 @@
+{
+	"name": "Slime Beetle",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'twilightforest:slime_beetle'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:twilightforest:slime_beetle",
+	"advancement": "universalbestiary:twilightforest_slime_beetle",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Slime Beetle$() is a lorem ipsum dolor sit amet."
+		},
+		{
+			"type": "entity",
+			"entity": "twilightforest:slime_beetle",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:rotten_flesh",
+			"link_recipe": true,
+			"text": "$(mob)Slime Beetles$() drop $(item)Rottelesh$() on death."
+		}
+	]
+}
