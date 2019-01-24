@@ -1,0 +1,30 @@
+{
+	"name": "Straw Golem",
+	"icon": "minecraft:hay_block",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:strawgolem:strawgolem",
+	"advancement": "universalbestiary:strawgolem_strawgolem",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Straw Golem$() is an artificial creature that can be assembled by players. It wanders around, flees from monsters and harvests any mature crop it can see and reach. It is however not able to pick up what it harvested, other systems must be used to do so.$(p)It has a limited lifespan and will eventually die after some time."
+		},
+		{
+			"type": "entity",
+			"entity": "strawgolem:strawgolem",
+			"text": "$(li)1 Health$()"
+		},
+		{
+			"type": "multiblock",
+			"multiblock": {
+				"mapping": {
+					"0": "minecraft:hay_block",
+					"P": "minecraft:pumpkin"
+				},
+				"pattern": [[ "P" ], [ "0" ]],
+				"symmetrical": true
+			},
+			"text": "Assembling a $(mob)Straw Golem$()."
+		}
+	]
+}
