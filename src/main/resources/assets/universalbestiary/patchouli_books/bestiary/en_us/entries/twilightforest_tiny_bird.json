@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Tiny Bird$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Tiny Bird$() is an animal found in the $(thing)Twilight Forest$(). It flies around peacefully and comes in different colors."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:tiny_bird",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Tiny Birds$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)1 Health$()"
 		}
 	]
 }

@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Wild Boar$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Wild Boar$() is a variant of the $(l:minecraft_pig)$(mob)Pig$() found in the $(thing)Twilight Forest$(). It has a different look, but is otherwise identical to mundane $(l:minecraft_pig)$(mob)Pigs$().$(p)It can only breed with other $(mob)Wild Boars$()."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:wild_boar",
 			"scale": 0.6,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Wild Boars$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)10 Health$()"
 		}
 	]
 }

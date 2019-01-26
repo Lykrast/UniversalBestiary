@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Forest Squirrel$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Forest Squirrel$() is an animal found in the $(thing)Twilight Forest$(). It wanders around and flees when approached by players."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:squirrel",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Forest Squirrels$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)1 Health$()"
 		}
 	]
 }

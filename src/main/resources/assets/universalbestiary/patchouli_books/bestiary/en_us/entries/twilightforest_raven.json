@@ -7,18 +7,18 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Forest Raven$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Forest Raven$() is an animal found in the $(thing)Twilight Forest$(). It flies around and flees when hit. It spawns much more commonly around $(thing)Obsidian Monoliths$()."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:raven",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
+			"text": "$(li)10 Health$()"
 		},
 		{
 			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
+			"item": "twilightforest:raven_feather",
 			"link_recipe": true,
-			"text": "$(mob)Forest Ravens$() drop $(item)Rottelesh$() on death."
+			"text": "$(mob)Forest Ravens$() drop $(item)Raven Feathers$() on death. They are used to craft the $(item)Magic Map Focus$() in order to make the $(item)Magic Map$(), an essential tool for finding locations and bosses in the $(thing)Twilight Forest$()."
 		}
 	]
 }

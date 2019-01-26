@@ -7,20 +7,14 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Wild Deer$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Wild Deer$() is an animal found in the $(thing)Twilight Forest$(). It wanders around and flees when hit. It can be breed with $(item)Wheat$().$(p)Its meat is a good source of food."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:deer",
 			"scale": 0.6,
 			"offset": 0.4,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Wild Deers$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)10 Health$()"
 		}
 	]
 }

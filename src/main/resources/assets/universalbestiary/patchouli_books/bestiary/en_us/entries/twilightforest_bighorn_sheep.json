@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Bighorn Sheep$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Bighorn Sheep$() is a variant of the $(l:minecraft_sheep)$(mob)Sheep$() found in the $(thing)Twilight Forest$(). It comes naturally in different colors and has decorative horns, but is otherwise identical to mundane $(l:minecraft_sheep)$(mob)Sheeps$().$(p)It can only breed with other $(mob)Bighorn Sheeps$()."
 		},
 		{
 			"type": "entity",
-			"entity": "twilightforest:bighorn_sheep",
-			"offset": 0.1,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Bighorn Sheeps$() drop $(item)Rottelesh$() on death."
+			"entity": "twilightforest:bighorn_sheep{Color:12} ",
+			"scale": 0.8,
+			"text": "$(li)8 Health$()"
 		}
 	]
 }

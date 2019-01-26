@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Dwarf Rabbit$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Dwarf Rabbit$() is a variant of the $(l:minecraft_rabbit)$(mob)Rabbit$() found in the $(thing)Twilight Forest$(). It is much smaller and can not breed, but otherwise drops the same items on death and behaves similarly."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:bunny",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Dwarf Rabbits$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)3 Health$()"
 		}
 	]
 }
