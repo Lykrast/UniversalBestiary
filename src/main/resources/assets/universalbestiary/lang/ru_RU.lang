@@ -1,0 +1,6 @@
+item.universalbestiary.bestiary.name=Универсальный бестиарий
+item.universalbestiary.identifier.name=Идентификатор моба
+item.universalbestiary.identifier.tooltip=Используйте на мобе, чтобы разблокировать его пункт в бестиарии
+
+patchouli.universalbestiary.title=Универсальный бестиарий
+patchouli.universalbestiary.landing=Универсальный бестиарий содержит информацию обо всех монстрах, которых вы повстречаете. Убийство моба, или ваша смерть от него, или же использование на нем $(item)Mob Identifier$() разблокирует его пункт в бестиарии.
