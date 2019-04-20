@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Swarm Spider$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Swarm Spider$() is a variant of the $(l:minecraft_spider)$(mob)Spider$() found in $(thing)Hedge Mazes$(), $(thing)Hollow Hills$() and $(thing)Leaf Dungeons$(). Compared to normal $(l:minecraft_spider)$(mob)Spiders$(), it is much smaller, much weaker and remains hostile in light. Inside $(thing)Hedge Mazes$() it is capable of spawning even in broad daylight."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:swarm_spider",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Swarm Spiders$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)3 Health$()$(li)0-1 Damage$()"
 		}
 	]
 }

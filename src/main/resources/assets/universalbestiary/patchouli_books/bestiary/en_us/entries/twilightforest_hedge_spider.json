@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Hedge Spider$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Hedge Spider$() is a variant of the $(l:minecraft_spider)$(mob)Spider$() found in $(thing)Hedge Mazes$(). Unlike their $(thing)Overworld$() counterparts, they remain hostile in light and can spawn in broad daylight given they are inside their maze."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:hedge_spider",
 			"scale": 0.7,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Hedge Spiders$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)16 Health$()$(li)2-3 Damage$()"
 		}
 	]
 }

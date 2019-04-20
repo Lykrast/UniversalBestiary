@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Slime Beetle$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Slime Beetle$() is a monster found in $(thing)Labyrinths$() and large $(thing)Hollow Hills$(). It attacks players on sight by throwing slime projectiles at them. It also flees when approached in order to keep its distances."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:slime_beetle",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Slime Beetles$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)25 Health$()$(li)4 Damage$()"
 		}
 	]
 }

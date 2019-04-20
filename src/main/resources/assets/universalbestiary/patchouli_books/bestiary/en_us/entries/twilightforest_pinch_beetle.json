@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Pinch Beetle$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Pinch Beetle$() is a monster found in $(thing)Labyrinths$() and large $(thing)Hollow Hills$(). It attacks players on sight by charging at them and grabbing them with its massive mandibles. Once its target is grabbed it is free to move it around and continue to attack it until it is killed."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:pinch_beetle",
 			"scale": 0.5,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Pinch Beetles$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)40 Health$()$(li)2 Armor$()$(li)4 Damage$()"
 		}
 	]
 }

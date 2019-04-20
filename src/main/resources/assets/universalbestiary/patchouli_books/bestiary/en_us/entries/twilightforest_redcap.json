@@ -7,18 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Redcap Goblin$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Redcap Goblin$() is a monster found undeground in the $(thing)Twilight Forest$(). It tries to get in melee range to attack players on sight. Unlike monsters such as $(l:minecraft_zombie)$(mob)Zombies$(), it prefers circling its target in order to attack from the sides or the back.$(br2)It will also light up any nearby placed $(item)TNT$() that it can reach."
 		},
 		{
 			"type": "entity",
-			"entity": "twilightforest:redcap",
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Redcap Goblins$() drop $(item)Rottelesh$() on death."
+			"entity": "twilightforest:redcap{HandItems:[{Count:1,id:'minecraft:iron_pickaxe'},{}],ArmorItems:[{Count:1,id:'minecraft:iron_boots'},{},{},{}]}",
+			"text": "$(li)20 Health$()$(li)2 Armor$()$(li)5 Damage$()"
 		}
 	]
 }

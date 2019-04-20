@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Twilight Wraith$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Twilight Wraith$() is a monster found in large $(thing)Hollow Hills$(). It attacks players on sight with melee attacks. It moves by flying around and can pass through solid blocks."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:wraith",
 			"offset": 0.15,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Twilight Wraiths$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)20 Health$()$(li)5 Damage$()"
 		}
 	]
 }

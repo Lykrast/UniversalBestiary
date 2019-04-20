@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Hostile Wolf$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Hostile Wolf$() is a variant of the $(l:minecraft_wolf)$(mob)Wolf$() found in $(thing)Hedge Mazes$(). It has slightly more health, is always aggressive to players and can not be tamed."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:hostile_wolf",
 			"scale": 0.7,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Hostile Wolfs$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)10 Health$()$(li)3-6 Damage$()"
 		}
 	]
 }

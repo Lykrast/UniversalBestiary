@@ -7,19 +7,13 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Fire Beetle$() is a lorem ipsum dolor sit amet."
+			"text": "The $(mob)Fire Beetle$() is a monster found in $(thing)Labyrinths$() and large $(thing)Hollow Hills$(). It attacks players on sight with melee attacks. Occasionally it will stop and breath fire on its target, setting it on fire and dealing lesser damage."
 		},
 		{
 			"type": "entity",
 			"entity": "twilightforest:fire_beetle",
 			"scale": 0.7,
-			"text": "$(li)?? Health$()$(li)?? Damage$()"
-		},
-		{
-			"type": "spotlight",
-			"item": "minecraft:rotten_flesh",
-			"link_recipe": true,
-			"text": "$(mob)Fire Beetles$() drop $(item)Rottelesh$() on death."
+			"text": "$(li)25 Health$()$(li)4 Damage$()"
 		}
 	]
 }
