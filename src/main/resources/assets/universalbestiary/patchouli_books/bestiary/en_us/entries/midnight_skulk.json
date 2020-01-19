@@ -1,0 +1,18 @@
+{
+	"name": "Skulk",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'midnight:skulk'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:midnight:skulk",
+	"advancement": "universalbestiary:midnight_skulk",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Skulk$() is an uncommon animal that spawns in $(thing)Fungi Forests$() in the $(thing)Midnight$(). It has an innate stealth ability rendering it translucent, allowing it to hide effectively. It is passive and will not attack unless harmed."
+		},
+		{
+			"type": "entity",
+			"entity": "midnight:skulk",
+			"text": "$(li)6 Health$()$(li)1 Damage$()"
+		}
+	]
+}

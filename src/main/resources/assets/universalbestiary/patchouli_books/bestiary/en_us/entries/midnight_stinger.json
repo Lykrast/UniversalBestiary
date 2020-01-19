@@ -1,0 +1,24 @@
+{
+	"name": "Stinger",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'midnight:stinger'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:midnight:stinger",
+	"advancement": "universalbestiary:midnight_stinger",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Stinger$() is a monster that spawns in caves of the $(thing)Midnight$(). It attacks players on sight by trying to get into melee to deliver a sting that inflicts $(thing)Weakness$() on its target. $(thing)Stinger Eggs$() can be commonly found in clusters in the caves of the $(thing)Midnight$(), which hatch into baby $(mob)Stingers$() when a player steps on them."
+		},
+		{
+			"type": "entity",
+			"entity": "midnight:stinger",
+			"text": "$(li)10-18 Health$()$(li)2-4 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "midnight:stinger_egg",
+			"link_recipe": true,
+			"text": "$(mob)Stingers$() drop $(item)Stinger Eggs$() on death. These are a decent source of food when cooked, and can also be used to spawn new baby $(mob)Stingers$()."
+		}
+	]
+}

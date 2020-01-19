@@ -1,0 +1,25 @@
+{
+	"name": "Hunter",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'midnight:hunter'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:midnight:hunter",
+	"advancement": "universalbestiary:midnight_hunter",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Hunter$() is a flying monster that spawns in the $(thing)Midnight$(). It hunts $(l:midnight_nightstag)$(mob)Nightstags$(), $(l:midnight_skulk)$(mob)Skulks$(), and players by flying overhead and swooping down to attack, dealing damage and inflicting $(thing)Torment$() on its target. Despite their size, $(mob)Hunters$() can pass through a single-block space unimpeded."
+		},
+		{
+			"type": "entity",
+			"entity": "midnight:hunter",
+			"scale": 0.5,
+			"text": "$(li)20 Health$()$(li)4-6 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "midnight:hunter_wing",
+			"link_recipe": true,
+			"text": "$(mob)Hunters$() drop $(item)Hunter Wings$() on death. These are a decent source of food when cooked."
+		}
+	]
+}

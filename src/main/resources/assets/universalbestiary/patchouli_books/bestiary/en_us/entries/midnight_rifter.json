@@ -1,0 +1,22 @@
+{
+	"name": "Rifter",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'midnight:rifter'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:midnight:rifter",
+	"advancement": "universalbestiary:midnight_rifter",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Rifter$() is a monster that spawns in the $(thing)Midnight$(), and in the presence of $(thing)Rifts$() on the surface of the $(thing)Overworld$() at night. While in the $(thing)Midnight$(), it attempts to get into melee to attack players on sight."
+		},
+		{
+			"type": "entity",
+			"entity": "midnight:rifter",
+			"text": "$(li)20 Health$()$(li)4-6 Damage$()"
+		},
+		{
+			"type": "text",
+			"text": "When spawned from a $(thing)Rift$() in the $(thing)Overworld, a $(mob)Rifter$() will seek out the nearest passive animal or player and grab them, stunning and slowly dragging the target into the $(thing)Rift$() that spawned them, transporting them to the $(thing)Midnight$(). It can teleport when not observed by the player. $(mob)Rifters$() spawned from a $(thing)Rift$() cannot survive in the $(thing)Overworld$() for long, and will perish if their rift closes before they are able to return."
+		}
+	]
+}

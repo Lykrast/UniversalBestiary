@@ -1,0 +1,18 @@
+{
+	"name": "Crystal Bug",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'midnight:crystal_bug'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:midnight:crystal_bug",
+	"advancement": "universalbestiary:midnight_crystal_bug",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Crystal Bug$() is a passive flying animal that spawns in $(thing)Crystal Spires$() in the $(thing)Midnight$(). It flies aimlessly around and flees from players and monsters when attacked."
+		},
+		{
+			"type": "entity",
+			"entity": "midnight:crystal_bug",
+			"text": "$(li)3 Health$()"
+		}
+	]
+}

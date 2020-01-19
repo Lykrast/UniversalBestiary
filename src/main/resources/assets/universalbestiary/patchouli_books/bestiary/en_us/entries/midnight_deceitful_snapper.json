@@ -1,0 +1,25 @@
+{
+	"name": "Deceitful Snapper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'midnight:deceitful_snapper'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:midnight:deceitful_snapper",
+	"advancement": "universalbestiary:midnight_deceitful_snapper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Deceitful Snapper$() is a passive animal that spawns in the dark waters of the $(thing)Midnight$(). It does not react to being attacked, whether by players or other creatures."
+		},
+		{
+			"type": "entity",
+			"entity": "midnight:deceitful_snapper",
+			"scale": 0.75,
+			"text": "$(li)20 Health$()$(li)1-4 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "midnight:deceitful_snapper",
+			"link_recipe": true,
+			"text": "$(mob)Deceiftul Snappers$() drop themselves on death, which serve as a good food source while raw. However, consuming the $(mob)Deceiftul Snappers$() comes with a chance to be attacked by it."
+		}
+	]
+}

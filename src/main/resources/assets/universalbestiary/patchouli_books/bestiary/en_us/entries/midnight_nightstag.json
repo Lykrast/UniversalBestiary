@@ -1,0 +1,25 @@
+{
+	"name": "Nightstag",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'midnight:nightstag'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:midnight:nightstag",
+	"advancement": "universalbestiary:midnight_nightstag",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Nightstag$() is a common neutral animal that spawns in the $(thing)Midnight$(). It is passive until attacked, at which point it charges the aggressor with its antlers, dealing damage and inflicting $(thing)Darkness$() on its target. It can be bred using $(item)Unstable Fruit$(), but beware, this fruit causes any creature that eats it to levitate allowing $(mob)Nightstags$() to easily escape improperly enclosed pens."
+		},
+		{
+			"type": "entity",
+			"entity": "midnight:nightstag",
+			"scale": 0.75,
+			"text": "$(li)20 Health$()$(li)4-8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "midnight:raw_stag_flank",
+			"link_recipe": true,
+			"text": "$(mob)Nightstags$() drop $(item)Raw Stag Flanks$() on death, which are a great source of food when cooked, and one of few sources found in the $(thing)Midnight$()."
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Nova",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'midnight:nova'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:midnight:nova",
+	"advancement": "universalbestiary:midnight_nova",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Nova$() is a flying monster that spawns in caves in the $(thing)Midnight$(), near bedrock. They attack players on sight by flying slowly towards them before landing and attacking rapidly in melee. $(mob)Novas$() will occasionally spread a $(item)Bonemeal$()-like effect on $(item)Nightstone$() blocks around them when wandering."
+		},
+		{
+			"type": "entity",
+			"entity": "midnight:nova",
+			"text": "$(li)16 Health$()$(li)4 Damage$()"
+		}
+	]
+}
