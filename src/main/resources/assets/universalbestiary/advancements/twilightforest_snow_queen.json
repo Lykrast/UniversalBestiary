@@ -1,9 +1,0 @@
-{
-	"parent": "universalbestiary:root",
-	"criteria": {
-		"unlock": {
-			"trigger": "universalbestiary:unlock",
-			"conditions": { "entity": { "type": "twilightforest:snow_queen" } }
-		}
-	}
-}
