@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Cyclops$() is a monster that spawns on the surface of Taiga biomes in the $(thing)Overworld$(). She attacks the player on sight with melee attacks which apply a $(thing)Slowness$() effect. While below 25% health in combat, she will receive a $(thing)Speed$() effect."
+			"text": "The $(mob)Cyclops$() is a monster that spawns on the surface of Taiga biomes in the $(thing)Overworld$(). She attacks the player on sight with melee attacks which apply a $(thing)Slowness$() effect. While below 25% health in combat, she receives a $(thing)Speed$() effect."
 		},
 		{
 			"type": "entity",
