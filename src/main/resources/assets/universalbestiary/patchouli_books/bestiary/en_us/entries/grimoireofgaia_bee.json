@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Honey Bee$() is a helper that spawns in the $(thing)Overworld$(). It is immune to $(thing)Poison$() and falling damage. A $(thing)Honey Bee$() will not attack the player unless provoked, after which it will retaliate with ranged attacks before leaping into melee with attacks that have strong knockback. Attacking a $(mob)Honey Bee$() angers all others in the area, similar to the $(l:minecraft_zombie_pigman)$(mob)Zombie Pigman$()."
+			"text": "The $(mob)Honey Bee$() is a creature that spawns in the $(thing)Overworld$(). It is immune to $(thing)Poison$() and falling damage. A $(thing)Honey Bee$() will not attack the player unless provoked, after which it will retaliate with ranged attacks before leaping into melee with attacks that have strong knockback. Attacking a $(mob)Honey Bee$() angers all others in the area, similar to the $(l:minecraft_zombie_pigman)$(mob)Zombie Pigman$()."
 		},
 		{
 			"type": "entity",
