@@ -1,7 +1,7 @@
 {
 	"name": "Kikimora ",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:kikimora'}}",
-	"category": "monsters",
+	"category": "helpers",
 	"flag": "universalbestiary:entity:grimoireofgaia:kikimora",
 	"advancement": "universalbestiary:grimoireofgaia_kikimora",
 	"pages": [
