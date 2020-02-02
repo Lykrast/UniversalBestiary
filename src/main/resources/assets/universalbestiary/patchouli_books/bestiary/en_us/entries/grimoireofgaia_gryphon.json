@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Gryphon$() is neutral flying monster that spawns in extreme hils during the day in the $(thing)Overworld$(). It is immune to falling damage and has no weaknesses. It will not attack players unless provoked, at which point it will strike with leaping melee attacks with strong knockback that inflict the target with $(thing)Slowness$() effects."
+			"text": "The $(mob)Gryphon$() is flying animal that spawns in Extreme Hills during the day in the $(thing)Overworld$(). It is immune to falling damage. It will not attack players unless provoked, at which point it will strike with leaping melee attacks with strong knockback that inflict $(thing)Slowness$() on contact."
 		},
 		{
 			"type": "entity",
