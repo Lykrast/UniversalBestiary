@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Toad$() is a monster that spawns in Roofed Forests of the $(thing)Overworld$(). It attacks players with a leaping attack with knockback before engaging with melee attacks, inflicting (thing)Poison$(). It is resistant to fire and immune to $(thing)Poison$(). While in water, a $(mob)Toad$() gains a $(thing)Resistance$() effect and regenerates 10% of its health every 5 seconds. It is vulnerable to warm climates, where it is inflicted with $(thing)Slowness$() and $(thing)Weakness$()."
+			"text": "The $(mob)Toad$() is a monster that spawns in Roofed Forests of the $(thing)Overworld$(). It attacks players on sight by closing the distance with a leaping attack with strong knockback before engaging with melee attacks inflicting $(thing)Poison$(). It is resistant to Fire and immune to $(thing)Poison$(). While in water, a $(mob)Toad$() gains a $(thing)Resistance$() effect and regenerates 10% of its health every 5 seconds. It is vulnerable to warm climates and is inflicted with $(thing)Slowness$() and $(thing)Weakness$() if it enters warm or hot biomes."
 		},
 		{
 			"type": "entity",
