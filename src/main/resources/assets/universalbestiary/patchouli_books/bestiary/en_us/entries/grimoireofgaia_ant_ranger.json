@@ -13,6 +13,7 @@
 			"type": "entity",
 			"entity": "grimoireofgaia:ant_ranger",
 			"scale": 0.5,
+			"offset": -0.5,
 			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
 		},
 		{
