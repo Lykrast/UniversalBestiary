@@ -1,5 +1,5 @@
 {
-	"name": "Wither_Cow ",
+	"name": "WitherCow ",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:wither_cow'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:wither_cow",
@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Wither Cow$() is a monster that spawns in the $(thing)Nether$(). It attacks players on sight, inflicting $(thing)Wither$() with its attacks, and projecting an aura that afflicts all creatures within 4 blocks with $(thing)Slowness$(). It is immune to $(thing)Wither$(), Fire, and knockback. When a $(mob)Nether Cow$() dies, it leaves behind a lingering $(thing)Wither$() potion effect."
+			"text": "The $(mob)Wither Cow$() is a monster that spawns in the $(thing)Nether$(). It attacks players on sight, inflicting $(thing)Wither$() with its attacks, and projecting an aura that afflicts all creatures within 4 blocks with $(thing)Slowness$(). It is immune to $(thing)Wither$(), Fire, and knockback. When a $(mob)Wither Cow$() dies, it leaves behind a lingering $(thing)Wither$() potion effect."
 		},
 		{
 			"type": "entity",
