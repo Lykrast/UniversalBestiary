@@ -1,0 +1,30 @@
+{
+	"name": "Selkie ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:selkie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:selkie",
+	"advancement": "universalbestiary:grimoireofgaia_selkie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Selkie$() is a monster that spawns in Ice Plains in the $(thing)Overworld$(). It attacks players on sight with ranged attacks which may include $(thing)Slowness$() and $(thing)Weakness$() potion arrows. The $(mob)Selkie$() switches to melee and gains a $(thing)Speed$() effect when its target is within 3 blocks of it. $(mob)Selkies$() are vulnerable to warm climates and are inflicted with $(thing)Slowness$() and $(thing)Weakness$() if they enter warm or hot biomes."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:selkie",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_fur",
+			"link_recipe": true,
+			"text": "$(mob)Selkies$() drop $(item)Fur$() on death, which can be smelted in a furnace to create $(item)Leather$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Selkies$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

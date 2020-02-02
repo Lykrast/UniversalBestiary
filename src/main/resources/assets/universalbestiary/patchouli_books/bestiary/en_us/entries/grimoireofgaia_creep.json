@@ -1,0 +1,31 @@
+{
+	"name": "Creep ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:creep'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:creep",
+	"advancement": "universalbestiary:grimoireofgaia_creep",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Creep$() is a monster that spawns in the $(thing)Overworld$(). It attacks players on sight by sneakily approaching them before exploding, similar to a $(l:minecraft_creeper)$(mob)Creeper$(). Additionally, the $(mob)Creep$() is invisible unless within 8 blocks of a player. "
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:creep",
+			"scale": 0.5,
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box",
+			"link_recipe": true,
+			"text": "$(mob)Creeps$() drop $(item)Ore Box$() on death, which can be right-clicked while held to open and receive a random ore found in the $(thing)Overworld$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:spawn_creeper_girl",
+			"link_recipe": true,
+			"text": "$(mob)Creeps$() can drop a $(item)Creeper Girl Egg$() on death. This item can be used to spawn a passive $(l:grimoireofgaia_spawn_creeper_girl)$(mob)Creeper Girl$() helper for the player."
+		}
+	]
+}

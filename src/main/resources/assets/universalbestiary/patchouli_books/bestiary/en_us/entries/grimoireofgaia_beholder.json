@@ -1,0 +1,31 @@
+{
+	"name": "Behender",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:beholder'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:beholder",
+	"advancement": "universalbestiary:grimoireofgaia_beholder",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Behender$() is a flying monster that spawns in $(thing)The End$(). It attacks players on sight, inflicting its target with random negative potion effects at range. It is resistant to knockback and can teleport when a player comes close to it to attack in melee, similar to an $(l:minecraft_enderman)$(mob)Enderman$(). It is immune to falling damage. When reduced to 50% health or lower, a $(mob)Behender$() will shield itself, protecting it from ranged attacks. "
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:beholder",
+			"offset": -6,
+			"text": "$(li)80 Health$()$(li)6 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box:2",
+			"link_recipe": true,
+			"text": "$(mob)Behenders$() drop $(item)Ender Box$() on death, which can be right-clicked while held to open and receive random blocks from $(item)The End$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:weapon_book_ender",
+			"link_recipe": true,
+			"text": "$(mob)Behenders$() rarely drop $(item)Ender Book$() on death, which is a magical ranged weapon that fires projectiles which inflict $(thing)Blindness$() on hit."
+		}
+	]
+}

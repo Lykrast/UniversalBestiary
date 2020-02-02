@@ -1,0 +1,30 @@
+{
+	"name": "Deathword ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:deathword'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:deathword",
+	"advancement": "universalbestiary:grimoireofgaia_deathword",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Deathword$() is a flying monster that spawns underground in the $(thing)Overworld$() at night. It is vulnerable to Fire, but is immune to falling damage. It attacks players on sight by summoning up to 4 undead monsters as minions. When it is no longer able to spawn minions, it will engage its target at close range, throwing sheets of paper."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:deathword",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box",
+			"link_recipe": true,
+			"text": "$(mob)Deathwords$() drop $(item)Ore Box$() on death, which can be right-clicked while held to open and receive a random ore found in the $(thing)Overworld$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:bag_book",
+			"link_recipe": true,
+			"text": "$(mob)Deathwords$() drop $(item)Book Bag$() on death, which can be right-clicked while held to open the bag and receive a random enchantment book."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "Honey Bee ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:bee'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:grimoireofgaia:bee",
+	"advancement": "universalbestiary:grimoireofgaia_bee",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Honey Bee$() is a helper that spawns in the $(thing)Overworld$(). It is immune to $(thing)Poison$() and falling damage. A $(thing)Honey Bee$() will not attack the player unless provoked, after which it will retaliate with ranged attacks before leaping into melee with attacks that have strong knockback. Attacking a $(mob)Honey Bee$() angers all others in the area, similar to the $(l:minecraft_zombie_pigman)$(mob)Zombie Pigman$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:bee",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_honey",
+			"link_recipe": true,
+			"text": "$(mob)Honey Bees$() drop $(item)Honeydew$() on death. These are a decent source of food and provide a 20% speed and haste buff for 10 seconds. "
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Honey Bees$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

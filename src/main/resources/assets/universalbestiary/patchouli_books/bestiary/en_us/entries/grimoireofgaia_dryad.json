@@ -1,0 +1,30 @@
+{
+	"name": "Dryad (Grimoir of Gaia)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:dryad'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:grimoireofgaia:dryad",
+	"advancement": "universalbestiary:grimoireofgaia_dryad",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Dryad$() is a neutral monster that spawns in Forest biomes during the day and above ground in the $(thing)Overworld$(). It is vulnerable to axes and Fire. A $(mob)Dryad$() will not attack players unless provoked, after which it will retaliate with weak melee attacks. Attacking a $(mob)Dryad$() angers all others in the area, similar to the $(mob)Zombie Pigman$(). When the $(mob)Dryad$() reaches 25%, it will flee to recover health. While in water, it recovers 10% of its health every 10 seconds and gains $(thing)Resistance$(). "
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:dryad",
+			"text": "$(li)80 Health$()$(li)6 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_root",
+			"link_recipe": true,
+			"text": "$(mob)Dryads$() drop $(item)Tap Root$() on death. These are an insignificant source of food, but remove negative status effects when consumed. "
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Dryads$() drop $(item)Iron Box$() on death. Right-click to open and receive a random tool, weapon, or armor piece made of iron. Or, instead smelt in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

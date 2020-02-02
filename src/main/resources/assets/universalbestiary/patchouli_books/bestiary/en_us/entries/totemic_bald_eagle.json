@@ -1,0 +1,30 @@
+{
+	"name": "Bald Eagle",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'totemic:bald_eagle'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:totemic:bald_eagle",
+	"advancement": "universalbestiary:totemic_bald_eagle",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Bald Eagle$() is a passive flying animal that does not spawn naturally in the $(thing)Overworld$(). Players must perform the $(thing)Eagle Dance Ceremony$() near a $(l:minecraft_parrot)$(mob)Parrot$() to imbue it with power, transforming it into a $(mob)Bald Eagle$(). They can be bred with any raw fish. "
+		},
+		{
+			"type": "entity",
+			"entity": "totemic:bald_eagle",
+			"text": "$(li)10 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "totemic:eagle_drops",
+			"link_recipe": true,
+			"text": "$(mob)Bald Eagles$() drops $(item)Eagle Bone$() on death. This bone can be used to craft the $(item)Eagle Bone Flute$(), and can be used as a normal $(item)Bone$() in other recipes. "
+		},
+		{
+			"type": "spotlight",
+			"item": "totemic:eagle_drops:1",
+			"link_recipe": true,
+			"text": "The $(mob)Eagle$() drops $(item)Eagle Feather$() on death. This bone can be used to craft the $(item)Eagle Bone Flute$(), and can be used as a normal $(thing)Feather$() in other recipes. "
+		}
+	]
+}

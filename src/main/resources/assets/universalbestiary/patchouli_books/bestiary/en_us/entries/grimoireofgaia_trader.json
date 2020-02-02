@@ -1,0 +1,24 @@
+{
+	"name": "Trader ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:trader'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:grimoireofgaia:trader",
+	"advancement": "universalbestiary:grimoireofgaia_trader",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Trader$() is a helper that can be spawned from the $(thing)Trader Egg$(). It flees when attacked, but can trade various items in exchange for $(item)Trader Tokens$(), similar to a $(l:minecraft_villager)$(mob)Villager$(). Similar to $(mob)Villagers$(), $(mob)Traders$() killed by $(l:minecraft_zombie)$(mob)Zombies$() may turn into $(l:minecraft_zombie_villager)$(mob)Zombie Villagers$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:trader",
+			"text": "$(li)40 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:spawn_trader",
+			"link_recipe": true,
+			"text": "$(mob)Traders$() can drop a $(item)Trader Egg$() on death. This item can be used to spawn a passive $(mob)Trader$() helper for the player."
+		}
+	]
+}

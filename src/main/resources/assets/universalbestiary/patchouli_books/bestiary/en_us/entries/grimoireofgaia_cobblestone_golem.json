@@ -1,0 +1,30 @@
+{
+	"name": "Cobblestone Golem ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:cobblestone_golem'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:grimoireofgaia:cobblestone_golem",
+	"advancement": "universalbestiary:grimoireofgaia_cobblestone_golem",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cobblestone Golem$() is a helper that spawns in the Jungle in the $(thing)Overworld$(). Similar to and slightly stronger than the $(mob)Cobble Golem$(), it has immunity to $(thing)Poison, Fire, and knockback but is vulnerable to pickaxe attacks and drowning. $(mob)Cobblestoe Golems$() will attack hostile mobs with melee atacks and occasionally throw targets away from itself. It will not attack players unless provoked."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:cobblestone_golem",
+			"text": "$(li)80 Health$()$(li)8 Armor$()$(li)7-21 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_gold",
+			"link_recipe": true,
+			"text": "$(mob)Cobblestone Golems$() drop $(item)Gold Box$() on death, which can be right-clicked while held to open and receive a random tool, weapon, or armor piece made of gold. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Medium)$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:bag_book",
+			"link_recipe": true,
+			"text": "$(mob)Cobblestone Golems$() drop $(item)Book Bag$() on death. Right-click to open the bag and receive a random enchantment book."
+		}
+	]
+}

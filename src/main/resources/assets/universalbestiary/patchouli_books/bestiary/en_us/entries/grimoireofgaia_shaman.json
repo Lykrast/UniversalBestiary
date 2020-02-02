@@ -1,0 +1,31 @@
+{
+	"name": "Shaman ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:shaman'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:shaman",
+	"advancement": "universalbestiary:grimoireofgaia_shaman",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Shaman$() is a monster that spawns in Jungles in the $(thing)Overworld$() at night. It attacks players by keeping at range with a $(thing)Poison$() potion attack, similar to an illager $(l:minecraft_witch)$(mob)Witch$(). When injured, the $(mob)Shaman$() will summon up to 2 $(l:minecraft_zombie)$(mob)Zombies$() to engage the player in melee while providing them with a $(thing)Resistance$() effect. It is immune to $(thing)Poison$(). A $(mob)Shaman$() will switch from ranged attacks to melee, inflicting $(thing)Poison$() and $(thing)Weakness$() with its strikes."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:shaman",
+			"scale": 0.9,
+			"text": "$(li)80 Health$()$(li)8 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_rotten_heart",
+			"link_recipe": true,
+			"text": "$(mob)Shamans$() drop $(item)Rotten Hearts$() on death, which can be eaten as a decent food source and also to gain a $(thing)Regeneration$() potion effect. However, when consumed, it may afflict players with $(thing)Hunger$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_book",
+			"link_recipe": true,
+			"text": "$(mob)Shamans$() rarely drop $(item)Book of Memory$() which can be used to gain 10 experience levels."
+		}
+	]
+}

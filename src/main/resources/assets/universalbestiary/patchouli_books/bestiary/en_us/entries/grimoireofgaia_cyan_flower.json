@@ -1,0 +1,24 @@
+{
+	"name": "Cyan Flower ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:cyan_flower'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:cyan_flower",
+	"advancement": "universalbestiary:grimoireofgaia_cyan_flower",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cyan Flower$() is a passive mob that spawns in grassy biomes in the $(thing)Overworld$(). When approached by the player or struck with a weapon, it may drop flowers or turn into a $(l:grimoireofgaia:mandragora)$(mob)Mandragora$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:cyan_flower",
+			"text": "$(li)1 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:red_flower:4",
+			"link_recipe": true,
+			"text": "If it does not turn into a $(l:grimoireofgaia:mandragora)$(mob)Mandragora$() when provoked, the $(mob)Cyan Flower$() can drop $(item)Flowers$() on death."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "Succubus ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:succubus'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:succubus",
+	"advancement": "universalbestiary:grimoireofgaia_succubus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Succubus$() is a monster that sapwns in the $(thing)Nether$(). It attacks players on sight with life-draining melee attacks, which inflict $(thing)Mining Fatigue$() on contact. A $(mob)Succubus$() heals itself for 10% of their health per hit. It is immune to falling damage and Fire."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:succubus",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_soul_fiery",
+			"link_recipe": true,
+			"text": "$(mob)Succubi$() drop $(item)Fireshards$() on death, which is an excellent fuel source and burns for 1,000 seconds. It can also be used to create a $(thing)Lava$() source block."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box:1",
+			"link_recipe": true,
+			"text": "$(mob)Succubi$() drop $(item)Nether Box$() on death, which can be right-clicked while held to open and receive a random block found in the $(thing)Nether$()."
+		}
+	]
+}

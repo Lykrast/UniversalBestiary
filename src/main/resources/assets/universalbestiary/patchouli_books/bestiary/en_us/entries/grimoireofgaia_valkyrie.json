@@ -1,0 +1,30 @@
+{
+	"name": "Valkyrie ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:valkyrie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:valkyrie",
+	"advancement": "universalbestiary:grimoireofgaia_valkyrie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Valkyrie$() is a neutral monster that spawns in Extreme Hills in the $(thing)Overworld$(). It does not attack unless attacked first or provoked by remaining too close to it for too long or, at which point it engages with attacks that inflict $(thing)Slowness$() and $(thing)Weakness$(). It is immune to falling damage, drowning, and Fire, and is resistant to knockback. When a $(mob)Valkyrie$() is reduced to 25% health or lower, it gains a $(thing)Strength$() and $(thing)Speed$() effect."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:valkyrie",
+			"text": "$(li)160 Health$()$(li)16 Armor$()$(li)16 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_small_apple_gold",
+			"link_recipe": true,
+			"text": "$(mob)Valkyries$() drop $(item)Golden Apple Pie Slices$() on death, which can be eaten to grant players the same benefits as gained from eating a $(item)Golden Apple$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:bust_valkyrie",
+			"link_recipe": true,
+			"text": "$(mob)Valkyries$() rarely drop $(item)The Valkyrie$(), which is a decorative item similar to a $(item)Minotaur Bust$(), representing the $(mob)Valkyrie$() creature."
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Gravemite",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:mite'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:mite",
+	"advancement": "universalbestiary:grimoireofgaia_mite",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Gravemite$() is a monster that is summoned by $(l:grimoireofgaia_mummy)$(mob)Mummies$() in combat. It attacks players on sight with simple melee attacks."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:mite",
+			"text": "$(li)1 Health$()$(li)1 Damage$()"
+		}
+	]
+}

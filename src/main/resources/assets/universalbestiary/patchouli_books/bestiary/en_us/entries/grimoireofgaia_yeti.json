@@ -1,0 +1,30 @@
+{
+	"name": "Yeti ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:yeti'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:yeti",
+	"advancement": "universalbestiary:grimoireofgaia_yeti",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Yeti$() is a monster that spawns in Ice Plains in the $(thing)Overworld$(). It attacks players on sight with powerful melee strikes that inflict $(thing)Slowness$() on hit. It is resistant to Fire, but vulnerable to warm climates, suffering a $(thing)Slowness$() and $(thing)Weakness$() effect if it enters warm or hot biomes."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:yeti",
+			"text": "$(li)80 Health$()$(li)6 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_fur",
+			"link_recipe": true,
+			"text": "$(mob)Yetis$() drop $(item)Fur$() on death, which can be smelted in a furnace to create $(item)Leather$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:weapon_book_freezing",
+			"link_recipe": true,
+			"text": "$(mob)Yetis$() rarely drop $()Freezing Book$() on death, which is a magical ranged weapon that launches snowballs which inflict $(thing)Slowness II$() on targets."
+		}
+	]
+}

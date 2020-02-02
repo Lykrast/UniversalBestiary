@@ -1,0 +1,31 @@
+{
+	"name": "Ant Salvager",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:ant_ranger'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:ant_ranger",
+	"advancement": "universalbestiary:grimoireofgaia_ant_ranger",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ant Ranger$() is monster that spawns undergrround in deserts in the $(thing)Overworld$(). It is resistant to Fire and immune to Poison and Knockback. The $(mob)Ant Ranger$() is completely immobile. It attacks the player at range with a lobbed projectile. It may apply a $(thing)Poison$() effect on its target and will turn invisible when the player gets too close. Breaking the block underneath it eliminates it. "
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:ant_ranger",
+			"scale": 0.5,
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_meat",
+			"link_recipe": true,
+			"text": "$(mob)Ant Salvagers$() drop $(item)Meat$() on death. These are a moderate source of food and have no other use."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Ant Salvagers$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

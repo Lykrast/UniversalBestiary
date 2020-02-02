@@ -1,0 +1,30 @@
+{
+	"name": "Mimic ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:mimic'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:mimic",
+	"advancement": "universalbestiary:grimoireofgaia_mimic",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mimic$() is a monster that spawns deep underground $(thing)Overworld$(). It appears as a normal $(item)Chest$() when at rest. When approached by a player or struck with a weapon, it will transform from a $(item)Chest$() into a hostile $(mob)Mimic$(), attacking nearby players. It can steal and consume items from a player's inventory to heal 20% of its health. Items stolen this way are destroyed and cannot be recovered. It afflicts players within 4 blocks of itself with a $(thing)Hunger$() effect. It is vulnerable to Fire."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:mimic",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_monster_feed",
+			"link_recipe": true,
+			"text": "$(mob)Mimics$() drop $(item)Monster Feed$() on death. This item can be used to tame any helper mobs from $(thing)Grimoire of Gaia$(). When tamed, they will behave like a vanilla $(l:minecraft_iron_golem)$(mob)Golem$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:weapon_book_hunger",
+			"link_recipe": true,
+			"text": "$(mob)Mimics$() drop $(item)Book of Hunger$() on death, which inflicts $(thing)Hunger on foes upon a melee strike. Additionally,  $(mob)Mimics$() may drop any item which a basic $(thing)Minecraft$() creature could drop on death."
+		}
+	]
+}

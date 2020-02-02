@@ -1,0 +1,30 @@
+{
+	"name": "Kobold ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:kobold'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:kobold",
+	"advancement": "universalbestiary:grimoireofgaia_kobold",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Kobold$() is a monster that spawns in the Ice Plains of the $(thing)Overworld$(). It attacks players on sight with ranged $(thing)Slowness$() or $(thing)Weakness$() arrows. A $(mob)Kobold$() will switch to melee attacks when in close proximity to its target and will gain a $(thing)Speed$() effect. "
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:kobold",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Kobolds$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:bag_arrow",
+			"link_recipe": true,
+			"text": "$(mob)Kobolds$() drop $(item)Sealed Quiver$() on death, which can be right-clicked while held to open and receive a small stack of potion arrows randomly chosen from among $(thing)Slowness$(), $(thing)Harming$(), $(thing)Poison$(), or $(thing)Weakness$() effects."
+		}
+	]
+}

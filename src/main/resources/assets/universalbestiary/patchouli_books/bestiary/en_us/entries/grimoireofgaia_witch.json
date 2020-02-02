@@ -1,0 +1,31 @@
+{
+	"name": "Witch (Grimoire of Gaia)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:witch'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:witch",
+	"advancement": "universalbestiary:grimoireofgaia_witch",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Witch$() is a monster that spawns in Roofed Forests on the surface in the $(thing)Overworld$() at night. It is immune to $(thing)Poison$() and $(thing)Harming$() potion effects. $(mob)Witches$() attack players on sight with a  ranged potion effect attack similar to the illager $(l:minecraft_witch)$(mob)Witch$(). In combat, it can spawn up to 1 $(l:minecraft_skeleton)$(mob)Skeleton$() and 1 $(l:minecraft_zombie)$(mob)Zombie$(), also granting summoned $(mob)Skeletons$() a $(thing)Resistance$() effect."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:witch",
+			"scale": 0.75,
+			"text": "$(li)80 Health$()$(li)8 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:deco_mandragora_pot",
+			"link_recipe": true,
+			"text": "$(mob)Witches$() rarely drop $(item)Mandragora Pot$() on death, which is a decorative block representing the $(mob)Mandragora$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_book",
+			"link_recipe": true,
+			"text": "$(mob)Witches$() rarely drop $(item)Book of Memory$() which can be used to gain 10 experience levels."
+		}
+	]
+}

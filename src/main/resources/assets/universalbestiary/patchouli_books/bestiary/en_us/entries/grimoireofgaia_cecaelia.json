@@ -1,0 +1,30 @@
+{
+	"name": "Cecaelia ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:cecaelia'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:cecaelia",
+	"advancement": "universalbestiary:grimoireofgaia_cecaelia",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cecaelia$() is an monster that spawns underground in the Ocean of the $(thing)Overworld$(). It is immune to Fire and drowning, and moves freely in water. $(mob)Cecaelias$() attack players on sight, and are able to swap between ranged and melee attacks which apply a $(thing)Mining Fatigue$() effect on their target. $(mob)Cecaelias$() receives a $(thing)Resistance$() and $(thing)Regeneration$() effect when under water."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:cecaelia",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_coalfish",
+			"link_recipe": true,
+			"text": "$(mob)Cecaelia$() drops $(item)Coalfish$() on death. which can be burned in a furnace and provides heat for 180 seconds. "
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Cecaelias$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

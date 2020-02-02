@@ -1,0 +1,30 @@
+{
+	"name": "Harpy_Wizard",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:harpy_wizard'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:harpy_wizard",
+	"advancement": "universalbestiary:grimoireofgaia_harpy_wizard",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wizard Harpy$() is a flying monster that spawns in Roofed Forests in the $(thing)Overworld$(). All $(mob)Wizard Harpies$() spawn with a $(item)Magic Book$(), and attack players using magic projectiles which inflict a random effect based upon the $(item)Magic Book$() they are spawned with. $(mob)Wizard Harpies$() are immune to falling damage. When a $(mob)Wizard Harpy$() is reduced to 25% health or lower, it may flee combat entirely."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:harpy_wizard",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_soul_fire",
+			"link_recipe": true,
+			"text": "$(mob)Wizard Harpies$() drop $(item)Soul Fire$() on death. These are an excellent source of fuel and burn for 580 seconds. Can also be used like $(item)Flint and Steel$() to start fires. "
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_book",
+			"link_recipe": true,
+			"text": "$(mob)Wizard Harpies$() rarely drop $(item)Book of Memory$() which can be used to gain 10 experience levels."
+		}
+	]
+}

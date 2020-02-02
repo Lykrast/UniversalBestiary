@@ -1,0 +1,30 @@
+{
+	"name": "Nine-Tails ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:nine_tails'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:nine_tails",
+	"advancement": "universalbestiary:grimoireofgaia_nine_tails",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Nine-Tails$() is a monster that spawns in Taigas of the $(thing)Overworld$(). It attacks players on sight by throwing fireballs at them from range, which set targets on fire. When reduced below 75% health, a $(mob)Nine-Tails$() engages its target in melee. $(mob)Nine-Tails$() can spawn equipped with a $(item)Hand Fan$() which increases the knockback of their attacks. $(mob)Nine-Tails$() are immune to Fire."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:nine_tails",
+			"text": "$(li)80 Health$()$(li)6 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_soul_fire",
+			"link_recipe": true,
+			"text": "$(mob)Nine-Tails$() drop $(item)Soul Fire$() on death. These are an excellent source of fuel and burn for 580 seconds. Can also be used like $(item)Flint and Steel$() to start fires."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:weapon_fan_fire",
+			"link_recipe": true,
+			"text": "$(mob)Nine-Tails$() rarely drop $(item)Ornate Fire Fan$() on death, which is a magical melee weapon bearing the $(thing)Fire Aspect II$() and $(thing)Knockback I$() enchantments."
+		}
+	]
+}

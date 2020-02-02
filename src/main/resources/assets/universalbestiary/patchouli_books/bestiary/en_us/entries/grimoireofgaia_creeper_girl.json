@@ -1,0 +1,24 @@
+{
+	"name": "Creeper Girl ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:creeper_girl'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:grimoireofgaia:creeper_girl",
+	"advancement": "universalbestiary:grimoireofgaia_creeper_girl",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Creeper Girl$() is a helper that can be spawned from the $(thing)Creeper Girl Egg$(). It flees when attacked, but can trade various items in exchange for $(item)Gunpowder$(), similar to a $(l:minecraft_villager)$(mob)Villager$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:creeper_girl",
+			"text": "$(li)40 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:spawn_creeper_girl",
+			"link_recipe": true,
+			"text": "$(mob)Creeper Girls$() can drop a $(item)Creeper Girl Egg$() on death. This item can be used to spawn a passive $(l:grimoireofgaia_spawn_creeper_girl)$(mob)Creeper Girl$() helper for the player."
+		}
+	]
+}

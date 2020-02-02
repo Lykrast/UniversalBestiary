@@ -1,0 +1,24 @@
+{
+	"name": "Incinerator",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:illager_fire'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:illager_fire",
+	"advancement": "universalbestiary:grimoireofgaia_illager_fire",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Incinerator$() is a monster that attacks players on sight by launching fireball attacks at ranged similar to a $(l:minecraft_blaze)$(mob)Blaze$(), dealing fire damage and lighting its target on fire. When reduced to 75% health or lower, an $(mob)Incinerator$() will switch to melee combat, retaining its ability to light its target on fire. It is immune to Fire."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:illager_fire",
+			"text": "$(li)80 Health$()$(li)6 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:gold_nugget",
+			"link_recipe": true,
+			"text": "$(mob)Incinerators$() drop $(item)Gold Nuggets$() on death, which can be combined to make $(item)Gold Ingots$()."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "Cyclops ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:cyclops'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:cyclops",
+	"advancement": "universalbestiary:grimoireofgaia_cyclops",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cyclops$() is a monster that spawns on the surface of Taiga biomes in the $(thing)Overworld$(). She attacks the player on sight with melee attacks which apply a $(thing)Slowness$() effect. While below 25% health in combat, she will receive a $(thing)Speed$() effect."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:cyclops",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_fur",
+			"link_recipe": true,
+			"text": "$(mob)Cyclops$() drop $(item)Fur$() on death, which can be smelted in a furnace to create $(item)Leather$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Cyclops$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

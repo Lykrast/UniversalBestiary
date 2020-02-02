@@ -1,0 +1,30 @@
+{
+	"name": "Werecat ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:werecat'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:werecat",
+	"advancement": "universalbestiary:grimoireofgaia_werecat",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Werecat$() is a monster that spawns in Forests of the $(thing)Overworld$() at night. It attacks players on sight by closing the distance with a leaping attack with strong knockback before following up with rapid melee attacks which inflict $(thing)Slowness$() and $(thing)Mining Fatigue$() on hit. When reduced to 25% health or lower, a $(mob)Werecat$() may flee combat entirely."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:werecat",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_meat",
+			"link_recipe": true,
+			"text": "$(mob)Werecats$() drop $(item)Meat$() on death, which serves as a decent source of food."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Werecats$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "Wither_Cow ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:wither_cow'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:wither_cow",
+	"advancement": "universalbestiary:grimoireofgaia_wither_cow",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wither Cow$() is a monster that spawns in the $(thing)Nether$(). It attacks players on sight, inflicting $(thing)Wither$() with its attacks, and projecting an aura that afflicts all creatures within 4 blocks with $(thing)Slowness$(). It is immune to $(thing)Wither$(), Fire, and knockback. When a $(mob)Nether Cow$() dies, it leaves behind a lingering $(thing)Wither$() potion effect."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:wither_cow",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:quartz",
+			"link_recipe": true,
+			"text": "$(mob)Wither Cows$() drop $(item)Nether Quartz$() or $(item)Glowstone Dust$() on death, which are useful for many crafting recipes, potions and blocks."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_wither",
+			"link_recipe": true,
+			"text": "$(mob)Wither Cows$() drop $(item)Withered Brains$() on death, which is a decent but dangerous food source as it may inflict $(thing)Wither$() on players when consumed."
+		}
+	]
+}

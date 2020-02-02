@@ -1,0 +1,30 @@
+{
+	"name": "Naga ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:naga'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:naga",
+	"advancement": "universalbestiary:grimoireofgaia_naga",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Naga$() is a monster that spawns in Swamps in the $(thing)Overworld$(). It attacks players on sight with melee attacks that inflict $(thing)Slowness$() and $(thing)Mining Fatigue$() on hit. $(mob)Nagas$() are immune to $(thing)Poison$(), drowning, and ranged attacks, and can move through water unimpeded. When below 25% health, a $(mob)Naga$() gains a $(thing)Speed$() effect and will retreat to water to heal. While in water, $(mob)Nagas$() heal for 10% of their health every 5 seconds and gain $(thing)Resistance$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:naga",
+			"text": "$(li)80 Health$()$(li)6 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:fish",
+			"link_recipe": true,
+			"text": "$(mob)Nagas$() drop $(item)Fish$() on death, which are a good source of food when cooked, and can be used to tame $(l:minecraft_ocelot)$(mob)Ocelots$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_gold",
+			"link_recipe": true,
+			"text": "$(mob)Nagas$() drop $(item)Gold Box$() on death, which can be right-clicked while held to open and receive a random tool, weapon, or armor piece made of gold. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Medium)$()."
+		}
+	]
+}

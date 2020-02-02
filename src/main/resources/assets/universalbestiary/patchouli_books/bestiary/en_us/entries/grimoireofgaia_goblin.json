@@ -1,0 +1,30 @@
+{
+	"name": "Goblin ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:goblin'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:goblin",
+	"advancement": "universalbestiary:grimoireofgaia_goblin",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Goblin$() is a neutral monster that spawns on the surface in Savannas in the $(thing)Overworld$(). It is passive and does not attack players unless provoked, at which point it engages in melee. $(mob)Goblins$() may spawn with wooden weapons and occasionally a $(mob)Goblin$() may spawn as a $(mob)Goblin Sapper$(), equipped with a powder keg and $(item)Bombs$(), which they throw at medium range in combat to attack."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:goblin",
+			"text": "$(li)40 Health$()$(li)3-6 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:iron_nugget",
+			"link_recipe": true,
+			"text": "$(mob)Goblins$() drop $(item)Iron Nuggets$() on death, which can be combined to make $(item)Iron Ingots$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_meat",
+			"link_recipe": true,
+			"text": "$(mob)Goblins$() drop $(item)Meat$() on death, which serves as a decent source of food."
+		}
+	]
+}

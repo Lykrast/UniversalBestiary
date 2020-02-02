@@ -1,0 +1,31 @@
+{
+	"name": "Buffalo ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'totemic:buffalo'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:totemic:buffalo",
+	"advancement": "universalbestiary:totemic_buffalo",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Buffalo$() is a passive animal that does not spawn naturally in the $(thing)Overworld$(). Players must perform the $(thing)Buffalo Dance Ceremony$() near a $(l:minecraft_cow)$(mob)Cow$() to imbue it with power, tranforming it into a $(mob)Buffalo$(). It will start as a baby, but mature into an adult in time. Can be bred with $(item)Wheat$()."
+		},
+		{
+			"type": "entity",
+			"entity": "totemic:buffalo",
+			"scale": 0.5,
+			"text": "$(li)25 Health$()$(li)2 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "totemic:buffalo_items",
+			"link_recipe": true,
+			"text": "$(mob)Buffalos$() drop $(item)Buffalo Hide$() on death. This hide can be used for various Totemic recipes, such as the $(item)Medicine Bag$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "totemic:buffalo_items:1",
+			"link_recipe": true,
+			"text": "The $(mob)Buffalo$() drops $(item)Buffalo Tooth$() on death. This tooth can be used for various Totemic recipes, such as the $(item)Bone Flute$()."
+		}
+	]
+}

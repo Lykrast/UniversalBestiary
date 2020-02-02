@@ -1,0 +1,30 @@
+{
+	"name": "Matango ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:matango'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:matango",
+	"advancement": "universalbestiary:grimoireofgaia_matango",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Matango$() is a humanoid monster that spawns in roofed forests on the surface in the $(thing)Overworld$(). It is immune to poison and knockback and has a weakness to fire and axes. The $(mob)Matango$() will attack players on sight with a mix of melee and ranged attacks, and can apply a $(thing)Nausea$() effect to its target. In combat, it can spawn up to 5 $(mob)Sporelings$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:matango",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:iron_nugget",
+			"link_recipe": true,
+			"text": "$(mob)Matango$() drop $(item)Iron Nuggets$() on death, which can be combined to make $(item)Iron Ingots$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Matango$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

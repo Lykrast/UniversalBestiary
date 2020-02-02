@@ -1,0 +1,30 @@
+{
+	"name": "Toad ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:toad'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:toad",
+	"advancement": "universalbestiary:grimoireofgaia_toad",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Toad$() is a monster that spawns in Roofed Forests of the $(thing)Overworld$(). It attacks players with a leaping attack with knockback before engaging with melee attacks, inflicting (thing)Poison$(). It is resistant to fire and immune to $(thing)Poison$(). While in water, a $(mob)Toad$() gains a $(thing)Resistance$() effect and regenerates 10% of its health every 5 seconds. It is vulnerable to warm climates, where it is inflicted with $(thing)Slowness$() and $(thing)Weakness$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:toad",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:slime_ball",
+			"link_recipe": true,
+			"text": "$(mob)Toads$() drop $(item)Slimeballs$() on death, which are used for crafting a variety of items such as $(item)Sticky Pistons$(), $(item)Leads$(), and many others."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:accessory_trinket_poison",
+			"link_recipe": true,
+			"text": "$(mob)Toads$() rarely drop $(item)Toadstone$() on death, which is a magical charm that grants players immunity to $(thing)Poison$() when carried in their hotbar."
+		}
+	]
+}

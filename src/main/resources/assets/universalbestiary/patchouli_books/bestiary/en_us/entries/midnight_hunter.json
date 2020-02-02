@@ -1,5 +1,5 @@
 {
-	"name": "Hunter",
+	"name": "Hunter (The Midnight)",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'midnight:hunter'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:midnight:hunter",

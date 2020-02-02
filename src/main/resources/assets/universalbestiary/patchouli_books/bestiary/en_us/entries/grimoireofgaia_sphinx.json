@@ -1,0 +1,30 @@
+{
+	"name": "Sphinx ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:sphinx'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:sphinx",
+	"advancement": "universalbestiary:grimoireofgaia_sphinx",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Sphinx$() is a monster that spawns in the Deserts of the $(thing)Overworld$() at night. It attacks players on sight, inflicting $(thing)Slowness$() and $(thing)Mining Fatigue$() with its melee strikes. It is immune to falling damage, Fire, drowning, and ranged attacks. It can move through cobwebs and water unimpeded. When a $(mob)Sphinx's$() health drops below 75% it will regenerate 10% of its total health."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:sphinx",
+			"text": "$(li)160 Health$()$(li)16 Armor$()$(li)18 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_small_apple_gold",
+			"link_recipe": true,
+			"text": "$(mob)Sphinxes$() drop $(item)Golden Apple Pie Slices$() on death, which can be eaten to grant players the same benefits as gained from eating a $(item)Golden Apple$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:chest:2",
+			"link_recipe": true,
+			"text": "$(mob)Sphinxes$() rarely drop $(item)Desert Box$() on death, which can be right-clicked while held to open and receive two random ittems found in Desert Pyramids."
+		}
+	]
+}

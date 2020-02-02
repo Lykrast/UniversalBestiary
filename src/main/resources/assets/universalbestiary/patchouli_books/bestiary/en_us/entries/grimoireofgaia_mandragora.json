@@ -1,0 +1,30 @@
+{
+	"name": "Mandragora ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:mandragora'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:mandragora",
+	"advancement": "universalbestiary:grimoireofgaia_mandragora",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mandragora$() is monster that spawns when a player walks over or attacks a $(l:grimoireofgaia_cyan_flower)$(mob)Cyan Flower$(). It is immune to $(thing)Poison$() and $(thing)knockback$(), but is vulnerable to Fire and shovels. If a $(mob)Mandragora$() is spawned from a player step, it is passive unless provoked. If a player attacks the $(mob)Mandragora$() or the $(mob)Cyan Flower$() that spawned it, it retaliates with melee attacks and an aura including $(thing)Slowness$(), $(thing)Night Vision$(), and $(thing)Nausea$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:mandragora",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Mandragora$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:deco_garden_gnome",
+			"link_recipe": true,
+			"text": "$(mob)Mandragora$() drop $(item)Garden Gnomes$() on death, which can be right-clicked and placed on the ground as a decoration."
+		}
+	]
+}

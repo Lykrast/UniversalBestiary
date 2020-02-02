@@ -1,0 +1,24 @@
+{
+	"name": "Baykok ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'totemic:baykok'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:totemic:baykok",
+	"advancement": "universalbestiary:totemic_baykok",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Baykok$() is a boss that does not spawn naturally in the $(thing)Overworld$(). Players must perform the $(thing)Totentanz Ceremony$() to summon it, after which It will immediately attack nearby players with rapidly fired arrow attacks."
+		},
+		{
+			"type": "entity",
+			"entity": "totemic:baykok",
+			"text": "$(li)200 Health$()$(li)5 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "totemic:baykok_bow",
+			"link_recipe": true,
+			"text": "$(mob)Baykoks$() drops the $(item)Baykok Bow$() on death. This bow is stronger and has a higher enchantability than a mundane $(item)Bow$(). Any arrows fired from this bow are only visible to the player who fires them."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "Fairy ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'wizardry:fairy'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:wizardry:fairy",
+	"advancement": "universalbestiary:wizardry_fairy",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Fairy$() is a passive flying animal that spawns in the $(thing)Underworld$(). It flies around aimlessly and flees when attacked. It can be collected in an $(item)Empty Jar$() when right-clicked with the item in hand to produce a $(item)Fairy in a Jar$()."
+		},
+		{
+			"type": "entity",
+			"entity": "wizardry:fairy",
+			"text": "$(li)1 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "wizardry:fairy_dust",
+			"link_recipe": true,
+			"text": "$(mob)Fairies$() drop $(item)Fairy Dust$() on death. This is a common ingredient for creating spells, and can be converted into $(item)Sky Dust$() when thrown into an open fire."
+		},
+		{
+			"type": "spotlight",
+			"item": "wizardry:fairy_wings",
+			"link_recipe": true,
+			"text": "$(mob)Fairies$() drop $(item)Fairy Wings$() on death. They can be used as decoration when mounted in an $(item)Item Frame$()."
+		}
+	]
+}

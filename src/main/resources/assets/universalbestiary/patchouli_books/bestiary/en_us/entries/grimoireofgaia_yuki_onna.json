@@ -1,0 +1,30 @@
+{
+	"name": "Yuki_Onna",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:yuki_onna'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:yuki_onna",
+	"advancement": "universalbestiary:grimoireofgaia_yuki_onna",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Yuki-Onna$() is a neutral monster that spawns in Taigas of the $(thing)Overworld$() during rainy or snowy weather. It will not attack players unless provoked at which point it attacks in melee, inflicting $(thing)Slowness IV$() on hit. $(mob)Yuki-Onnas$() can spawn equipped with a $(item)Hand Fan$() which increases the knockback of their attacks. $(mob)Yuki-Onnas$() are immune to Fire and falling damage, and can move through cobwebs unimpeded. When reduced to 50% health or lower, a $(mob)Yuki-Onna$() may flee combat entirely. $(mob)Yuki-Onnas$() are vulnerable to warm climates and are inflicted with $(thing)Slowness$() and $(thing)Weakness$() if they enter warm or hot biomes."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:yuki_onna",
+			"text": "$(li)20 Health$()$(li)4 Armor$()$(li)4 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_fur",
+			"link_recipe": true,
+			"text": "$(mob)Yuki-Onnas$() drop $(item)Fur$() on death, which can be smelted in a furnace to create $(item)Leather$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:weapon_fan_ice",
+			"link_recipe": true,
+			"text": "$(mob)Yuki-Onnas$() rarely drop $(item)Ornate Ice FanS() on death, which is a magical melee weapon bearing the$(thing)Knockback II$() enchantment and can inflict $(thing)Slowness IV$() on hit."
+		}
+	]
+}

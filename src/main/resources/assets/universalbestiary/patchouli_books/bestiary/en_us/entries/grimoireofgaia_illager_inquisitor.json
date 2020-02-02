@@ -1,0 +1,25 @@
+{
+	"name": "Illager_Inquisitor",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:illager_inquisitor'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:illager_inquisitor",
+	"advancement": "universalbestiary:grimoireofgaia_illager_inquisitor",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Inquisitor$() is a monster that does not spawn naturally. It attacks players on sight with simple melee attacks. "
+		},
+		{
+			"type": "entity",
+			"scale": 0.75,
+			"entity": "grimoireofgaia:illager_inquisitor",
+			"text": "$(li)20 Health$()$(li)4 Armor$()$(li)4 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:iron_nugget",
+			"link_recipe": true,
+			"text": "$(mob)Inquisitors$() drop $(item)Iron Nuggets$() on death, which can be combined to make $(item)Iron Ingots$()."
+		}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "Ender_Eye ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:ender_eye'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:ender_eye",
+	"advancement": "universalbestiary:grimoireofgaia_ender_eye",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ender Eye$() is neutral flying monster that spawns in dark places and on the surface at night in the $(thing)Overworld$(). It is immune to falling damage and web effects. Similar to the $(l:minecraft_enderman)$(mob)Enderman$(), an $(mob)Ender Eye$() is passive unless a player makes eye-contact with it, then it will immediately attack the player. As an End creature, it is vulnerable to water and teleports in combat."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:ender_eye",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:ender_pearl",
+			"link_recipe": true,
+			"text": "$(mob)Ender Eyes$() drop $(item)Ender Pearls$() on death. These can be thrown to teleport the user where it lands, at the cost of some life."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box",
+			"link_recipe": true,
+			"text": "$(mob)Ender Eyes$() drop $(item)Ore Box$() on death, which can be right-clicked while held to open and receive a random ore found in the $(thing)Overworld$()."
+		}
+	]
+}

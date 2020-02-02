@@ -1,0 +1,31 @@
+{
+	"name": "Vampire ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:vampire'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:vampire",
+	"advancement": "universalbestiary:grimoireofgaia_vampire",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Vampire$() is a monster that spawns in the Ice Plains of the $(thing)Overworld$() at night. It attacks players on sight with life-draining melee attacks, which inflict $(thing)Mining Fatigue$() on contact and summoning up to 5 $(l:grimoireofgaia_butler)$(mob)Butlers$() to aid it. A $(mob)Vampire$() heals itself for 10% of their health per hit. It is immune to falling damage, drowning, Fire, and ranged attacks. A $(mob)Vampire$() can move through cobwebs and water unimpeded but is vulnerable to sunlight. "
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:vampire",
+			"offset": -6,
+			"text": "$(li)160 Health$()$(li)16 Armor$()$(li)16 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_small_apple_gold",
+			"link_recipe": true,
+			"text": "$(mob)Vampires$() drop $(item)Golden Apple Pie Slices$() on death, which can be eaten to grant players the same benefits as gained from eating a $(item)Golden Apple$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:bust_vampire",
+			"link_recipe": true,
+			"text": "$(mob)Vampires$() rarely drop $(item)The Vampire$(), which is a decorative item similar to a $(item)Minotaur Bust$(), representing the $(mob)Vampire$() creature."
+		}
+	]
+}

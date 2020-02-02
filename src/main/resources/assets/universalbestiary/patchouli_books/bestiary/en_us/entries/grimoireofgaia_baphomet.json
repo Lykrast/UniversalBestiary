@@ -1,0 +1,30 @@
+{
+	"name": "Baphomet ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:baphomet'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:baphomet",
+	"advancement": "universalbestiary:grimoireofgaia_baphomet",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Baphomet$() is a monster that spawns in the $(thing)Nether$(). It is immune to Fire and Wither. It attacks players on sight with a mix of hurling fireballs at ranged and melee strikes which apply $(thing)Weakness$() and $(thing)Slowness$() effects."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:baphomet",
+			"text": "$(li)80 Health$()$(li)8 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_nether_wart",
+			"link_recipe": true,
+			"text": "$(mob)Baphomet$() drops $(item)Nether Wart Jam$() on death. These are a moderate source of food and provide a 40% $(thing)Speed$() and $(thing)Haste$() effect for 30 seconds. "
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box:1",
+			"link_recipe": true,
+			"text": "$(mob)Baphomet$() drops $(item)Nether Box$() on death, which can be right-clicked while held to open and receive a random block found in the $(thing)Nether$()."
+		}
+	]
+}

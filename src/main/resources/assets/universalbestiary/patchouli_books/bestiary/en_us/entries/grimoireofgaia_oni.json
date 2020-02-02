@@ -1,0 +1,30 @@
+{
+	"name": "Oni ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:oni'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:oni",
+	"advancement": "universalbestiary:grimoireofgaia_oni",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Oni$() is a monster that spawns in Taigas of the $(thing)Overworld$() at night. It attacks players on sight by attempting to get into melee, inflicting $(thing)Slowness$() on hit. When reduced below 25%, $(mob)Oni$() gain a $(thing)Strength$() potion effect. "
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:oni",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_soul_fire",
+			"link_recipe": true,
+			"text": "$(mob)Oni$() drop $(item)Soul Fire$() on death. These are an excellent source of fuel and burn for 580 seconds. Can also be used like $(item)Flint and Steel$() to start fires. "
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Oni$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

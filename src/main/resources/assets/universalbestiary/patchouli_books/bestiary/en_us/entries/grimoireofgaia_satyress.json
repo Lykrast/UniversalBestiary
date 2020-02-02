@@ -1,0 +1,30 @@
+{
+	"name": "Satyress ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:satyress'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:satyress",
+	"advancement": "universalbestiary:grimoireofgaia_satyress",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Satyress$() is a neutral monster that spawns in Plains and Mesa of the $(thing)Overworld$(). It will not attack players unless provoked, at which point it engages in melee, inflicting $(thing)Slowness$() on hit. When reduced below 25% health, a $(mob)Satyress$() will flee from combat to recover health before resuming the attack."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:satyress",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_meat",
+			"link_recipe": true,
+			"text": "$(mob)Satyresses$() drop $(item)Meat$() on death, which serves as a decent source of food."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Satyresses$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

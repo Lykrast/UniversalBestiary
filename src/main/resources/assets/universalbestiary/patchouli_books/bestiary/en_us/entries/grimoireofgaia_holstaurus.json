@@ -1,0 +1,24 @@
+{
+	"name": "Holstaurus ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:holstaurus'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:grimoireofgaia:holstaurus",
+	"advancement": "universalbestiary:grimoireofgaia_holstaurus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Holstaurus$() is a helper that can be spawned from the $(thing)Holstaurus Egg$(). It flees when attacked, but can trade various items in exchange for $(item)Holstaurus Tokens$(), similar to a $(l:minecraft_villager)$(mob)Villager$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:holstaurus",
+			"text": "$(li)40 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:spawn_holstaurus",
+			"link_recipe": true,
+			"text": "$(mob)Holstaurus$() can drop a $(item)Holstaurus Egg$() on death. This item can be used to spawn a passive $(mob)Holstaurus$() helper for the player."
+		}
+	]
+}

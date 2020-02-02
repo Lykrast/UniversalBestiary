@@ -1,0 +1,18 @@
+{
+	"name": "Nether Wasp ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'biomesoplenty:wasp'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:biomesoplenty:wasp",
+	"advancement": "universalbestiary:biomesoplenty_wasp",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Nether Wasp$() is a flying monster that spawns from $(thing)Wasp Nests$() in the $(thing)Nether$(). It attacks players on sight by flying quickly towards them and attacking in melee."
+		},
+		{
+			"type": "entity",
+			"entity": "biomesoplenty:wasp",
+			"text": "$(li)10 Health$()$(li)2-3 Damage$()"
+		}
+	]
+}

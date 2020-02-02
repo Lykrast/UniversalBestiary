@@ -1,0 +1,30 @@
+{
+	"name": "Spriggan ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:spriggan'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:spriggan",
+	"advancement": "universalbestiary:grimoireofgaia_spriggan",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Spriggan$() is a monster that spawns in the Forests of the $(thing)Overworld$() at night. It stealthily waits for players to approach it before attacking, benefitting from an $(thing)Invisibility$() effect until a player comes within 6 blocks of it. It is vulnerable to Fire and axes. While in water, $(mob)Spriggans$() gain $(thing)Resistance$() and regenerate 10% of their health every 5 seconds."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:spriggan",
+			"text": "$(li)80 Health$()$(li)8 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_root",
+			"link_recipe": true,
+			"text": "$(mob)Spriggans$() drop $(item)Taproot$() on death, which can be eaten to clear all negative potion effects on a player."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:weapon_book_nature",
+			"link_recipe": true,
+			"text": "$(mob)Spriggans$() rarely drop $(item)Book of Nature$() on death, which is a magical ranged weapon that fires projectiles which inflict $(thing)Poison$() on hit."
+		}
+	]
+}

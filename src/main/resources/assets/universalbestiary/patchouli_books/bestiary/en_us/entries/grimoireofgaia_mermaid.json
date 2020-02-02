@@ -1,0 +1,30 @@
+{
+	"name": "Mermaid (Grimoire of Gaia)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:mermaid'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:mermaid",
+	"advancement": "universalbestiary:grimoireofgaia_mermaid",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mermaid$() is a monster that spawns in the oceans of the $(thing)Overworld$(). It is immune to drowning, and ranged attacks, can move through water unimpeded, and is resistant to Fire. While in water, it gains a $(thing)Resistance$() effect and restores 10% of its health every 5 seconds. $(mob)Mermaids$() are passive until provoked, at which point It attacks with melee strikes which apply $(thing)Mining Fatigue$() and $(thing)Slowness$() effects."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:mermaid",
+			"text": "$(li)80 Health$()$(li)8 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:food_nether_wart",
+			"link_recipe": true,
+			"text": "$(mob)Mermaids$() drops $(item)Nether Wart Jam$() on death. These are a moderate source of food and provide a 40% $(thing)Speed$() and $(thing)Haste$() effect for 30 seconds. "
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box:1",
+			"link_recipe": true,
+			"text": "$(mob)Mermaids$() drop $(item)Nether Box$() on death, which can be right-clicked while held to open and receive a random block found in the $(thing)Nether$()."
+		}
+	]
+}

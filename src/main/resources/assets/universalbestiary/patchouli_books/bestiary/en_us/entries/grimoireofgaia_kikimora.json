@@ -1,0 +1,30 @@
+{
+	"name": "Kikimora ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:kikimora'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:kikimora",
+	"advancement": "universalbestiary:grimoireofgaia_kikimora",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Kikimora$() is a helper monster that spawns on the surface in Icy Taigas in the $(thing)Overworld$(). It is passive, and will not attack players unless attacked first, after which it will strike with simple melee attacks. $(mob)Kikimora$() can sometimes spawn holding a $(item)Broom$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:kikimora",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_fur",
+			"link_recipe": true,
+			"text": "$(mob)Kikimora$() drop $(item)Fur$() on death, which can be smelted in a furnace to create $(item)Leather$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Kikimora$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

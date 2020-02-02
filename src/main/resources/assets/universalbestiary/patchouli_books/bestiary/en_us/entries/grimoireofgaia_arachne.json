@@ -1,0 +1,30 @@
+{
+	"name": "Arachne ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:arachne'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:arachne",
+	"advancement": "universalbestiary:grimoireofgaia_arachne",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Arachne$() is a monster that spawns in dark places in the $(thing)Overworld$(). It is immune to $(thing)Poison, can pass through Cobwebs unimpeded, and can climb walls. It attacks players on sight with ranged attacks and switches to melee when below 50% health. Its attacks can apply a $(thing)Poison$() or web effect. $(mob)Arachne$() can spawn up to 2 $(mob)Cave Spiders$() and will grant them a $(thing)Resistance$() effect."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:arachne",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_furnace_fuel",
+			"link_recipe": true,
+			"text": "$(mob)Arachne$() drop $(item)Stone Coal$() on death. This can be used in a furnace as a moderate source of fuel. "
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box",
+			"link_recipe": true,
+			"text": "$(mob)Arachne$() drop $(item)Ore Box$() on death, which can be right-clicked while held to open and receive a random ore found in the $(thing)Overworld$()."
+		}
+	]
+}

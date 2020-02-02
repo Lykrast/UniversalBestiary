@@ -1,0 +1,30 @@
+{
+	"name": "Weresheep ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:weresheep'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:grimoireofgaia:weresheep",
+	"advancement": "universalbestiary:grimoireofgaia_weresheep",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Weresheep$() is a helper that can be spawned from the $(thing)Weresheep Egg$(). It flees when attacked, but can trade various items in exchange for $(item)Weresheep Tokens$(), similar to a $(l:minecraft_villager)$(mob)Villager$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:weresheep",
+			"text": "$(li)40 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:spawn_weresheep",
+			"link_recipe": true,
+			"text": "$(mob)Weresheeps$() can drop a $(item)Weresheep Egg$() on death. This item can be used to spawn a passive $(mob)Weresheep$() helper for the player."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:wool",
+			"link_recipe": true,
+			"text": "$(mob)Weresheep$() can be dyed different colors and sheared for $(item)Wool$() of their corresponding color, similar to $(l:minecraft_sheep)$(mob)Sheep$(). However, $(mob)Weresheep$() sheared do not regrow their wool."
+		}
+	]
+}

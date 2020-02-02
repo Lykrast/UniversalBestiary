@@ -1,0 +1,24 @@
+{
+	"name": "Ender Girl ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:ender_girl'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:grimoireofgaia:ender_girl",
+	"advancement": "universalbestiary:grimoireofgaia_ender_girl",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ender Girl$() is a helper that can be spawned from the $(thing)Ender Girl Egg$(). It flees when attacked, but can trade various items in exchange for $(item)Ender Pearls$(), similar to a $(l:minecraft_villager)$(mob)Villager$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:ender_girl",
+			"text": "$(li)40 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:spawn_ender_girl",
+			"link_recipe": true,
+			"text": "$(mob)Ender Girls$() can drop a $(item)Ender Girl Egg$() on death. This item can be used to spawn a passive $(mob)Ender Girl$() helper for the player."
+		}
+	]
+}

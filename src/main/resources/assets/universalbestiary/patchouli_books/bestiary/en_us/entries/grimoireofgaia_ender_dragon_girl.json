@@ -1,0 +1,30 @@
+{
+	"name": "Ender Dragon Girl ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:ender_dragon_girl'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:ender_dragon_girl",
+	"advancement": "universalbestiary:grimoireofgaia_ender_dragon_girl",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ender Dragon Girl$() is a neutral monster that spawns in $(thing)The End$(). Like the $(l:minecraft_enderman)$(mob)Enderman$(), she is vulnerable to water, has an immunity to falling damage and web effects, and will teleport in combat. Although usually passive, she will retaliate if attacked or if a nearby $(mob)Enderman$() is provoked."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:ender_dragon_girl",
+			"text": "$(li)80 Health$()$(li)8 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box:2",
+			"link_recipe": true,
+			"text": "$(mob)Ender Dragon Girls$() drop $(item)Ender Box$() on death, which can be right-clicked while held to open and receive random blocks from $(item)The End$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:spawn_ender_girl",
+			"link_recipe": true,
+			"text": "$(mob)Ender Dragon Girl$() can drop a $(item)Ender Girl Egg$() on death. This item can be used to spawn a passive $(l:grimoireofgaia_ender_girl)$(mob)Ender Girl$() helper for the player."
+		}
+	]
+}

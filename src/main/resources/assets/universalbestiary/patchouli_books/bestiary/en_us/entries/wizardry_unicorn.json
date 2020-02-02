@@ -1,0 +1,30 @@
+{
+	"name": "Unicorn ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'wizardry:unicorn'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:wizardry:unicorn",
+	"advancement": "universalbestiary:wizardry_unicorn",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Unicorn$() is a flying monster that spawns in the $(thing)Underworld$(). It attacks players on sight, charging them with its horn and then attacking in melee with very strong knockback."
+		},
+		{
+			"type": "entity",
+			"entity": "wizardry:unicorn",
+			"text": "$(li)30 Health$()$(li)5 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:leather",
+			"link_recipe": true,
+			"text": "$(mob)Unicorns$() drop $(item)Leather$() on death, which can be used to make armor and various other items, such as $(item)Books$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "wizardry:unicorn_horn",
+			"link_recipe": true,
+			"text": "$(mob)Unicorns$() rarely drop a $(item)Unicorn Horn$() on death, which is primarily used to upgrade a $(item)Crude Halo$() into a true $(item)Halo$(). It may also be used to create a $(item)Unicorn Horn Dagger$()."
+		}
+	]
+}

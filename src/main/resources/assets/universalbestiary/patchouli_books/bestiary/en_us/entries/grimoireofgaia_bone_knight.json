@@ -1,0 +1,30 @@
+{
+	"name": "Bone Knight ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:bone_knight'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:bone_knight",
+	"advancement": "universalbestiary:grimoireofgaia_bone_knight",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Bone Knight$() is a monster that spawns in the $(thing)Overworld$(). As an undead, it is vulnerable to sunlight and the $(thing)Smite$() enchantment. $(mob)Bone Knights$() are immune to ranged attacks, and can sometimes resist knockback from attacks. A $(mob)Bone Knight$() attacks players on sight and its attacks apply a $(thing)Slowness$() and $(thing)Mining Fatigue$(thing) on its target. "
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:bone_knight",
+			"text": "$(li)80 Health$()$(li)8 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box",
+			"link_recipe": true,
+			"text": "$(mob)The Bone Knight$() drops $(item)Ore Box$() on death. Right-click to open and receive a random overworld ore."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:skull",
+			"link_recipe": true,
+			"text": "$(mob)The Bone Knight$() can drop a $(item)Skull$() on death."
+		}
+	]
+}

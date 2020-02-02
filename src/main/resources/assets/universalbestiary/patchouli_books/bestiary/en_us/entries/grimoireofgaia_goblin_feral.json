@@ -1,0 +1,24 @@
+{
+	"name": "Feral Goblin",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:goblin_feral'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:goblin_feral",
+	"advancement": "universalbestiary:grimoireofgaia_goblin_feral",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Feral Goblin$() is a monster that has no natural spawn location. It attacks players on sight, by engaging in melee. $(mob)Feral Goblins$() may spawn with wooden weapons and occasionally spawn with a shield which renders them immune to ranged attacks."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:goblin_feral",
+			"text": "$(li)20 Health$()$(li)4 Armor$()$(li)4 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:iron_nugget",
+			"link_recipe": true,
+			"text": "$(mob)Feral Goblins$() drop $(item)Iron Nuggets$() on death, which can be combined to make $(item)Iron Ingots$()."
+		}
+	]
+}

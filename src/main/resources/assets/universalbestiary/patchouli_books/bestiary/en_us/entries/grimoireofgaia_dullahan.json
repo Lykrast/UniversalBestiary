@@ -1,0 +1,30 @@
+{
+	"name": "Dullahan ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:dullahan'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:dullahan",
+	"advancement": "universalbestiary:grimoireofgaia_dullahan",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Dullahan$() is a monster that spawns on the surface in Extreme Hills in the $(thing)Overworld$() at night. She is vulnerable to gold equipment, weapons, and tools. $(mob)Dullahan$() attack players on sight with melee attacks that apply a $(thing)Slowness$() effect."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:dullahan",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:misc_soul_fire",
+			"link_recipe": true,
+			"text": "$(mob)Dullahan$() drops $(item)Soul Fire$() on death. These are an excellent source of fuel and burn for 580 seconds. They can also be used like $(item)Flint and Steel$() to start fires. "
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Dullahan$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

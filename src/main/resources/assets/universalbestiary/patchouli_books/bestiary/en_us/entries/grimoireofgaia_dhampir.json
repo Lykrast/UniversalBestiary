@@ -1,0 +1,31 @@
+{
+	"name": "Dhampir ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:dhampir'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:dhampir",
+	"advancement": "universalbestiary:grimoireofgaia_dhampir",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Dhampir$() is a monster that spawns above the ground in Taiga biomes in the $(thing)Overworld$() at night. It is vulnerable to the $(thing)Smite$() enchantment. $(mob)Dhampir$() attack players on sight with melee attacks that apply a $(thing)Slowness$() effect. While below 25% health in combat, she will receive a bonus to movement and attack speed. During combat, a $(mob)Dhampir$() may summon $(l:grimoireofgaia_vampire)$(mob)Vampires$() to assist her."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:dhampir",
+			"scale": 0.9,
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box",
+			"link_recipe": true,
+			"text": "$(mob)Deathwords$() drop $(item)Ore Box$() on death, which can be right-clicked while held to open and receive a random ore found in the $(thing)Overworld$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:bag_book",
+			"link_recipe": true,
+			"text": "$(mob)Deathwords$() drop $(item)Book Bag$() on death, which can be right-clicked while held to open the bag and receive a random enchantment book."
+		}
+	]
+}

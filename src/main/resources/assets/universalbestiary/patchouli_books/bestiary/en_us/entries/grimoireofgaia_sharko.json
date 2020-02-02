@@ -1,0 +1,30 @@
+{
+	"name": "Sharko ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:sharko'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:sharko",
+	"advancement": "universalbestiary:grimoireofgaia_sharko",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Sharko$() is a monster that spawns in Oceans in the $(thing)Overworld$() at night. It attacks players on sight with powerful melee attacks which inflict $(thing)Slowness$() and $(thing)Mining Fatigue III$(). It is immune to drowning and can move through water unimpeded. While in water, a $(mob)Sharko$() gains a $(thing)Resistance$() effect and regenerates 10% of its health every 5 seconds."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:sharko",
+			"text": "$(li)80 Health$()$(li)6 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:prismarine_shard",
+			"link_recipe": true,
+			"text": "$(mob)Sharkos$() drop $(item)Prismarine Shards$() on death, which are primarily used for making $(item)Prismarine Blocks$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:weapon_book_buff",
+			"link_recipe": true,
+			"text": "$(mob)Sharkos$() rarely drop $(item)Combat Manual$() on death, which is a magical item that can be used to grant a player $(thing)Strength$() and $(thing)Resistance$() potion effects for one minute and a short-duration $(thing)Regeneration$() effect."
+		}
+	]
+}

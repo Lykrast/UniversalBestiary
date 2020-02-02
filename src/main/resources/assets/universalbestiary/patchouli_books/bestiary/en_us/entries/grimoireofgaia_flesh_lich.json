@@ -1,0 +1,30 @@
+{
+	"name": "Flesh_Lich ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:flesh_lich'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:flesh_lich",
+	"advancement": "universalbestiary:grimoireofgaia_flesh_lich",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Flesh Lich$() is a monster that spawns deep underground in the $(thing)Overworld$() at night. It attacks players on sight with ranged fireball attacks. Although it is undead and subsequently vulnerable to $(thing)Smite$() enchantments and sunlight, the $(mob)Flesh Lich$() is resistant to Fire."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:flesh_lich",
+			"text": "$(li)80 Health$()$(li)8 Armor$()$(li)12 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box",
+			"link_recipe": true,
+			"text": "$(mob)Flesh Liches$() drop $(item)Ore Box$() on death, which can be right-clicked while held to open and receive a random ore found in the $(thing)Overworld$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:skull:2",
+			"link_recipe": true,
+			"text": "$(mob)The Flesh Lich$() can drop a $(item)Zombie Head$() on death."
+		}
+	]
+}

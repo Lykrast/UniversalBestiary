@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Cyclops$() is a monster found in $(thing)Cyclops Coves$(). It herds $(l:minecraft_sheep)$(mob)Sheeps$() and attacks any player or monster that approaches its home. It can stomp intruders, or pick them up and bite them for heavy damage.$(p)Wearing a full set of $(item)Sheep Disguise Armor$() can trick it into not attacking on sight, and it can be blinded by shooting its eye with $(item)Arrows$() enough times."
+			"text": "The $(mob)Cyclops$() is a monster found in $(thing)Cyclops Coves$(). It herds $(l:minecraft_sheep)$(mob)Sheeps$() and attacks any player or monster that approaches its home. It can stomp intruders, or pick them up and bite them for heavy damage. $(p)Wearing a full set of $(item)Sheep Disguise Armor$() can trick it into not attacking on sight, and it can be blinded by shooting its eye with $(item)Arrows$() enough times."
 		},
 		{
 			"type": "entity",

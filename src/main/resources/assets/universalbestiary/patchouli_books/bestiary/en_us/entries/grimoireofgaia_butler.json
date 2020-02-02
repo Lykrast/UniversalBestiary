@@ -1,0 +1,19 @@
+{
+	"name": "Butler",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:butler'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:butler",
+	"advancement": "universalbestiary:grimoireofgaia_butler",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Butler$() is a monster that is summoned by $(l:grimoireofgaia_vampire)$(mob)Vampires$() in combat. It attacks players on sight with simple melee attacks."
+		},
+		{
+			"type": "entity",
+			"scale": 0.8,
+			"entity": "grimoireofgaia:butler",
+			"text": "$(li)80 Health$()$(li)6 Armor$()$(li)12 Damage$()"
+		}
+	]
+}

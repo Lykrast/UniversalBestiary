@@ -1,0 +1,24 @@
+{
+	"name": "Cobble Golem ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:cobble_golem'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:grimoireofgaia:cobble_golem",
+	"advancement": "universalbestiary:grimoireofgaia_cobble_golem",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cobble Golem$() is a helper that spawns in the Jungle in the $(thing)Overworld$(). It has immunity to $(thing)Poison$(), Fire, and knockback but it is vulnerable to pickaxe attacks and drowning. $(mob)Cobble Golems$() will attack hostile mobs with melee atacks and occasionally throw its targets away from it. It will not attack players unless provoked."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:cobble_golem",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)7-21 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:box_iron",
+			"link_recipe": true,
+			"text": "$(mob)Cobble Golems$() drop $(item)Iron Box$() on death, which can be right-clicked while in hand to open and receive a random tool, weapon, or armor piece made of iron. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Small)$()."
+		}
+	]
+}

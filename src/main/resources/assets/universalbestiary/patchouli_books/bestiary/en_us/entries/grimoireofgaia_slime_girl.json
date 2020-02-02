@@ -1,0 +1,24 @@
+{
+	"name": "Slime Girl ",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:slime_girl'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:grimoireofgaia:slime_girl",
+	"advancement": "universalbestiary:grimoireofgaia_slime_girl",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Slime Girl$() is a helper that can be spawned from the $(thing)Slime Girl Egg$(). It flees when attacked, but can trade various items in exchange for $(item)Slimeballs$(), similar to a $(l:minecraft_villager)$(mob)Villager$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:slime_girl",
+			"text": "$(li)40 Health$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:spawn_slime_girl",
+			"link_recipe": true,
+			"text": "$(mob)Slime Girls$() can drop a $(item)Slime Girl Egg$() on death. This item can be used to spawn a passive $(mob)Slime Girl$() helper for the player."
+		}
+	]
+}

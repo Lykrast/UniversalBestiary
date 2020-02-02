@@ -1,0 +1,30 @@
+{
+	"name": "Siren (Grimoire of Gaia)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:siren'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:siren",
+	"advancement": "universalbestiary:grimoireofgaia_siren",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Siren$() is a monster that spawns in Swamps in the $(thing)Overworld$(). It attacks players at ranged and which may inflict $(thing)Slowness$() and $(thing)Weakness$() effects. The $(mob)Siren$() switches to melee and gains a $(thing)Speed$() effect, inflicting $(thing)Mining Fatigue II$() on hit. $(mob)Sirens$() are immune to $(thing)Poison$() and can move through water unimpeded. While in water, $(mob)Sirens$() heal for 10% of their health every 5 seconds and gain $(thing)Resistance$()."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:siren",
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
+		},
+		{
+			"type": "spotlight",
+			"item": "minecraft:fish",
+			"link_recipe": true,
+			"text": "$(mob)Sirens$() drop $(item)Fish$() on death, which are a good source of food when cooked, and can be used to tame $(l:minecraft_ocelot)$(mob)Ocelots$()."
+		},
+		{
+			"type": "spotlight",
+			"item": "grimoireofgaia:bag_arrow",
+			"link_recipe": true,
+			"text": "$(mob)Sirens$() drop $(item)Sealed Quiver$() on death, which can be right-clicked while held to open and receive a small stack of potion arrows randomly chosen from among $(thing)Slowness$(), $(thing)Harming$(), $(thing)Poison$(), or $(thing)Weakness$() effects."
+		}
+	]
+}
