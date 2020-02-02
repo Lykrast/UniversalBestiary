@@ -1,5 +1,5 @@
 {
-	"name": "Vampire ",
+	"name": "Vampire (Grimoire of Gaia)",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:vampire'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:vampire",
