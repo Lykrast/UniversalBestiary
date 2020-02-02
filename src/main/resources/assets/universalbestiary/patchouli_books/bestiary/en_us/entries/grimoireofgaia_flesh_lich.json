@@ -1,5 +1,5 @@
 {
-	"name": "Flesh_Lich ",
+	"name": "Flesh Lich ",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:flesh_lich'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:flesh_lich",
