@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Cyan Flower$() is a passive mob that spawns in grassy biomes in the $(thing)Overworld$(). When approached by the player or struck with a weapon, it may drop flowers or turn into a $(l:grimoireofgaia:mandragora)$(mob)Mandragora$()."
+			"text": "The $(mob)Cyan Flower$() is a passive creature that spawns in grassy biomes in the $(thing)Overworld$(). When approached by a player or attacked it may drop flowers or turn into a $(l:grimoireofgaia_mandragora)$(mob)Mandragora$()."
 		},
 		{
 			"type": "entity",
