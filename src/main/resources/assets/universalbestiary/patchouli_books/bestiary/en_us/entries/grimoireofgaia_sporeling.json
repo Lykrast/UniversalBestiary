@@ -1,0 +1,18 @@
+{
+	"name": "Sporeling",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:sporeling'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:grimoireofgaia:sporeling",
+	"advancement": "universalbestiary:grimoireofgaia_sporeling",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Sporeling$() is a monster that is summoned by $(l:grimoireofgaia_matango)$(mob)Matango$() in combat. it attacks players on sight by attacking in melee and inflciting them with a $(thing)Harming$() potion effect on hit, allowing their attacks to bypass armor."
+		},
+		{
+			"type": "entity",
+			"entity": "grimoireofgaia:sporeling",
+			"text": "$(li)20 Health$()$(li)4 Armor$()$(li)4 Damage$()"
+		}
+	]
+}
