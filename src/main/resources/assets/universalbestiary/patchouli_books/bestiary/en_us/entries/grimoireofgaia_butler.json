@@ -13,7 +13,7 @@
 			"type": "entity",
 			"scale": 0.8,
 			"entity": "grimoireofgaia:butler",
-			"text": "$(li)80 Health$()$(li)6 Armor$()$(li)12 Damage$()"
+			"text": "$(li)40 Health$()$(li)4 Armor$()$(li)8 Damage$()"
 		}
 	]
 }
