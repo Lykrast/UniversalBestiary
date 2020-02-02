@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Fire Dragon$() is a boss that can be found in $(thing)Dragon Roosts$() or $(thing)Dragon Caves$(). It flies around its home and attacks nearby living creatures with its bite and fire breath. It can freely break through blocks and its fire attacks can do massive damage to terrain.$(p)$(mob)Fire Dragons$() found in $(thing)Dragon Caves$() are even bigger and thougher."
+			"text": "The $(mob)Fire Dragon$() is a boss that can be found in $(thing)Dragon Roosts$() or $(thing)Dragon Caves$(). It flies around its home and attacks nearby living creatures with its bite and fire breath. It can freely break through blocks and its fire attacks can do massive damage to terrain.$(p)$(mob)Fire Dragons$() found in $(thing)Dragon Caves$() are even bigger and tougher."
 		},
 		{
 			"type": "entity",
