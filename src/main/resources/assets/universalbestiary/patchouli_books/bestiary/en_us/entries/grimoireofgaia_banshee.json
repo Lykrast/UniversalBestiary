@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Arachne$() is a monster that spawns in dark places in the $(thing)Overworld$(). It is immune to $(thing)Poison, can pass through Cobwebs unimpeded, and can climb walls. The $(mob)Arachne$() is vulnerable to the $(thing)Bane of Arthoropods$() enchantment. It attacks the player on sight with ranged attacks and switches to melee when below 50% health. While in combat, its attacks can apply a $(thing)Poison$() effect and it will attempt to web its target. $(mob)Arachne$() aan spawn up to 2 $(mob)Cave Spiders$() and will grant them a $(thing)Resistance$() effect."
+			"text": "The $(mob)Banshee$() is a flying monster that spawns on the surface of Moutains and Tagia in the $(thing)Overworld$(). It is immune to Fire and falling damage, and can pass through blocks unimpeded. The $(mob)Banshee$() is undead and thus burns in sunlight. $(mob)Banshees$() attack players on sight with swooping melee attacks."
 		},
 		{
 			"type": "entity",
