@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Shaman$() is a monster that spawns in Jungles in the $(thing)Overworld$() at night. It attacks players by keeping at range with a $(thing)Poison$() potion attack, similar to an illager $(l:minecraft_witch)$(mob)Witch$(). When injured, the $(mob)Shaman$() will summon up to 2 $(l:minecraft_zombie)$(mob)Zombies$() to engage the player in melee while providing them with a $(thing)Resistance$() effect. It is immune to $(thing)Poison$(). A $(mob)Shaman$() will switch from ranged attacks to melee, inflicting $(thing)Poison$() and $(thing)Weakness$() with its strikes."
+			"text": "The $(mob)Shaman$() is a monster that spawns in Jungles in the $(thing)Overworld$() at night. It attacks players on sight with a lobbed $(thing)Poison$() potion attack, similar to an illager $(l:minecraft_witch)$(mob)Witch$(). The $(mob)Shaman$() will summon up to 2 $(l:minecraft_zombie)$(mob)Zombies$() to engage the player in melee while providing them with a $(thing)Resistance$() effect. It is immune to $(thing)Poison$(). When reduced to 75% health or less, a $(mob)Shaman$() switches from ranged attacks to melee, inflicting $(thing)Poison$() and $(thing)Weakness$() on hit."
 		},
 		{
 			"type": "entity",
