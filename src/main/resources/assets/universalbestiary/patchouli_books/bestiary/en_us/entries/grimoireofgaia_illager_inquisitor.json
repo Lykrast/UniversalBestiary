@@ -1,5 +1,5 @@
 {
-	"name": "Illager_Inquisitor",
+	"name": "Inquisitor",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:illager_inquisitor'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:illager_inquisitor",
