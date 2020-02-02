@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Mummy$() is a monster that spawns in Deserts in the $(thing)Overworld$(). It attacks players on sight with simple melee attacks which inflict $(thing)Hunger$() on its target. It is resistant to knockback, but as an undead it is vulnerable to sunlight. While on fire, a $(mob)Mummy's$() melee attacks may set targets on fire as well, similar to a $(l:minecraft_zombie)$(mob)Zombie$(). $(mob)Mummies$() will occasionally summon $(l:grimoireofgaia_gravemite)$(mob)Gravemites$() when struck."
+			"text": "The $(mob)Mummy$() is a monster that spawns in Deserts in the $(thing)Overworld$(). It attacks players on sight with simple melee attacks which inflict $(thing)Hunger$() on its target. It is resistant to knockback, but as an undead it is vulnerable to sunlight. While on fire, a $(mob)Mummy's$() melee attacks may set targets on fire as well, similar to a $(l:minecraft_zombie)$(mob)Zombie$(). It will occasionally summon $(l:grimoireofgaia_mite)$(mob)Gravemites$() when struck."
 		},
 		{
 			"type": "entity",
