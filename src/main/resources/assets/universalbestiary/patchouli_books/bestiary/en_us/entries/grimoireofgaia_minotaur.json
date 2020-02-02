@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Minotaur$() is a monster that spawns in Plains and Mesa biomes in the $(thing)Overworld$().  It attacks players on sight with melee strikes which apply $(thing)Mining Fatigue$() and $(thing)Slowness$() effects. It is immune to falling damage, Fire, and ranged attacks. It is also unimpeded by cobwebs or water. When a $(mob)Minotaur's$() health drops below 25%, he gains a $(thing)Strength$() and $(thing)Resistance$() effect for 20 seconds."
+			"text": "The $(mob)Minotaur$() is a monster that spawns in Plains and Mesa biomes in the $(thing)Overworld$().  It attacks players on sight with melee strikes which apply $(thing)Mining Fatigue$() and $(thing)Slowness$() effects. It is immune to falling damage, Fire, and ranged attacks. It is also unimpeded by cobwebs or water. When a $(mob)Minotaur's$() health drops below 25%, it gains a $(thing)Strength$() and $(thing)Resistance$() effect."
 		},
 		{
 			"type": "entity",
