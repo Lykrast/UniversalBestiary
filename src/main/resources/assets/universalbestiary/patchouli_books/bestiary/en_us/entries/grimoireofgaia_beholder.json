@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Behender$() is a flying monster that spawns in $(thing)The End$(). It attacks players, inflicting its target with random negative potion effects. It is resistant to knockback and can teleport when a player comes close to it to attack in melee, similar to an $(l:minecraft_enderman)$(mob)Enderman$(). It is immune to falling damage. When reduced to 50% health or lower, a $(mob)Behender$() will shield itself, protecting it from ranged attacks. "
+			"text": "The $(mob)Behender$() is a flying monster that spawns in $(thing)The End$(). It attacks players on sight, inflicting them with random negative potion effects. It is resistant to knockback and can teleport when a player comes close to it to attack in melee, similar to an $(l:minecraft_enderman)$(mob)Enderman$(). It is immune to falling damage. When reduced to 50% health or lower, a $(mob)Behender$() will shield itself, protecting it from ranged attacks."
 		},
 		{
 			"type": "entity",
