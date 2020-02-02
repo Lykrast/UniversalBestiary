@@ -1,5 +1,5 @@
 {
-	"name": "Harpy_Wizard",
+	"name": "Harpy Wizard",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:harpy_wizard'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:harpy_wizard",
