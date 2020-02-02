@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Minotaurus$() is a monster that spawns in Plains and Mesa biomes in the $(thing)Overworld$(). A $(mob)Minotuaurus$() may spawn with either melee weapons or with a $(item)Bow$(). It attacks players, either by charging their target and striking them in melee, inflicting $(thing)Slowness$() and $(thing)Mining Fatigue$(), or by attacking with a $(item)Bow$(), if it spawned with one. $(mob)Minotaurus$() with $(item)Bows$() may also use $(thing)Slowness$() or $(thing)Weakness$() potion arrows. Upon death, a $(mob)Minotaurus$() may spawn a hostile $(mob)Minotaur$() in its place."
+			"text": "The $(mob)Minotaurus$() is a monster that spawns in Plains and Mesa biomes in the $(thing)Overworld$(). It attacks players on sight, either by charging their target and striking them in melee, inflicting $(thing)Slowness$() and $(thing)Mining Fatigue$(), or by keeping distance and attacking with a bow, if it spawned with one. $(mob)Minotaurus$() with bows may also use $(thing)Slowness$() or $(thing)Weakness$() potion arrows. Upon death, a $(mob)Minotaurus$() may spawn a hostile $(mob)Minotaur$() in its place."
 		},
 		{
 			"type": "entity",
