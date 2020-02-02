@@ -1,5 +1,5 @@
 {
-	"name": "Ender_Eye ",
+	"name": "Ender Eye ",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:ender_eye'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:ender_eye",
