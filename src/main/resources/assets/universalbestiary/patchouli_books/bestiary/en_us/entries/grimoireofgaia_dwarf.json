@@ -12,6 +12,7 @@
 		{
 			"type": "entity",
 			"entity": "grimoireofgaia:dwarf",
+			"scale": 0.75,
 			"text": "$(li)80 Health$()$(li)8 Armor$()$(li)12 Damage$()"
 		},
 		{
