@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Ice Dragon$() is a boss that can be found in $(thing)Dragon Roosts$() or $(thing)Dragon Caves$(). It flies around its home and attacks nearby living creatures with its bite and ice breath. It can freely break through blocks and its ice attacks can do massive damage to terrain.$(p)$(mob)Ice Dragons$() found in $(thing)Dragon Caves$() are even bigger and thougher."
+			"text": "The $(mob)Ice Dragon$() is a boss that can be found in $(thing)Dragon Roosts$() or $(thing)Dragon Caves$(). It flies around its home and attacks nearby living creatures with its bite and ice breath. It can freely break through blocks and its ice attacks can do massive damage to terrain.$(p)$(mob)Ice Dragons$() found in $(thing)Dragon Caves$() are even bigger and tougher."
 		},
 		{
 			"type": "entity",
