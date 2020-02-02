@@ -1,5 +1,5 @@
 {
-	"name": "Cyclops",
+	"name": "Cyclops (Ice and Fire)",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:cyclops'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:iceandfire:cyclops",
