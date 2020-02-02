@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Gelatinous Slime$() is a monster that does not spawn naturally. It attacks players on sight with attacks which inflict $(thing)Poison$() on its target. It is immune to $(thing)Poison$(), Fire, and knockback. It cannot swim, and will avoid water. It possesses the ability to steal items from players and absorb arrows fired at it, consuming them to heal itself for 10% of its total health with each item. Additionally, $(mob)Gelatinous Slimes$() inflict $(thing)Slowness II$() on all creatures within 4 blocks of itself."
+			"text": "The $(mob)Gelatinous Slime$() is a monster that does not spawn naturally. It attacks players on sight with $(thing)Poison$()-inflicting attacks. It is immune to $(thing)Poison$(), Fire, and knockback. It cannot swim, and will avoid water. It possesses the ability to steal items from players and absorb arrows fired at it, consuming them to heal itself for 10% of its health with each item. Additionally, $(mob)Gelatinous Slimes$() inflict $(thing)Slowness II$() on all nearby creatures."
 		},
 		{
 			"type": "entity",
