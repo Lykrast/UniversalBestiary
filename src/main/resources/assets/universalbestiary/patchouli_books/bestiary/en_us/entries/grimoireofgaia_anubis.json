@@ -24,7 +24,7 @@
 			"type": "spotlight",
 			"item": "grimoireofgaia:box_gold",
 			"link_recipe": true,
-			"text": "$(mob)Anubis() drop $(item)Gold Box$() on death, which can be right-clicked while held to open and receive a random tool, weapon, or armor piece made of gold. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Medium)$()."
+			"text": "$(mob)Anubis$() drop $(item)Gold Box$() on death, which can be right-clicked while held to open and receive a random tool, weapon, or armor piece made of gold. Alternatively, it can be smelted in a furnace to create $(item)Crystalized Experience (Medium)$()."
 		}
 	]
 }
