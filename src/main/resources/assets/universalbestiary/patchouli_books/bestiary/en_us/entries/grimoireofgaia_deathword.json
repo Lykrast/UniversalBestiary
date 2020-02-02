@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Deathword$() is a flying monster that spawns underground in the $(thing)Overworld$() at night. It is vulnerable to Fire, but is immune to falling damage. It attacks players on sight by summoning up to 4 undead monsters as minions. When it is no longer able to spawn minions, it will engage its target at close range, throwing sheets of paper."
+			"text": "The $(mob)Deathword$() is a flying monster that spawns underground in the $(thing)Overworld$() at night. It is vulnerable to Fire, but immune to falling damage. It attacks players on sight by summoning up to 4 $(l:minecraft_skeleton)$(mob)Skeletons$() or $(l:minecraft_zombie)$(mob)Zombies$() as minions. When it is no longer able to spawn minions, it will engage its target at close range, throwing sheets of paper."
 		},
 		{
 			"type": "entity",
