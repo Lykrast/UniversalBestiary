@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Arachne$() is a monster that spawns in dark places in the $(thing)Overworld$(). It is immune to $(thing)Poison, can pass through Cobwebs unimpeded, and can climb walls. It attacks players on sight with ranged attacks and switches to melee when below 50% health. Its attacks can apply a $(thing)Poison$() or web effect. $(mob)Arachne$() can spawn up to 2 $(mob)Cave Spiders$() and will grant them a $(thing)Resistance$() effect."
+			"text": "The $(mob)Arachne$() is a monster that spawns in dark places in the $(thing)Overworld$(). It is immune to $(thing)Poison$(), can pass through Cobwebs unimpeded, and can climb walls. It attacks players with ranged attacks and switches to melee when below 50% health. Its attacks can apply a $(thing)Poison$() effect and it will attempt to web its target. $(mob)Arachne$() can spawn up to 2 $(l:minecraft_cave_spider)$(mob)Cave Spiders$() with a $(thing)Resistance$() effect."
 		},
 		{
 			"type": "entity",
