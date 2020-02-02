@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Baphomet$() is a monster that spawns in the $(thing)Nether$(). It is immune to Fire and Wither. It attacks players on sight with a mix of hurling fireballs at ranged and melee strikes which apply $(thing)Weakness$() and $(thing)Slowness$() effects."
+			"text": "The $(mob)Baphomet$() is a monster that spawns in the $(thing)Nether$(). It is immune to Fire and $(thing)Wither$(). It attacks players on sight with a mix of hurling fireballs at ranged and melee strikes which apply $(thing)Weakness$() and $(thing)Slowness$() effects."
 		},
 		{
 			"type": "entity",
