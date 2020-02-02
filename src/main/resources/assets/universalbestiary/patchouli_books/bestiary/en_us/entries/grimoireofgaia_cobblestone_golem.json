@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Cobblestone Golem$() is a helper that spawns in the Jungle in the $(thing)Overworld$(). Similar to and slightly stronger than the $(mob)Cobble Golem$(), it has immunity to $(thing)Poison, Fire, and knockback but is vulnerable to pickaxe attacks and drowning. $(mob)Cobblestoe Golems$() will attack hostile mobs with melee atacks and occasionally throw targets away from itself. It will not attack players unless provoked."
+			"text": "The $(mob)Cobblestone Golem$() is a helper that spawns in the Jungle in the $(thing)Overworld$(). Similar to and slightly stronger than the $(mob)Cobble Golem$(), it has immunity to $(thing)Poison, Fire, and knockback but is vulnerable to pickaxe attacks and drowning. $(mob)Cobblestoe Golems$() will attack hostile mobs with melee atacks and occasionally throw targets away from itself. It will not attack unless provoked."
 		},
 		{
 			"type": "entity",
