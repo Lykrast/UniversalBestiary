@@ -1,5 +1,5 @@
 {
-	"name": "Cyclops ",
+	"name": "Cyclops (Grimoire of Gaia)",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:cyclops'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:cyclops",
