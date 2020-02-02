@@ -1,5 +1,5 @@
 {
-	"name": "Ant ",
+	"name": "Ant Worker",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:ant'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:ant",
@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Ant Worker$() is monster that spawns underground in deserts in the $(thing)Overworld$(). It is resistant to Fire and Poison damage. As an arthropod, it is vulnerable to the $(thing)Bane of Arthoropods$() enchantment. It may spawn with a variety of wooden weapons in its hand and will attack players on sight. While in combat, it may apply a $(thing)Slowness$() or $(thing)Mining Fatigue$() effect to the player and when severely injured it will run away to regenerate health."
+			"text": "The $(mob)Ant Worker$() is monster that spawns underground in deserts in the $(thing)Overworld$(). It is resistant to Fire and Poison damage. As an arthropod, it is vulnerable to $(thing)Bane of Arthoropods$(). It may spawn with a variety of wooden weapons in its hand and will attack players on sight. While in combat, it may apply a $(thing)Slowness$() or $(thing)Mining Fatigue$() effect to the player and may run away to regenerate health."
 		},
 		{
 			"type": "entity",
