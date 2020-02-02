@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Valkyrie$() is a neutral monster that spawns in Extreme Hills in the $(thing)Overworld$(). It does not attack unless attacked first or provoked by remaining too close to it for too long or, at which point it engages with attacks that inflict $(thing)Slowness$() and $(thing)Weakness$(). It is immune to falling damage, drowning, and Fire, and is resistant to knockback. When a $(mob)Valkyrie$() is reduced to 25% health or lower, it gains a $(thing)Strength$() and $(thing)Speed$() effect."
+			"text": "The $(mob)Valkyrie$() is a neutral monster that spawns in Extreme Hills in the $(thing)Overworld$(). It does not attack players unless attacked first or provoked by remaining too close to it for too long or, at which point it attacks, inflicting $(thing)Slowness$() and $(thing)Weakness$(). It is immune to falling damage, drowning, and Fire, and is resistant to knockback. When a $(mob)Valkyrie$() is reduced to 25% health or lower, it gains a $(thing)Strength$() and $(thing)Speed$() effect."
 		},
 		{
 			"type": "entity",
