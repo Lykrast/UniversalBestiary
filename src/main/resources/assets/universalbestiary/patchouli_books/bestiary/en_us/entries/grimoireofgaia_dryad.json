@@ -1,5 +1,5 @@
 {
-	"name": "Dryad (Grimoir of Gaia)",
+	"name": "Dryad (Grimoire of Gaia)",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:dryad'}}",
 	"category": "helpers",
 	"flag": "universalbestiary:entity:grimoireofgaia:dryad",
@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Dryad$() is a neutral monster that spawns in Forest biomes during the day and above ground in the $(thing)Overworld$(). It is vulnerable to axes and Fire. A $(mob)Dryad$() will not attack players unless provoked, after which it will retaliate with weak melee attacks. Attacking a $(mob)Dryad$() angers all others in the area, similar to the $(mob)Zombie Pigman$(). When the $(mob)Dryad$() reaches 25%, it will flee to recover health. While in water, it recovers 10% of its health every 10 seconds and gains $(thing)Resistance$(). "
+			"text": "The $(mob)Dryad$() is a neutral monster that spawns in Forest biomes during the day on $(thing)Overworld$(). It is vulnerable to axes and Fire. A $(mob)Dryad$() will not attack players unless provoked, then it will retaliate with weak melee attacks. Attacking a $(mob)Dryad$() angers all others nearby, similar to the $(mob)Zombie Pigman$(). When the $(mob)Dryad$() reaches 25%, it will flee to heal. While in water, it recovers 10% of its health every 10 seconds and gains $(thing)Resistance$(). "
 		},
 		{
 			"type": "entity",
