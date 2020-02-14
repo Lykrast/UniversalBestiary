@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Naga$() is a monster that spawns in Swamps in the $(thing)Overworld$(). It attacks players on sight with melee attacks inflicting $(thing)Slowness$() and $(thing)Mining Fatigue$() on hit. $(mob)Nagas$() are immune to $(thing)Poison$(), and ranged attacks, and can move through water unimpeded. When below 25% health, a $(mob)Naga$() gains a $(thing)Speed$() effect and will retreat to water where it will heal for 10% of their health every 5 seconds and gain $(thing)Resistance$()."
+			"text": "The $(mob)Mummy$() is a monster that spawns in Deserts in the $(thing)Overworld$(). It attacks players on sight with simple melee attacks which inflict $(thing)Hunger$() on its target. It is resistant to knockback, but as an undead it is vulnerable to sunlight. While on fire, a $(mob)Mummy's$() melee attacks may set targets on fire as well, similar to a $(l:minecraft_zombie)$(mob)Zombie$(). It will occasionally summon $(l:grimoireofgaia_mite)$(mob)Gravemites$() when struck."
 		},
 		{
 			"type": "entity",
