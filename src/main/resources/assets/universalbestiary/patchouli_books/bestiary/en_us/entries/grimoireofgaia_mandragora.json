@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Mandragora$() is monster that spawns when a player walks over or attacks a $(l:grimoireofgaia_cyan_flower)$(mob)Cyan Flower$(). It is immune to $(thing)Poison and knockback, but is vulnerable to Fire and shovels. It is passive unless a player attacks the $(mob)Mandragora$() or the $(mob)Cyan Flower$() that spawned it, in which case it retaliates with melee attacks, while applying multiple potion effects in an aura including $(thing)Slowness$(), $t(thing)Night Vision$(), and $(thing)Nausea$()."
+			"text": "The $(mob)Mandragora$() is monster that spawns when a player walks over or attacks a $(l:grimoireofgaia_cyan_flower)$(mob)Cyan Flower$(). It is immune to $(thing)Poison$() and knockback, but is vulnerable to Fire and shovels. It is passive unless a player attacks the $(mob)Mandragora$() or the $(mob)Cyan Flower$() that spawned it, in which case it retaliates with melee attacks, while applying multiple potion effects in an aura including $(thing)Slowness$(), $t(thing)Night Vision$(), and $(thing)Nausea$()."
 		},
 		{
 			"type": "entity",
