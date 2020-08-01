@@ -1,4 +1,5 @@
 import argparse
+import generate_base as gb
 
 parser = argparse.ArgumentParser(description='Generate entries for the given mob and put the files in the correct place')
 parser.add_argument('registry', help='Registry name of the entity, eg minecraft:zombie')
@@ -9,29 +10,16 @@ args = parser.parse_args()
 
 registry = args.registry
 display = args.display
-category = args.category
-
-if category == 'a' or category == 'A' or category == 'animals':
-	category = 'animals'
-elif category == 'h' or category == 'H' or category == 'helpers':
-	category = 'helpers'
-elif category == 'm' or category == 'M' or category == 'monsters':
-	category = 'monsters'
-elif category == 'b' or category == 'B' or category == 'bosses':
-	category = 'bosses'
-else:
-	raise ValueError('Category argument was invalid. Must be a (animals), h (helpers), m (monsters) or b (bosses).')
+category = gb.convertCategory(args.category)
 
 print('Making a {} entry for {} ({})'.format(category, display, registry))
 
 print('Reading templates')
 
-with open('./templates/advancement.json', 'r') as file_adv:
-	advancement = file_adv.read()
-with open('./templates/entry.json', 'r') as file_ent:
-	entry = file_ent.read()
+advancement = gb.readTemplate('advancement')
+entry = gb.readTemplate('entry')
 
-filename = registry.replace(':', '_', 1)
+filename = gb.regToFilename(registry)
 
 print('Filling fields')
 
