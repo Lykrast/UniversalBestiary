@@ -1,5 +1,5 @@
 {
-	"name": "Ant Salvager",
+	"name": "Ant Ranger",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:ant_ranger'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:ant_ranger",
