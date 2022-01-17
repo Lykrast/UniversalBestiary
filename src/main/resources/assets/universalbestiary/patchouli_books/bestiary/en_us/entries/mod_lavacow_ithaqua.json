@@ -1,0 +1,18 @@
+{
+	"name": "Ithaqua",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mod_lavacow:ithaqua'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:mod_lavacow:ithaqua",
+	"advancement": "universalbestiary:mod_lavacow_ithaqua",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ithaqua$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mod_lavacow:ithaqua",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

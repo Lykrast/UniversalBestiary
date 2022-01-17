@@ -1,0 +1,18 @@
+{
+	"name": "Fire Zombie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:firezombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:firezombie",
+	"advancement": "universalbestiary:specialmobs_firezombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Fire Zombie$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:firezombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

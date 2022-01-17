@@ -1,0 +1,18 @@
+{
+	"name": "Blinding Enderman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:blindingenderman'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:blindingenderman",
+	"advancement": "universalbestiary:specialmobs_blindingenderman",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Blinding Enderman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:blindingenderman",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

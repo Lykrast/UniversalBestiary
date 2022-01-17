@@ -1,0 +1,18 @@
+{
+	"name": "Support Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'primitivemobs:support_creeper'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:primitivemobs:support_creeper",
+	"advancement": "universalbestiary:primitivemobs_support_creeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Support Creeper$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "primitivemobs:support_creeper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

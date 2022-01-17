@@ -1,0 +1,18 @@
+{
+	"name": "Foliaath",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mowziesmobs:foliaath'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:mowziesmobs:foliaath",
+	"advancement": "universalbestiary:mowziesmobs_foliaath",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Foliaath$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mowziesmobs:foliaath",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

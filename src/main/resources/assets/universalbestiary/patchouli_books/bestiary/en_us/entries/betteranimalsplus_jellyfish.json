@@ -1,0 +1,18 @@
+{
+	"name": "Jellyfish",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:jellyfish'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betteranimalsplus:jellyfish",
+	"advancement": "universalbestiary:betteranimalsplus_jellyfish",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Jellyfish$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:jellyfish",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Ninja Wither Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:ninjawitherskeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:ninjawitherskeleton",
+	"advancement": "universalbestiary:specialmobs_ninjawitherskeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ninja Wither Skeleton$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:ninjawitherskeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

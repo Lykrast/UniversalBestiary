@@ -1,0 +1,18 @@
+{
+	"name": "Redstone Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_redstone'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_redstone",
+	"advancement": "universalbestiary:golems_golem_redstone",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Redstone Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_redstone",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

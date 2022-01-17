@@ -1,0 +1,18 @@
+{
+	"name": "Bog Maw",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.bog_maw'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.bog_maw",
+	"advancement": "universalbestiary:erebus_erebus.bog_maw",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Bog Maw$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.bog_maw",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

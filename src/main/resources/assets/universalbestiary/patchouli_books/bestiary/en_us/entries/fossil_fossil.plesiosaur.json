@@ -1,0 +1,18 @@
+{
+	"name": "Plesiosaur",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.plesiosaur'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.plesiosaur",
+	"advancement": "universalbestiary:fossil_fossil.plesiosaur",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Plesiosaur$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.plesiosaur",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

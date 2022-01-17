@@ -1,0 +1,18 @@
+{
+	"name": "Tivalier",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aether:tivalier'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:aether:tivalier",
+	"advancement": "universalbestiary:aether_tivalier",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Tivalier$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "aether:tivalier",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

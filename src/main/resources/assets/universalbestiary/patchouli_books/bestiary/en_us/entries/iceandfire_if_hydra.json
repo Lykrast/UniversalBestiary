@@ -1,0 +1,18 @@
+{
+	"name": "Hydra",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:if_hydra'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:iceandfire:if_hydra",
+	"advancement": "universalbestiary:iceandfire_if_hydra",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Hydra$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:if_hydra",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Plague Zombie Pigman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:plaguepigzombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:plaguepigzombie",
+	"advancement": "universalbestiary:specialmobs_plaguepigzombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Plague Zombie Pigman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:plaguepigzombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

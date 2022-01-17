@@ -1,0 +1,18 @@
+{
+	"name": "Brute Zombie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:brutezombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:brutezombie",
+	"advancement": "universalbestiary:specialmobs_brutezombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Brute Zombie$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:brutezombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

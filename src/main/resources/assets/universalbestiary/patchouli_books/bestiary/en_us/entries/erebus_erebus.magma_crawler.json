@@ -1,0 +1,18 @@
+{
+	"name": "Magma Crawler",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.magma_crawler'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.magma_crawler",
+	"advancement": "universalbestiary:erebus_erebus.magma_crawler",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Magma Crawler$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.magma_crawler",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

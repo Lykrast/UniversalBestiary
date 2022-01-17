@@ -1,0 +1,18 @@
+{
+	"name": "Glass Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_glass'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_glass",
+	"advancement": "universalbestiary:golems_golem_glass",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Glass Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_glass",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

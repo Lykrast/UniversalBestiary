@@ -1,0 +1,18 @@
+{
+	"name": "Triceratops",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.triceratops'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.triceratops",
+	"advancement": "universalbestiary:fossil_fossil.triceratops",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Triceratops$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.triceratops",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

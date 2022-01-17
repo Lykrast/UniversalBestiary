@@ -1,0 +1,18 @@
+{
+	"name": "Crop Wevil",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.crop_weevil'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:erebus:erebus.crop_weevil",
+	"advancement": "universalbestiary:erebus_erebus.crop_weevil",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Crop Wevil$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.crop_weevil",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

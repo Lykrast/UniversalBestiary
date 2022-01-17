@@ -1,0 +1,18 @@
+{
+	"name": "Owl",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalworld:entity_owl'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalworld:entity_owl",
+	"advancement": "universalbestiary:mysticalworld_entity_owl",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Owl$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalworld:entity_owl",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

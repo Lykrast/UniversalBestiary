@@ -1,0 +1,18 @@
+{
+	"name": "Mutant Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mutantbeasts:mutant_creeper'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:mutantbeasts:mutant_creeper",
+	"advancement": "universalbestiary:mutantbeasts_mutant_creeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mutant Creeper$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mutantbeasts:mutant_creeper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

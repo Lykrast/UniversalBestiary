@@ -1,0 +1,18 @@
+{
+	"name": "Eldritch Guardian",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:eldritchguardian'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thaumcraft:eldritchguardian",
+	"advancement": "universalbestiary:thaumcraft_eldritchguardian",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Eldritch Guardian$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:eldritchguardian",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

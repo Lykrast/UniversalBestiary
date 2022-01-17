@@ -1,0 +1,18 @@
+{
+	"name": "Mirage Enderman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:mirageenderman'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:mirageenderman",
+	"advancement": "universalbestiary:specialmobs_mirageenderman",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mirage Enderman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:mirageenderman",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Chamelon Tick",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.chameleon_tick'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.chameleon_tick",
+	"advancement": "universalbestiary:erebus_erebus.chameleon_tick",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Chamelon Tick$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.chameleon_tick",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

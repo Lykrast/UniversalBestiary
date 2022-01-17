@@ -1,0 +1,18 @@
+{
+	"name": "Barakoya",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mowziesmobs:barakoaya'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:mowziesmobs:barakoaya",
+	"advancement": "universalbestiary:mowziesmobs_barakoaya",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Barakoya$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mowziesmobs:barakoaya",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

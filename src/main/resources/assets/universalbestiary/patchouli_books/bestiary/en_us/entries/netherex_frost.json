@@ -1,0 +1,18 @@
+{
+	"name": "Frost",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'netherex:frost'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:netherex:frost",
+	"advancement": "universalbestiary:netherex_frost",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Frost$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "netherex:frost",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

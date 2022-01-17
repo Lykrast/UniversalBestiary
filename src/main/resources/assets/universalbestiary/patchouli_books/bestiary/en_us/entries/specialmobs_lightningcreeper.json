@@ -1,0 +1,18 @@
+{
+	"name": "Lightning Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:lightningcreeper'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:lightningcreeper",
+	"advancement": "universalbestiary:specialmobs_lightningcreeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Lightning Creeper$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:lightningcreeper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

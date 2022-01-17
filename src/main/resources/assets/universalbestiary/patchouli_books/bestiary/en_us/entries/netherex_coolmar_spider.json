@@ -1,0 +1,18 @@
+{
+	"name": "Coolmar Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'netherex:coolmar_spider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:netherex:coolmar_spider",
+	"advancement": "universalbestiary:netherex_coolmar_spider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Coolmar Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "netherex:coolmar_spider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

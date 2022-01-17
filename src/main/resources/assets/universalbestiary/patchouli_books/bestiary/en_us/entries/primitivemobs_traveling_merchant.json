@@ -1,0 +1,18 @@
+{
+	"name": "Traveling Merchant",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'primitivemobs:traveling_merchant'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:primitivemobs:traveling_merchant",
+	"advancement": "universalbestiary:primitivemobs_traveling_merchant",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Traveling Merchant$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "primitivemobs:traveling_merchant",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

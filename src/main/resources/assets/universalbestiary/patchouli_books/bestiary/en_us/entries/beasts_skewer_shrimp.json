@@ -1,0 +1,18 @@
+{
+	"name": "Skewer Shrimp",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'beasts:skewer_shrimp'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:beasts:skewer_shrimp",
+	"advancement": "universalbestiary:beasts_skewer_shrimp",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Skewer Shrimp$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "beasts:skewer_shrimp",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

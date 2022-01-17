@@ -1,0 +1,18 @@
+{
+	"name": "Creeper Minion",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mutantbeasts:creeper_minion'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:mutantbeasts:creeper_minion",
+	"advancement": "universalbestiary:mutantbeasts_creeper_minion",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Creeper Minion$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mutantbeasts:creeper_minion",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

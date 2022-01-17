@@ -1,0 +1,18 @@
+{
+	"name": "Firebat",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:firebat'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thaumcraft:firebat",
+	"advancement": "universalbestiary:thaumcraft_firebat",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Firebat$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:firebat",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

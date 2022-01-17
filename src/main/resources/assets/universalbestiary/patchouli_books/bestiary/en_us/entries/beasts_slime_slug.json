@@ -1,0 +1,18 @@
+{
+	"name": "Slime Slug",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'beasts:slime_slug'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:beasts:slime_slug",
+	"advancement": "universalbestiary:beasts_slime_slug",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Slime Slug$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "beasts:slime_slug",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

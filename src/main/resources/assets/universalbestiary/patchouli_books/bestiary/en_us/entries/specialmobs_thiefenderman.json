@@ -1,0 +1,18 @@
+{
+	"name": "Thief Enderman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:thiefenderman'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:thiefenderman",
+	"advancement": "universalbestiary:specialmobs_thiefenderman",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Thief Enderman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:thiefenderman",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

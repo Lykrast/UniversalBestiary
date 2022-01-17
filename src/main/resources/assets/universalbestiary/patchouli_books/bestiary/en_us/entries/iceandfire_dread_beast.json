@@ -1,0 +1,18 @@
+{
+	"name": "Dread Beast",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:dread_beast'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:iceandfire:dread_beast",
+	"advancement": "universalbestiary:iceandfire_dread_beast",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Dread Beast$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:dread_beast",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

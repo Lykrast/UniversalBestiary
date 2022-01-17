@@ -1,0 +1,18 @@
+{
+	"name": "Zombie Ant",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.zombie_ant'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.zombie_ant",
+	"advancement": "universalbestiary:erebus_erebus.zombie_ant",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Zombie Ant$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.zombie_ant",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

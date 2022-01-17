@@ -1,0 +1,18 @@
+{
+	"name": "Pirat",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'rats:pirat'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:rats:pirat",
+	"advancement": "universalbestiary:rats_pirat",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Pirat$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "rats:pirat",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

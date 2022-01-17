@@ -1,0 +1,18 @@
+{
+	"name": "Pufferfish Dog",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'beasts:pufferfish_dog'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:beasts:pufferfish_dog",
+	"advancement": "universalbestiary:beasts_pufferfish_dog",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Pufferfish Dog$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "beasts:pufferfish_dog",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

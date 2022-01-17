@@ -1,0 +1,18 @@
+{
+	"name": "Railiger",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'idk:railliger'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:idk:railliger",
+	"advancement": "universalbestiary:idk_railliger",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Railiger$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "idk:railliger",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

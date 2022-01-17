@@ -1,0 +1,18 @@
+{
+	"name": "Blueberry Slime",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:blueberryslime'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:blueberryslime",
+	"advancement": "universalbestiary:specialmobs_blueberryslime",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Blueberry Slime$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:blueberryslime",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

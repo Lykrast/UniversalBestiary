@@ -1,0 +1,18 @@
+{
+	"name": "Volatile Magma Cube",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:volatilelavaslime'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:volatilelavaslime",
+	"advancement": "universalbestiary:specialmobs_volatilelavaslime",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Volatile Magma Cube$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:volatilelavaslime",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

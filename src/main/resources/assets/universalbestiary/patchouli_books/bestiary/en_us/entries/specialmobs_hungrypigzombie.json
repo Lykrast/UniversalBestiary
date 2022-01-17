@@ -1,0 +1,18 @@
+{
+	"name": "Hungry Zombie Pigman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:hungrypigzombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:hungrypigzombie",
+	"advancement": "universalbestiary:specialmobs_hungrypigzombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Hungry Zombie Pigman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:hungrypigzombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Witch Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:witchspider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:witchspider",
+	"advancement": "universalbestiary:specialmobs_witchspider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Witch Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:witchspider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

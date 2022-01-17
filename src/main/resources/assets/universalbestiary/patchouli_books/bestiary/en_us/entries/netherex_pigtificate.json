@@ -1,0 +1,18 @@
+{
+	"name": "Pigtificate",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'netherex:pigtificate'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:netherex:pigtificate",
+	"advancement": "universalbestiary:netherex_pigtificate",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Pigtificate$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "netherex:pigtificate",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

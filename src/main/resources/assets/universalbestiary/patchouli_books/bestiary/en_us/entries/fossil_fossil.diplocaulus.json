@@ -1,0 +1,18 @@
+{
+	"name": "Diplocaulus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.diplocaulus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.diplocaulus",
+	"advancement": "universalbestiary:fossil_fossil.diplocaulus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Diplocaulus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.diplocaulus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

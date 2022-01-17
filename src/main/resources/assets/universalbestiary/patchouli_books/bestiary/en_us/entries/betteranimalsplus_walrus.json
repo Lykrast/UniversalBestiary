@@ -1,0 +1,18 @@
+{
+	"name": "Walrus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:walrus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betteranimalsplus:walrus",
+	"advancement": "universalbestiary:betteranimalsplus_walrus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Walrus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:walrus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

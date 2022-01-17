@@ -1,0 +1,18 @@
+{
+	"name": "Swet",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aether:swet'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:aether:swet",
+	"advancement": "universalbestiary:aether_swet",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Swet$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "aether:swet",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

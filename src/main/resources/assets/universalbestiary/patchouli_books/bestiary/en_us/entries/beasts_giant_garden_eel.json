@@ -1,0 +1,18 @@
+{
+	"name": "Giant Garden Eel",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'beasts:giant_garden_eel'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:beasts:giant_garden_eel",
+	"advancement": "universalbestiary:beasts_giant_garden_eel",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Giant Garden Eel$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "beasts:giant_garden_eel",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Poison Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:poisonspider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:poisonspider",
+	"advancement": "universalbestiary:specialmobs_poisonspider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Poison Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:poisonspider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

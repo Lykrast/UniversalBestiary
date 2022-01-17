@@ -1,0 +1,18 @@
+{
+	"name": "Glactirx",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aether:glactrix'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:aether:glactrix",
+	"advancement": "universalbestiary:aether_glactrix",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Glactirx$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "aether:glactrix",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

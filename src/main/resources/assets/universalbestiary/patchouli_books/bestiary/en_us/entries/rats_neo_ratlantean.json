@@ -1,0 +1,18 @@
+{
+	"name": "Neo Ratlantean",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'rats:neo_ratlantean'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:rats:neo_ratlantean",
+	"advancement": "universalbestiary:rats_neo_ratlantean",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Neo Ratlantean$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "rats:neo_ratlantean",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

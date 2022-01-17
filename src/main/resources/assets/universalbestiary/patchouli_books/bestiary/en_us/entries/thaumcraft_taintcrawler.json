@@ -1,0 +1,18 @@
+{
+	"name": "Taint Crawler",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:taintcrawler'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thaumcraft:taintcrawler",
+	"advancement": "universalbestiary:thaumcraft_taintcrawler",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Taint Crawler$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:taintcrawler",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

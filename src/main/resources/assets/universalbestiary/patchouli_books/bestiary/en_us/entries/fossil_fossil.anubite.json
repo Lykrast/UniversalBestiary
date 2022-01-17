@@ -1,0 +1,18 @@
+{
+	"name": "Anubite",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.anubite'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.anubite",
+	"advancement": "universalbestiary:fossil_fossil.anubite",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Anubite$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.anubite",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

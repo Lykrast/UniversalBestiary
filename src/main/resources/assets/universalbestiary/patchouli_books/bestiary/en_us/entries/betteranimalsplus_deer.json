@@ -1,0 +1,18 @@
+{
+	"name": "Deer (Better Animals)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:deer'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betteranimalsplus:deer",
+	"advancement": "universalbestiary:betteranimalsplus_deer",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Deer (Better Animals)$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:deer",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

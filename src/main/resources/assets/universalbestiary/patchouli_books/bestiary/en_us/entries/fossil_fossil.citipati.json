@@ -1,0 +1,18 @@
+{
+	"name": "Citipati",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.citipati'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.citipati",
+	"advancement": "universalbestiary:fossil_fossil.citipati",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Citipati$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.citipati",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

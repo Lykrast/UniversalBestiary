@@ -1,0 +1,18 @@
+{
+	"name": "Grasshopper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.grasshopper'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:erebus:erebus.grasshopper",
+	"advancement": "universalbestiary:erebus_erebus.grasshopper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Grasshopper$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.grasshopper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

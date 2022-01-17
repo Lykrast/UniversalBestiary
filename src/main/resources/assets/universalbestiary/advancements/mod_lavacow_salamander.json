@@ -1,0 +1,9 @@
+{
+	"parent": "universalbestiary:root",
+	"criteria": {
+		"unlock": {
+			"trigger": "universalbestiary:unlock",
+			"conditions": { "entity": { "type": "mod_lavacow:salamander" } }
+		}
+	}
+}

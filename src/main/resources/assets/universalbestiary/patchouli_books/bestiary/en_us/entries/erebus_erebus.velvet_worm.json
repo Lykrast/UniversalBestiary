@@ -1,0 +1,18 @@
+{
+	"name": "Velvet Vorm",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.velvet_worm'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.velvet_worm",
+	"advancement": "universalbestiary:erebus_erebus.velvet_worm",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Velvet Vorm$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.velvet_worm",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

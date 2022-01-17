@@ -1,0 +1,18 @@
+{
+	"name": "Plague Cloud",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'rats:plague_cloud'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:rats:plague_cloud",
+	"advancement": "universalbestiary:rats_plague_cloud",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Plague Cloud$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "rats:plague_cloud",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

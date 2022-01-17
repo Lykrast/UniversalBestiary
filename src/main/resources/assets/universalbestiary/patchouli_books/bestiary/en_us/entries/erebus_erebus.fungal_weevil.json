@@ -1,0 +1,18 @@
+{
+	"name": "Fungal Weevil",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.fungal_weevil'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:erebus:erebus.fungal_weevil",
+	"advancement": "universalbestiary:erebus_erebus.fungal_weevil",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Fungal Weevil$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.fungal_weevil",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

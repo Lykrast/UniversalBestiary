@@ -1,0 +1,18 @@
+{
+	"name": "Giant Wither Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:giantwitherskeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:giantwitherskeleton",
+	"advancement": "universalbestiary:specialmobs_giantwitherskeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Giant Wither Skeleton$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:giantwitherskeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Piranha",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mod_lavacow:piranha'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:mod_lavacow:piranha",
+	"advancement": "universalbestiary:mod_lavacow_piranha",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Piranha$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mod_lavacow:piranha",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

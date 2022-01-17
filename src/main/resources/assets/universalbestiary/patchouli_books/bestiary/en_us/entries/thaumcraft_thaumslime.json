@@ -1,0 +1,18 @@
+{
+	"name": "Thamic Clime",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:thaumslime'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thaumcraft:thaumslime",
+	"advancement": "universalbestiary:thaumcraft_thaumslime",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Thamic Clime$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:thaumslime",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

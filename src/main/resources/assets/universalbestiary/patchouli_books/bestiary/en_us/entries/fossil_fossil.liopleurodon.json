@@ -1,0 +1,18 @@
+{
+	"name": "Liopleurodon",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.liopleurodon'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.liopleurodon",
+	"advancement": "universalbestiary:fossil_fossil.liopleurodon",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Liopleurodon$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.liopleurodon",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

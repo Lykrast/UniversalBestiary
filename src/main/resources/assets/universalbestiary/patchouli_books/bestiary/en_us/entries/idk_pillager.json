@@ -1,0 +1,18 @@
+{
+	"name": "Pillager",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'idk:pillager'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:idk:pillager",
+	"advancement": "universalbestiary:idk_pillager",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Pillager$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "idk:pillager",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

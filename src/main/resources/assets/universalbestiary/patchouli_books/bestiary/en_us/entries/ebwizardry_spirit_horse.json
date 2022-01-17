@@ -1,0 +1,18 @@
+{
+	"name": "Spirit Horse",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'ebwizardry:spirit_horse'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:ebwizardry:spirit_horse",
+	"advancement": "universalbestiary:ebwizardry_spirit_horse",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Spirit Horse$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "ebwizardry:spirit_horse",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

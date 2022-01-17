@@ -1,0 +1,18 @@
+{
+	"name": "Gatling Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:gatlingskeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:gatlingskeleton",
+	"advancement": "universalbestiary:specialmobs_gatlingskeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Gatling Skeleton$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:gatlingskeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Bot Fly Larva",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.bot_fly_larva'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.bot_fly_larva",
+	"advancement": "universalbestiary:erebus_erebus.bot_fly_larva",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Bot Fly Larva$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.bot_fly_larva",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

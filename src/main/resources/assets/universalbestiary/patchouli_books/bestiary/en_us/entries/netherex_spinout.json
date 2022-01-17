@@ -1,0 +1,18 @@
+{
+	"name": "Spinout",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'netherex:spinout'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:netherex:spinout",
+	"advancement": "universalbestiary:netherex_spinout",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Spinout$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "netherex:spinout",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

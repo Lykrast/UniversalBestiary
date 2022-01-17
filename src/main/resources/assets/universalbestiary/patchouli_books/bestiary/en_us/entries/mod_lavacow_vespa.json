@@ -1,0 +1,18 @@
+{
+	"name": "Vespa",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mod_lavacow:vespa'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:mod_lavacow:vespa",
+	"advancement": "universalbestiary:mod_lavacow_vespa",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Vespa$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mod_lavacow:vespa",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

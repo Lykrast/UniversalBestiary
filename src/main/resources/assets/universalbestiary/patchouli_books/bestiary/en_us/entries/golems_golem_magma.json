@@ -1,0 +1,18 @@
+{
+	"name": "Magma Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_magma'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_magma",
+	"advancement": "universalbestiary:golems_golem_magma",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Magma Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_magma",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

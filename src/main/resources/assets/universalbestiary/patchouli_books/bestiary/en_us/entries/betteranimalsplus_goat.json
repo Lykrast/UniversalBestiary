@@ -1,0 +1,18 @@
+{
+	"name": "Goat",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:goat'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betteranimalsplus:goat",
+	"advancement": "universalbestiary:betteranimalsplus_goat",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Goat$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:goat",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

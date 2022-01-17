@@ -1,0 +1,18 @@
+{
+	"name": "Cicada",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.cicada'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:erebus:erebus.cicada",
+	"advancement": "universalbestiary:erebus_erebus.cicada",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cicada$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.cicada",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

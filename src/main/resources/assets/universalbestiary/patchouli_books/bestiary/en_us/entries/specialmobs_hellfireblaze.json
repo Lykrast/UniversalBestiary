@@ -1,0 +1,18 @@
+{
+	"name": "Hellfire Blaze",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:hellfireblaze'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:hellfireblaze",
+	"advancement": "universalbestiary:specialmobs_hellfireblaze",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Hellfire Blaze$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:hellfireblaze",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

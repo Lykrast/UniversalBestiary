@@ -1,0 +1,18 @@
+{
+	"name": "Ninja Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:ninjaskeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:ninjaskeleton",
+	"advancement": "universalbestiary:specialmobs_ninjaskeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ninja Skeleton$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:ninjaskeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

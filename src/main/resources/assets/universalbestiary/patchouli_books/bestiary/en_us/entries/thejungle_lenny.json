@@ -1,0 +1,18 @@
+{
+	"name": "The Tyrant",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thejungle:lenny'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:thejungle:lenny",
+	"advancement": "universalbestiary:thejungle_lenny",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)The Tyrant$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thejungle:lenny",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

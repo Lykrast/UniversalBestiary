@@ -1,0 +1,18 @@
+{
+	"name": "Lizardman Witch Doctor",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thejungle:lizardmanstalker'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:thejungle:lizardmanstalker",
+	"advancement": "universalbestiary:thejungle_lizardmanstalker",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Lizardman Witch Doctor$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thejungle:lizardmanstalker",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

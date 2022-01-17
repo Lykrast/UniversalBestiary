@@ -1,0 +1,18 @@
+{
+	"name": "Midge Swarm",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.midge_swarm'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.midge_swarm",
+	"advancement": "universalbestiary:erebus_erebus.midge_swarm",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Midge Swarm$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.midge_swarm",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

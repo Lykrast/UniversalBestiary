@@ -1,0 +1,18 @@
+{
+	"name": "Lava Web Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.lava_web_spider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.lava_web_spider",
+	"advancement": "universalbestiary:erebus_erebus.lava_web_spider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Lava Web Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.lava_web_spider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

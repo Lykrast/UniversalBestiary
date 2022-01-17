@@ -1,0 +1,18 @@
+{
+	"name": "Jungle Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thejungle:junglespider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thejungle:junglespider",
+	"advancement": "universalbestiary:thejungle_junglespider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Jungle Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thejungle:junglespider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

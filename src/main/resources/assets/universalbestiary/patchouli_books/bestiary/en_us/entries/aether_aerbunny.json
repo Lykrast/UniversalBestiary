@@ -1,0 +1,18 @@
+{
+	"name": "Aerbunny",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aether:aerbunny'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:aether:aerbunny",
+	"advancement": "universalbestiary:aether_aerbunny",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Aerbunny$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "aether:aerbunny",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

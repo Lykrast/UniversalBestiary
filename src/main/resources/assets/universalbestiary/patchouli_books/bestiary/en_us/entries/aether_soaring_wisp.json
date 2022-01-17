@@ -1,0 +1,18 @@
+{
+	"name": "Soaring Wisp",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aether:soaring_wisp'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:aether:soaring_wisp",
+	"advancement": "universalbestiary:aether_soaring_wisp",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Soaring Wisp$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "aether:soaring_wisp",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

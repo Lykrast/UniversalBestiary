@@ -1,0 +1,18 @@
+{
+	"name": "Necromancer",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'illagers_plus:necromancer'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:illagers_plus:necromancer",
+	"advancement": "universalbestiary:illagers_plus_necromancer",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Necromancer$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "illagers_plus:necromancer",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

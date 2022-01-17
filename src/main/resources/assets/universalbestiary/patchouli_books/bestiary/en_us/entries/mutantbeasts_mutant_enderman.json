@@ -1,0 +1,18 @@
+{
+	"name": "Mutant Enderman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mutantbeasts:mutant_enderman'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:mutantbeasts:mutant_enderman",
+	"advancement": "universalbestiary:mutantbeasts_mutant_enderman",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mutant Enderman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mutantbeasts:mutant_enderman",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

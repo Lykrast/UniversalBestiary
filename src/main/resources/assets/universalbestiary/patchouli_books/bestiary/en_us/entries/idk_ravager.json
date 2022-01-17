@@ -1,0 +1,18 @@
+{
+	"name": "Ravager",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'idk:ravager'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:idk:ravager",
+	"advancement": "universalbestiary:idk_ravager",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ravager$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "idk:ravager",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

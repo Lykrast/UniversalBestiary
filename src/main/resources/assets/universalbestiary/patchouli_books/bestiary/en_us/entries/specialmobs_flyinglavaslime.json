@@ -1,0 +1,18 @@
+{
+	"name": "Flying Magma Cube",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:flyinglavaslime'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:flyinglavaslime",
+	"advancement": "universalbestiary:specialmobs_flyinglavaslime",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Flying Magma Cube$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:flyinglavaslime",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

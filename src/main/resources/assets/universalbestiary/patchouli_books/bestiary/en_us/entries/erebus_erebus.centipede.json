@@ -1,0 +1,18 @@
+{
+	"name": "Centipede",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.centipede'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.centipede",
+	"advancement": "universalbestiary:erebus_erebus.centipede",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Centipede$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.centipede",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

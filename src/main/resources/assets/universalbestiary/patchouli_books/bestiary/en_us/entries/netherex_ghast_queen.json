@@ -1,0 +1,18 @@
+{
+	"name": "Ghast Queen",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'netherex:ghast_queen'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:netherex:ghast_queen",
+	"advancement": "universalbestiary:netherex_ghast_queen",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ghast Queen$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "netherex:ghast_queen",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

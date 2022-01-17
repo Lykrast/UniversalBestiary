@@ -1,0 +1,18 @@
+{
+	"name": "Gold Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_gold'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_gold",
+	"advancement": "universalbestiary:golems_golem_gold",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Gold Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_gold",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

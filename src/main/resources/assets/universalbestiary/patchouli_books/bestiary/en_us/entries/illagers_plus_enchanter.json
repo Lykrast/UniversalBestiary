@@ -1,0 +1,18 @@
+{
+	"name": "Enchanter",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'illagers_plus:enchanter'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:illagers_plus:enchanter",
+	"advancement": "universalbestiary:illagers_plus_enchanter",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Enchanter$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "illagers_plus:enchanter",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

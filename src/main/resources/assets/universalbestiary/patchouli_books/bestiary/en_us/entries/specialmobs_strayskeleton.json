@@ -1,0 +1,18 @@
+{
+	"name": "Stray Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:strayskeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:strayskeleton",
+	"advancement": "universalbestiary:specialmobs_strayskeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Stray Skeleton$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:strayskeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

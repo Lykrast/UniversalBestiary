@@ -1,0 +1,18 @@
+{
+	"name": "Web Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:webspider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:webspider",
+	"advancement": "universalbestiary:specialmobs_webspider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Web Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:webspider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

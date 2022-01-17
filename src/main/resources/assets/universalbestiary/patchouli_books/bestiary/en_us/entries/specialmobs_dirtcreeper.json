@@ -1,0 +1,18 @@
+{
+	"name": "Dirt Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:dirtcreeper'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:dirtcreeper",
+	"advancement": "universalbestiary:specialmobs_dirtcreeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Dirt Creeper$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:dirtcreeper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Furantur",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'illagers_plus:furantur'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:illagers_plus:furantur",
+	"advancement": "universalbestiary:illagers_plus_furantur",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Furantur$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "illagers_plus:furantur",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Beetle Larva",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.beetle_larva'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:erebus:erebus.beetle_larva",
+	"advancement": "universalbestiary:erebus_erebus.beetle_larva",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Beetle Larva$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.beetle_larva",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

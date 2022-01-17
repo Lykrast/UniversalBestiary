@@ -1,0 +1,18 @@
+{
+	"name": "Hungry Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:hungryspider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:hungryspider",
+	"advancement": "universalbestiary:specialmobs_hungryspider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Hungry Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:hungryspider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Ghastling",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'netherex:ghastling'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:netherex:ghastling",
+	"advancement": "universalbestiary:netherex_ghastling",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ghastling$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "netherex:ghastling",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

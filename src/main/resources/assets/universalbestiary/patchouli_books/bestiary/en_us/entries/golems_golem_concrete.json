@@ -1,0 +1,18 @@
+{
+	"name": "Concrete Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_concrete'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_concrete",
+	"advancement": "universalbestiary:golems_golem_concrete",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Concrete Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_concrete",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

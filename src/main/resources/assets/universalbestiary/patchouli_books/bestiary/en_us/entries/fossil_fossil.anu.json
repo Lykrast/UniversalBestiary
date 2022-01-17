@@ -1,0 +1,18 @@
+{
+	"name": "Anu",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.anu'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.anu",
+	"advancement": "universalbestiary:fossil_fossil.anu",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Anu$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.anu",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

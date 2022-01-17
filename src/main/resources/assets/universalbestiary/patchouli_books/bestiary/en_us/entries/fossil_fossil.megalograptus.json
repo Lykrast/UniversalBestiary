@@ -1,0 +1,18 @@
+{
+	"name": "Megalograptus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.megalograptus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.megalograptus",
+	"advancement": "universalbestiary:fossil_fossil.megalograptus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Megalograptus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.megalograptus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Moa",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aether:moa'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:aether:moa",
+	"advancement": "universalbestiary:aether_moa",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Moa$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "aether:moa",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Bookshelf Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_bookshelf'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_bookshelf",
+	"advancement": "universalbestiary:golems_golem_bookshelf",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Bookshelf Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_bookshelf",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

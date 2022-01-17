@@ -1,0 +1,18 @@
+{
+	"name": "Ferrous Wroughtnaught",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mowziesmobs:ferrous_wroughtnaut'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:mowziesmobs:ferrous_wroughtnaut",
+	"advancement": "universalbestiary:mowziesmobs_ferrous_wroughtnaut",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ferrous Wroughtnaught$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mowziesmobs:ferrous_wroughtnaut",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

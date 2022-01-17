@@ -1,0 +1,18 @@
+{
+	"name": "Rhino Beetle",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.rhino_beetle'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.rhino_beetle",
+	"advancement": "universalbestiary:erebus_erebus.rhino_beetle",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Rhino Beetle$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.rhino_beetle",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

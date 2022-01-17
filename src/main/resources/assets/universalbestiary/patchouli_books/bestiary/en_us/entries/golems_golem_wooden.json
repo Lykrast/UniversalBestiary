@@ -1,0 +1,18 @@
+{
+	"name": "Wooden Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_wooden'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_wooden",
+	"advancement": "universalbestiary:golems_golem_wooden",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wooden Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_wooden",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

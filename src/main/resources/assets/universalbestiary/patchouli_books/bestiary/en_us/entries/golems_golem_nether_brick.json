@@ -1,0 +1,18 @@
+{
+	"name": "Nether Brick Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_nether_brick'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_nether_brick",
+	"advancement": "universalbestiary:golems_golem_nether_brick",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Nether Brick Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_nether_brick",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

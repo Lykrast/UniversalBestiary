@@ -1,0 +1,18 @@
+{
+	"name": "Tough Silverfish",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:toughsilverfish'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:toughsilverfish",
+	"advancement": "universalbestiary:specialmobs_toughsilverfish",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Tough Silverfish$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:toughsilverfish",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

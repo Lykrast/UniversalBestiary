@@ -1,0 +1,18 @@
+{
+	"name": "Gorrbat",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thejungle:gorrbat'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:thejungle:gorrbat",
+	"advancement": "universalbestiary:thejungle_gorrbat",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Gorrbat$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thejungle:gorrbat",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

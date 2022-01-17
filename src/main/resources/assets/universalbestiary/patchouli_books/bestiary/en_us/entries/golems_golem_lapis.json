@@ -1,0 +1,18 @@
+{
+	"name": "Lapis Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_lapis'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_lapis",
+	"advancement": "universalbestiary:golems_golem_lapis",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Lapis Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_lapis",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

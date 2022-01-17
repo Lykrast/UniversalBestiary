@@ -1,0 +1,18 @@
+{
+	"name": "Obsidian Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_obsidian'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_obsidian",
+	"advancement": "universalbestiary:golems_golem_obsidian",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Obsidian Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_obsidian",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

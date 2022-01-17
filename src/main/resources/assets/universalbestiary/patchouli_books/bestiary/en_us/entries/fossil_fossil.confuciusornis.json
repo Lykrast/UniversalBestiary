@@ -1,0 +1,18 @@
+{
+	"name": "Confuciusornis",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.confuciusornis'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.confuciusornis",
+	"advancement": "universalbestiary:fossil_fossil.confuciusornis",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Confuciusornis$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.confuciusornis",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

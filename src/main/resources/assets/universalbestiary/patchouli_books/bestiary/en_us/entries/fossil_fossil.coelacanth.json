@@ -1,0 +1,18 @@
+{
+	"name": "Coelacanth",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.coelacanth'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.coelacanth",
+	"advancement": "universalbestiary:fossil_fossil.coelacanth",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Coelacanth$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.coelacanth",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

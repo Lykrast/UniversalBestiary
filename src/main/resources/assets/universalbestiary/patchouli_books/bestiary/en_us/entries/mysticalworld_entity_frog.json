@@ -1,0 +1,18 @@
+{
+	"name": "Frog (Mystical World)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalworld:entity_frog'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalworld:entity_frog",
+	"advancement": "universalbestiary:mysticalworld_entity_frog",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Frog (Mystical World)$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalworld:entity_frog",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

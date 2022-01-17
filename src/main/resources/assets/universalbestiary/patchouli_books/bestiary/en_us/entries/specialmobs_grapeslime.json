@@ -1,0 +1,18 @@
+{
+	"name": "Grape Slime",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:grapeslime'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:grapeslime",
+	"advancement": "universalbestiary:specialmobs_grapeslime",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Grape Slime$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:grapeslime",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

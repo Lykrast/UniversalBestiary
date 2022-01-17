@@ -1,0 +1,18 @@
+{
+	"name": "Zombie Piranha",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mod_lavacow:zombiepiranha'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:mod_lavacow:zombiepiranha",
+	"advancement": "universalbestiary:mod_lavacow_zombiepiranha",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Zombie Piranha$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mod_lavacow:zombiepiranha",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Soilfuge",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.solifuge'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.solifuge",
+	"advancement": "universalbestiary:erebus_erebus.solifuge",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Soilfuge$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.solifuge",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

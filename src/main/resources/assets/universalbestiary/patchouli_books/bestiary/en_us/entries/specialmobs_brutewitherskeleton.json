@@ -1,0 +1,18 @@
+{
+	"name": "Brute Wither Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:brutewitherskeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:brutewitherskeleton",
+	"advancement": "universalbestiary:specialmobs_brutewitherskeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Brute Wither Skeleton$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:brutewitherskeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

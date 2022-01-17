@@ -1,0 +1,18 @@
+{
+	"name": "The Wall",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thejungle:stonegolem'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:thejungle:stonegolem",
+	"advancement": "universalbestiary:thejungle_stonegolem",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)The Wall$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thejungle:stonegolem",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Crimson Cleric",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:cultistcleric'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thaumcraft:cultistcleric",
+	"advancement": "universalbestiary:thaumcraft_cultistcleric",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Crimson Cleric$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:cultistcleric",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

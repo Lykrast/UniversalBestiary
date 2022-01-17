@@ -1,0 +1,18 @@
+{
+	"name": "Doom Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:doomcreeper'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:doomcreeper",
+	"advancement": "universalbestiary:specialmobs_doomcreeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Doom Creeper$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:doomcreeper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

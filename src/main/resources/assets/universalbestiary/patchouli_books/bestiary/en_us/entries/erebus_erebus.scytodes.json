@@ -1,0 +1,18 @@
+{
+	"name": "Scytodes",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.scytodes'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.scytodes",
+	"advancement": "universalbestiary:erebus_erebus.scytodes",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Scytodes$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.scytodes",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

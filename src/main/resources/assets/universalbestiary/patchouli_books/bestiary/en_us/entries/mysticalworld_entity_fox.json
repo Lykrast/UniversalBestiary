@@ -1,0 +1,18 @@
+{
+	"name": "Fox (Mystical World)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mysticalworld:entity_fox'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mysticalworld:entity_fox",
+	"advancement": "universalbestiary:mysticalworld_entity_fox",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Fox (Mystical World)$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mysticalworld:entity_fox",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

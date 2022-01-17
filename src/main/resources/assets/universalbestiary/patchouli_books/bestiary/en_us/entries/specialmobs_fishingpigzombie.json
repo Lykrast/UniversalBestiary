@@ -1,0 +1,18 @@
+{
+	"name": "Fishing Zombie Pigman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:fishingpigzombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:fishingpigzombie",
+	"advancement": "universalbestiary:specialmobs_fishingpigzombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Fishing Zombie Pigman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:fishingpigzombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

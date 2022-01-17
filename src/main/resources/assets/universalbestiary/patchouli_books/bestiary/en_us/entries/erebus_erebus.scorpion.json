@@ -1,0 +1,18 @@
+{
+	"name": "Scorpion",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.scorpion'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.scorpion",
+	"advancement": "universalbestiary:erebus_erebus.scorpion",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Scorpion$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.scorpion",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

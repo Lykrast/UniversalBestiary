@@ -1,0 +1,18 @@
+{
+	"name": "Firefly (Better Nether)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betternether:firefly'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betternether:firefly",
+	"advancement": "universalbestiary:betternether_firefly",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Firefly (Better Nether)$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betternether:firefly",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

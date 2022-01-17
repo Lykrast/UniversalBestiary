@@ -1,0 +1,18 @@
+{
+	"name": "Frostmaw",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mowziesmobs:frostmaw'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:mowziesmobs:frostmaw",
+	"advancement": "universalbestiary:mowziesmobs_frostmaw",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Frostmaw$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mowziesmobs:frostmaw",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

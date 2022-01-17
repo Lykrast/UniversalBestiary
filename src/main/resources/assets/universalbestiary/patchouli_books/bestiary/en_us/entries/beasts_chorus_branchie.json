@@ -1,0 +1,18 @@
+{
+	"name": "Chorus Branchie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'beasts:chorus_branchie'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:beasts:chorus_branchie",
+	"advancement": "universalbestiary:beasts_chorus_branchie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Chorus Branchie$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "beasts:chorus_branchie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

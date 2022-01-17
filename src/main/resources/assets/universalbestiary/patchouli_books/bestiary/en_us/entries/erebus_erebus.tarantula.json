@@ -1,0 +1,18 @@
+{
+	"name": "Tarantula",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.tarantula'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.tarantula",
+	"advancement": "universalbestiary:erebus_erebus.tarantula",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Tarantula$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.tarantula",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

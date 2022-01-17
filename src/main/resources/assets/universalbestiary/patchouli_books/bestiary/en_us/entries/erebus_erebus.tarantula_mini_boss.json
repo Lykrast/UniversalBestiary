@@ -1,0 +1,18 @@
+{
+	"name": "Tarantula (Boss)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.tarantula_mini_boss'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:erebus:erebus.tarantula_mini_boss",
+	"advancement": "universalbestiary:erebus_erebus.tarantula_mini_boss",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Tarantula (Boss)$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.tarantula_mini_boss",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

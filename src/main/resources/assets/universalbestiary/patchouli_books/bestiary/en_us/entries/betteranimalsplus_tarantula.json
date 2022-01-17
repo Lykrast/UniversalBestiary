@@ -1,0 +1,18 @@
+{
+	"name": "Tarantula",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:tarantula'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:betteranimalsplus:tarantula",
+	"advancement": "universalbestiary:betteranimalsplus_tarantula",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Tarantula$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:tarantula",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

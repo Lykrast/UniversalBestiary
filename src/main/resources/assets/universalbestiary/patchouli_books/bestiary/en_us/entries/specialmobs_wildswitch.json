@@ -1,0 +1,18 @@
+{
+	"name": "Wilds Witch",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:wildswitch'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:wildswitch",
+	"advancement": "universalbestiary:specialmobs_wildswitch",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wilds Witch$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:wildswitch",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

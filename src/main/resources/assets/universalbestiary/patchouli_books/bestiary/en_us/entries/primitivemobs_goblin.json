@@ -1,0 +1,18 @@
+{
+	"name": "Goblin (Primitive)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'primitivemobs:goblin'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:primitivemobs:goblin",
+	"advancement": "universalbestiary:primitivemobs_goblin",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Goblin (Primitive)$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "primitivemobs:goblin",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

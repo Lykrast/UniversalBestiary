@@ -1,0 +1,18 @@
+{
+	"name": "Rhinopter",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thejungle:rhinopter'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:thejungle:rhinopter",
+	"advancement": "universalbestiary:thejungle_rhinopter",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Rhinopter$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thejungle:rhinopter",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

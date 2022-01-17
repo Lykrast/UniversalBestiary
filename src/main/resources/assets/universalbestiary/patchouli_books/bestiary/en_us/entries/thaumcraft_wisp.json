@@ -1,0 +1,18 @@
+{
+	"name": "Wisp",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:wisp'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thaumcraft:wisp",
+	"advancement": "universalbestiary:thaumcraft_wisp",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wisp$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:wisp",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

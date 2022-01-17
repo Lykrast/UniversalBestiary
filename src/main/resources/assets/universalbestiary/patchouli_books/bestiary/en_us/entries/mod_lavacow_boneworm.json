@@ -1,0 +1,18 @@
+{
+	"name": "Osvermis",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mod_lavacow:boneworm'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:mod_lavacow:boneworm",
+	"advancement": "universalbestiary:mod_lavacow_boneworm",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Osvermis$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mod_lavacow:boneworm",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

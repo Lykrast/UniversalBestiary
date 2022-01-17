@@ -1,0 +1,18 @@
+{
+	"name": "Megalania",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.megalania'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.megalania",
+	"advancement": "universalbestiary:fossil_fossil.megalania",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Megalania$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.megalania",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

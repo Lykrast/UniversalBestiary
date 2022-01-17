@@ -1,0 +1,18 @@
+{
+	"name": "Mini Enderman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:minienderman'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:minienderman",
+	"advancement": "universalbestiary:specialmobs_minienderman",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mini Enderman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:minienderman",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Money Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.money_spider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.money_spider",
+	"advancement": "universalbestiary:erebus_erebus.money_spider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Money Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.money_spider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

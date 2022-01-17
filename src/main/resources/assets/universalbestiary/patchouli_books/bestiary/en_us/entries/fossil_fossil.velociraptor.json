@@ -1,0 +1,18 @@
+{
+	"name": "Veolciraptor",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.velociraptor'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.velociraptor",
+	"advancement": "universalbestiary:fossil_fossil.velociraptor",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Veolciraptor$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.velociraptor",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

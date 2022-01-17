@@ -1,0 +1,18 @@
+{
+	"name": "Flying Silverfish",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:flyingsilverfish'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:flyingsilverfish",
+	"advancement": "universalbestiary:specialmobs_flyingsilverfish",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Flying Silverfish$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:flyingsilverfish",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

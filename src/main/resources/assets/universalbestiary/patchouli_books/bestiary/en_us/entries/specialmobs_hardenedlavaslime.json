@@ -1,0 +1,18 @@
+{
+	"name": "Hardened Magma Cube",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:hardenedlavaslime'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:hardenedlavaslime",
+	"advancement": "universalbestiary:specialmobs_hardenedlavaslime",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Hardened Magma Cube$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:hardenedlavaslime",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

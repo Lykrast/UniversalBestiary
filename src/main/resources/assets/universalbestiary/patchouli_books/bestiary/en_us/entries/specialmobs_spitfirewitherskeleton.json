@@ -1,0 +1,18 @@
+{
+	"name": "Spitfire Wither Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:spitfirewitherskeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:spitfirewitherskeleton",
+	"advancement": "universalbestiary:specialmobs_spitfirewitherskeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Spitfire Wither Skeleton$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:spitfirewitherskeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

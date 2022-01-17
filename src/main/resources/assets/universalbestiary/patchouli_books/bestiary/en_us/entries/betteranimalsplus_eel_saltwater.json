@@ -1,0 +1,18 @@
+{
+	"name": "Saltwater Eel",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:eel_saltwater'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betteranimalsplus:eel_saltwater",
+	"advancement": "universalbestiary:betteranimalsplus_eel_saltwater",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Saltwater Eel$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:eel_saltwater",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Eldritch Crab",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:eldritchcrab'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thaumcraft:eldritchcrab",
+	"advancement": "universalbestiary:thaumcraft_eldritchcrab",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Eldritch Crab$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:eldritchcrab",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

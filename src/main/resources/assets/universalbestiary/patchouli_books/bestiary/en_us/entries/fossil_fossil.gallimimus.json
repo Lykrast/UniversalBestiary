@@ -1,0 +1,18 @@
+{
+	"name": "Gallimimus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.gallimimus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.gallimimus",
+	"advancement": "universalbestiary:fossil_fossil.gallimimus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Gallimimus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.gallimimus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

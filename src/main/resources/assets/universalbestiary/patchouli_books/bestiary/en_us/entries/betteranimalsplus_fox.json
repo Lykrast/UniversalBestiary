@@ -1,0 +1,18 @@
+{
+	"name": "Fox",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:fox'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betteranimalsplus:fox",
+	"advancement": "universalbestiary:betteranimalsplus_fox",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Fox$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:fox",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

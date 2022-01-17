@@ -1,0 +1,18 @@
+{
+	"name": "Crafting Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_crafting'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_crafting",
+	"advancement": "universalbestiary:golems_golem_crafting",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Crafting Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_crafting",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

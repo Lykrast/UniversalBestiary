@@ -1,0 +1,18 @@
+{
+	"name": "Lightning Wraith",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'ebwizardry:lightning_wraith'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:ebwizardry:lightning_wraith",
+	"advancement": "universalbestiary:ebwizardry_lightning_wraith",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Lightning Wraith$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "ebwizardry:lightning_wraith",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

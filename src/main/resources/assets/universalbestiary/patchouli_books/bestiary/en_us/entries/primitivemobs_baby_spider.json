@@ -1,0 +1,18 @@
+{
+	"name": "Baby Spider (Primitive)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'primitivemobs:baby_spider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:primitivemobs:baby_spider",
+	"advancement": "universalbestiary:primitivemobs_baby_spider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Baby Spider (Primitive)$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "primitivemobs:baby_spider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "TNT Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_tnt'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_tnt",
+	"advancement": "universalbestiary:golems_golem_tnt",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)TNT Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_tnt",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Ceratosaurus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.ceratosaurus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.ceratosaurus",
+	"advancement": "universalbestiary:fossil_fossil.ceratosaurus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ceratosaurus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.ceratosaurus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

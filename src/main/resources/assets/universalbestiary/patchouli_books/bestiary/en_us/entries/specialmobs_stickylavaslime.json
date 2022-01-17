@@ -1,0 +1,18 @@
+{
+	"name": "Sticky Magma Cube",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:stickylavaslime'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:stickylavaslime",
+	"advancement": "universalbestiary:specialmobs_stickylavaslime",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Sticky Magma Cube$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:stickylavaslime",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

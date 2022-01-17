@@ -1,0 +1,18 @@
+{
+	"name": "Worker Bee",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.worker_bee'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.worker_bee",
+	"advancement": "universalbestiary:erebus_erebus.worker_bee",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Worker Bee$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.worker_bee",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

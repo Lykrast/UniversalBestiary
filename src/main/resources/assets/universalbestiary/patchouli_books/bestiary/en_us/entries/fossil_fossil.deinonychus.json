@@ -1,0 +1,18 @@
+{
+	"name": "Deinonychus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.deinonychus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.deinonychus",
+	"advancement": "universalbestiary:fossil_fossil.deinonychus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Deinonychus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.deinonychus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

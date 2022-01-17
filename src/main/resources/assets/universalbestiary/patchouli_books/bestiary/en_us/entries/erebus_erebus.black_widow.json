@@ -1,0 +1,18 @@
+{
+	"name": "Black Widow",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.black_widow'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.black_widow",
+	"advancement": "universalbestiary:erebus_erebus.black_widow",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Black Widow$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.black_widow",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

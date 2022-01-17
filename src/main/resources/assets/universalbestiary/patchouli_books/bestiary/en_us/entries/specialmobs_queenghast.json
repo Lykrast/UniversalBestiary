@@ -1,0 +1,18 @@
+{
+	"name": "Queen Ghast",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:queenghast'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:queenghast",
+	"advancement": "universalbestiary:specialmobs_queenghast",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Queen Ghast$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:queenghast",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Carion Sprout",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aether:carrion_sprout'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:aether:carrion_sprout",
+	"advancement": "universalbestiary:aether_carrion_sprout",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Carion Sprout$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "aether:carrion_sprout",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

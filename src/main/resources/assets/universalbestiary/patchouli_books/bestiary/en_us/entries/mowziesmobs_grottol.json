@@ -1,0 +1,18 @@
+{
+	"name": "Grottol",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mowziesmobs:grottol'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mowziesmobs:grottol",
+	"advancement": "universalbestiary:mowziesmobs_grottol",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Grottol$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mowziesmobs:grottol",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

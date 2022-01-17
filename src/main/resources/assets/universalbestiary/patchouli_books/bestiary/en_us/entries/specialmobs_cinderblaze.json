@@ -1,0 +1,18 @@
+{
+	"name": "Cinder Blaze",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:cinderblaze'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:cinderblaze",
+	"advancement": "universalbestiary:specialmobs_cinderblaze",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Cinder Blaze$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:cinderblaze",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

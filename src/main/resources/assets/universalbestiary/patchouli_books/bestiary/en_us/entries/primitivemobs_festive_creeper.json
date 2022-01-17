@@ -1,0 +1,18 @@
+{
+	"name": "Festive Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'primitivemobs:festive_creeper'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:primitivemobs:festive_creeper",
+	"advancement": "universalbestiary:primitivemobs_festive_creeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Festive Creeper$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "primitivemobs:festive_creeper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

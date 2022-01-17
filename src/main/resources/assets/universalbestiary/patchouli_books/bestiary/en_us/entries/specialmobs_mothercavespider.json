@@ -1,0 +1,18 @@
+{
+	"name": "Mother Cave Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:mothercavespider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:mothercavespider",
+	"advancement": "universalbestiary:specialmobs_mothercavespider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mother Cave Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:mothercavespider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

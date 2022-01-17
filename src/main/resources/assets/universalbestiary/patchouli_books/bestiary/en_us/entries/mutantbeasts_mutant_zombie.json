@@ -1,0 +1,18 @@
+{
+	"name": "Mutant Zombie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mutantbeasts:mutant_zombie'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:mutantbeasts:mutant_zombie",
+	"advancement": "universalbestiary:mutantbeasts_mutant_zombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mutant Zombie$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mutantbeasts:mutant_zombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

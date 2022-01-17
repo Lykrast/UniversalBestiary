@@ -1,0 +1,18 @@
+{
+	"name": "Blackberry Slime",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:blackberryslime'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:blackberryslime",
+	"advancement": "universalbestiary:specialmobs_blackberryslime",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Blackberry Slime$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:blackberryslime",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

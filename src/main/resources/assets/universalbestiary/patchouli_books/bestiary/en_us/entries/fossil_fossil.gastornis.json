@@ -1,0 +1,18 @@
+{
+	"name": "Gastornis",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.gastornis'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.gastornis",
+	"advancement": "universalbestiary:fossil_fossil.gastornis",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Gastornis$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.gastornis",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Punchroom",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.punchroom'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.punchroom",
+	"advancement": "universalbestiary:erebus_erebus.punchroom",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Punchroom$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.punchroom",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

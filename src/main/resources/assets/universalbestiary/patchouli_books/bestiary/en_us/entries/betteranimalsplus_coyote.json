@@ -1,0 +1,18 @@
+{
+	"name": "Coyote",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:coyote'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betteranimalsplus:coyote",
+	"advancement": "universalbestiary:betteranimalsplus_coyote",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Coyote$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:coyote",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

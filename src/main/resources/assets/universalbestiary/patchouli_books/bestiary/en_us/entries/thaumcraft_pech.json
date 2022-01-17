@@ -1,0 +1,18 @@
+{
+	"name": "Pech",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:pech'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:thaumcraft:pech",
+	"advancement": "universalbestiary:thaumcraft_pech",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Pech$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:pech",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

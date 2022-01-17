@@ -1,0 +1,18 @@
+{
+	"name": "Crimson Knight",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:cultistknight'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thaumcraft:cultistknight",
+	"advancement": "universalbestiary:thaumcraft_cultistknight",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Crimson Knight$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:cultistknight",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

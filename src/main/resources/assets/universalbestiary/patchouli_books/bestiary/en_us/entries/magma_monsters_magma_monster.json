@@ -1,0 +1,18 @@
+{
+	"name": "Magma Monster",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'magma_monsters:magma_monster'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:magma_monsters:magma_monster",
+	"advancement": "universalbestiary:magma_monsters_magma_monster",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Magma Monster$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "magma_monsters:magma_monster",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

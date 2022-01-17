@@ -1,0 +1,18 @@
+{
+	"name": "Spinosaurus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.spinosaurus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.spinosaurus",
+	"advancement": "universalbestiary:fossil_fossil.spinosaurus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Spinosaurus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.spinosaurus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

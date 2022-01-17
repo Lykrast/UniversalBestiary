@@ -1,0 +1,18 @@
+{
+	"name": "Inferno Blaze",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:infernoblaze'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:infernoblaze",
+	"advancement": "universalbestiary:specialmobs_infernoblaze",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Inferno Blaze$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:infernoblaze",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

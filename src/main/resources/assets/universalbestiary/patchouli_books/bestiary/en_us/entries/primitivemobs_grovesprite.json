@@ -1,0 +1,18 @@
+{
+	"name": "Grovesprite",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'primitivemobs:grovesprite'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:primitivemobs:grovesprite",
+	"advancement": "universalbestiary:primitivemobs_grovesprite",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Grovesprite$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "primitivemobs:grovesprite",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

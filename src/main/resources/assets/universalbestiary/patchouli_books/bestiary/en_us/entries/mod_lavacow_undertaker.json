@@ -1,0 +1,18 @@
+{
+	"name": "Undertaker",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mod_lavacow:undertaker'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:mod_lavacow:undertaker",
+	"advancement": "universalbestiary:mod_lavacow_undertaker",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Undertaker$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mod_lavacow:undertaker",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

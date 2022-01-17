@@ -1,0 +1,18 @@
+{
+	"name": "Nautilus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:nautilus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betteranimalsplus:nautilus",
+	"advancement": "universalbestiary:betteranimalsplus_nautilus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Nautilus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:nautilus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

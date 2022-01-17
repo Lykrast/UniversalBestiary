@@ -1,0 +1,18 @@
+{
+	"name": "Glow Worm",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.glow_worm'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:erebus:erebus.glow_worm",
+	"advancement": "universalbestiary:erebus_erebus.glow_worm",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Glow Worm$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.glow_worm",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

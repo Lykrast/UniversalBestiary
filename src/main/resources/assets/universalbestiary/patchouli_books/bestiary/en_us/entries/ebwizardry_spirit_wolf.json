@@ -1,0 +1,18 @@
+{
+	"name": "Spirit Wolf",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'ebwizardry:spirit_wolf'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:ebwizardry:spirit_wolf",
+	"advancement": "universalbestiary:ebwizardry_spirit_wolf",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Spirit Wolf$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "ebwizardry:spirit_wolf",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Bewitched Tome",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'primitivemobs:bewitched_tome'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:primitivemobs:bewitched_tome",
+	"advancement": "universalbestiary:primitivemobs_bewitched_tome",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Bewitched Tome$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "primitivemobs:bewitched_tome",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

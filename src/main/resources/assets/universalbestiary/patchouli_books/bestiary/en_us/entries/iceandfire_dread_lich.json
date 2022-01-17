@@ -1,0 +1,18 @@
+{
+	"name": "Dread Lich",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'iceandfire:dread_lich'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:iceandfire:dread_lich",
+	"advancement": "universalbestiary:iceandfire_dread_lich",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Dread Lich$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "iceandfire:dread_lich",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

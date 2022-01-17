@@ -1,0 +1,18 @@
+{
+	"name": "Fangrin",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aether:fangrin'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:aether:fangrin",
+	"advancement": "universalbestiary:aether_fangrin",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Fangrin$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "aether:fangrin",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

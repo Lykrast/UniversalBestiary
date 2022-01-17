@@ -1,0 +1,18 @@
+{
+	"name": "Compsognathus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.compsognathus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.compsognathus",
+	"advancement": "universalbestiary:fossil_fossil.compsognathus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Compsognathus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.compsognathus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

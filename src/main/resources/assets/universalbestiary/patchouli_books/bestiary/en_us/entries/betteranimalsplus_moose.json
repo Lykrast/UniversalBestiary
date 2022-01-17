@@ -1,0 +1,18 @@
+{
+	"name": "Moose",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:moose'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betteranimalsplus:moose",
+	"advancement": "universalbestiary:betteranimalsplus_moose",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Moose$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:moose",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

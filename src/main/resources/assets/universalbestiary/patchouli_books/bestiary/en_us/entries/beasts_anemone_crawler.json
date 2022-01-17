@@ -1,0 +1,18 @@
+{
+	"name": "Anemone Crawler",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'beasts:anemone_crawler'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:beasts:anemone_crawler",
+	"advancement": "universalbestiary:beasts_anemone_crawler",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Anemone Crawler$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "beasts:anemone_crawler",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

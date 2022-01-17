@@ -1,0 +1,18 @@
+{
+	"name": "Domination Witch",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:dominationwitch'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:dominationwitch",
+	"advancement": "universalbestiary:specialmobs_dominationwitch",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Domination Witch$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:dominationwitch",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

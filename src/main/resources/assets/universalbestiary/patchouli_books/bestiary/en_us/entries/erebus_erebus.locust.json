@@ -1,0 +1,18 @@
+{
+	"name": "Locust",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.locust'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:erebus:erebus.locust",
+	"advancement": "universalbestiary:erebus_erebus.locust",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Locust$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.locust",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

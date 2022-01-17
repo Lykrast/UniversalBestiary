@@ -1,0 +1,18 @@
+{
+	"name": "Brute",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'netherex:brute'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:netherex:brute",
+	"advancement": "universalbestiary:netherex_brute",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Brute$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "netherex:brute",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

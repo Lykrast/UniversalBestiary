@@ -1,0 +1,18 @@
+{
+	"name": "Umber Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.umber_golem'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.umber_golem",
+	"advancement": "universalbestiary:erebus_erebus.umber_golem",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Umber Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.umber_golem",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

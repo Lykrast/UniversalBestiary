@@ -1,0 +1,18 @@
+{
+	"name": "Baby Cave Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:babycavespider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:babycavespider",
+	"advancement": "universalbestiary:specialmobs_babycavespider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Baby Cave Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:babycavespider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

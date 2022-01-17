@@ -1,0 +1,18 @@
+{
+	"name": "Brachiosaurus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.brachiosaurus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.brachiosaurus",
+	"advancement": "universalbestiary:fossil_fossil.brachiosaurus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Brachiosaurus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.brachiosaurus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

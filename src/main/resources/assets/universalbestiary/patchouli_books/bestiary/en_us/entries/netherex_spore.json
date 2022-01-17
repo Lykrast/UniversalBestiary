@@ -1,0 +1,18 @@
+{
+	"name": "Spore",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'netherex:spore'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:netherex:spore",
+	"advancement": "universalbestiary:netherex_spore",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Spore$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "netherex:spore",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Titanis",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.titanis'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.titanis",
+	"advancement": "universalbestiary:fossil_fossil.titanis",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Titanis$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.titanis",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

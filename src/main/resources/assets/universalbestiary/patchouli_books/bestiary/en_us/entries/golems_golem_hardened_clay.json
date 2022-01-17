@@ -1,0 +1,18 @@
+{
+	"name": "Hardened Clay Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_hardened_clay'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_hardened_clay",
+	"advancement": "universalbestiary:golems_golem_hardened_clay",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Hardened Clay Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_hardened_clay",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

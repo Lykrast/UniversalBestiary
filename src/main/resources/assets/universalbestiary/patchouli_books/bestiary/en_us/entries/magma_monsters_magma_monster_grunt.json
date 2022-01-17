@@ -1,0 +1,18 @@
+{
+	"name": "Magma Monster Grunt",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'magma_monsters:magma_monster_grunt'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:magma_monsters:magma_monster_grunt",
+	"advancement": "universalbestiary:magma_monsters_magma_monster_grunt",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Magma Monster Grunt$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "magma_monsters:magma_monster_grunt",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

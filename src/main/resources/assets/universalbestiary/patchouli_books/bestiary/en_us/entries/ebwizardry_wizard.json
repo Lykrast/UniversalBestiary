@@ -1,0 +1,18 @@
+{
+	"name": "Wizard",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'ebwizardry:wizard'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:ebwizardry:wizard",
+	"advancement": "universalbestiary:ebwizardry_wizard",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wizard$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "ebwizardry:wizard",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

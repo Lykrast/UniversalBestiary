@@ -1,0 +1,18 @@
+{
+	"name": "Allosaurus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.allosaurus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.allosaurus",
+	"advancement": "universalbestiary:fossil_fossil.allosaurus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Allosaurus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.allosaurus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Crimson Praetor",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:cultistleader'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:thaumcraft:cultistleader",
+	"advancement": "universalbestiary:thaumcraft_cultistleader",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Crimson Praetor$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:cultistleader",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Crab",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'betteranimalsplus:crab'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:betteranimalsplus:crab",
+	"advancement": "universalbestiary:betteranimalsplus_crab",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Crab$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "betteranimalsplus:crab",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

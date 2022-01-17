@@ -1,0 +1,18 @@
+{
+	"name": "Bedrock Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_bedrock'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_bedrock",
+	"advancement": "universalbestiary:golems_golem_bedrock",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Bedrock Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_bedrock",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

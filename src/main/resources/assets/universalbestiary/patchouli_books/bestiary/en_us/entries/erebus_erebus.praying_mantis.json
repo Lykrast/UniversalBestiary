@@ -1,0 +1,18 @@
+{
+	"name": "Praying Mantis",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.praying_mantis'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.praying_mantis",
+	"advancement": "universalbestiary:erebus_erebus.praying_mantis",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Praying Mantis$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.praying_mantis",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

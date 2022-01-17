@@ -1,0 +1,18 @@
+{
+	"name": "Swamp Crab",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thejungle:swampcrab'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:thejungle:swampcrab",
+	"advancement": "universalbestiary:thejungle_swampcrab",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Swamp Crab$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thejungle:swampcrab",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

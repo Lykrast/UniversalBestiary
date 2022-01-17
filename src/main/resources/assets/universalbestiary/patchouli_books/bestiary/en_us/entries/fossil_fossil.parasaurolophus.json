@@ -1,0 +1,18 @@
+{
+	"name": "Parasaurolophus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.parasaurolophus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.parasaurolophus",
+	"advancement": "universalbestiary:fossil_fossil.parasaurolophus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Parasaurolophus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.parasaurolophus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

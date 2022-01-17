@@ -1,0 +1,18 @@
+{
+	"name": "Megalodon",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.megalodon'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.megalodon",
+	"advancement": "universalbestiary:fossil_fossil.megalodon",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Megalodon$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.megalodon",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

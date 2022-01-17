@@ -1,0 +1,18 @@
+{
+	"name": "Coral Branchie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'beasts:coral_branchie'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:beasts:coral_branchie",
+	"advancement": "universalbestiary:beasts_coral_branchie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Coral Branchie$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "beasts:coral_branchie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Lizardman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thejungle:lizardman'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:thejungle:lizardman",
+	"advancement": "universalbestiary:thejungle_lizardman",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Lizardman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thejungle:lizardman",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

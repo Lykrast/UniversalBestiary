@@ -1,0 +1,18 @@
+{
+	"name": "Husk Zombie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:huskzombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:huskzombie",
+	"advancement": "universalbestiary:specialmobs_huskzombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Husk Zombie$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:huskzombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

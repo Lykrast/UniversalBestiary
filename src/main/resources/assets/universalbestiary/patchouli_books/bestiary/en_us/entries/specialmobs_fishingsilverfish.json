@@ -1,0 +1,18 @@
+{
+	"name": "Fishing Silverfish",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:fishingsilverfish'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:fishingsilverfish",
+	"advancement": "universalbestiary:specialmobs_fishingsilverfish",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Fishing Silverfish$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:fishingsilverfish",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

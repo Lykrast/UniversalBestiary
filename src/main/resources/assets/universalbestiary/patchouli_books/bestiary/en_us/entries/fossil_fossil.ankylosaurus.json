@@ -1,0 +1,18 @@
+{
+	"name": "Ankylosaurus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.ankylosaurus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.ankylosaurus",
+	"advancement": "universalbestiary:fossil_fossil.ankylosaurus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ankylosaurus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.ankylosaurus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

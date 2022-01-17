@@ -1,0 +1,18 @@
+{
+	"name": "Skeleton Warrior",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'primitivemobs:skeleton_warrior'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:primitivemobs:skeleton_warrior",
+	"advancement": "universalbestiary:primitivemobs_skeleton_warrior",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Skeleton Warrior$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "primitivemobs:skeleton_warrior",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

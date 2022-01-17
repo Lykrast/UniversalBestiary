@@ -1,0 +1,18 @@
+{
+	"name": "Titan Beetle",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.titan_beetle'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.titan_beetle",
+	"advancement": "universalbestiary:erebus_erebus.titan_beetle",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Titan Beetle$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.titan_beetle",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

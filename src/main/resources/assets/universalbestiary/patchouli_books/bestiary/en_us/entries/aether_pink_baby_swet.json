@@ -1,0 +1,18 @@
+{
+	"name": "Baby Pink Swet",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aether:pink_baby_swet'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:aether:pink_baby_swet",
+	"advancement": "universalbestiary:aether_pink_baby_swet",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Baby Pink Swet$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "aether:pink_baby_swet",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Mutt",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'idk:mutt'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:idk:mutt",
+	"advancement": "universalbestiary:idk_mutt",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Mutt$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "idk:mutt",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

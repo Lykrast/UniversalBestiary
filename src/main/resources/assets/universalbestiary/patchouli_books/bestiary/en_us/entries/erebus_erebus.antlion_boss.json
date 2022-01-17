@@ -1,0 +1,18 @@
+{
+	"name": "Antilon Overlord",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'erebus:erebus.antlion_boss'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:erebus:erebus.antlion_boss",
+	"advancement": "universalbestiary:erebus_erebus.antlion_boss",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Antilon Overlord$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "erebus:erebus.antlion_boss",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

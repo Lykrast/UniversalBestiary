@@ -1,0 +1,18 @@
+{
+	"name": "Ember Blaze",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:emberblaze'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:emberblaze",
+	"advancement": "universalbestiary:specialmobs_emberblaze",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Ember Blaze$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:emberblaze",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

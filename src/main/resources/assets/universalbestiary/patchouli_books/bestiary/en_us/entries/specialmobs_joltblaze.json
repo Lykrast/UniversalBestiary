@@ -1,0 +1,18 @@
+{
+	"name": "Jolt Blaze",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:joltblaze'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:joltblaze",
+	"advancement": "universalbestiary:specialmobs_joltblaze",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Jolt Blaze$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:joltblaze",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

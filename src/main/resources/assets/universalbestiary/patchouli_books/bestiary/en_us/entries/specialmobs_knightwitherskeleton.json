@@ -1,0 +1,18 @@
+{
+	"name": "Knight Wither Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:knightwitherskeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:knightwitherskeleton",
+	"advancement": "universalbestiary:specialmobs_knightwitherskeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Knight Wither Skeleton$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:knightwitherskeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

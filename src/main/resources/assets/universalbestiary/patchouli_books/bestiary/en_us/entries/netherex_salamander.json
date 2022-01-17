@@ -1,0 +1,18 @@
+{
+	"name": "Salamanger",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'netherex:salamander'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:netherex:salamander",
+	"advancement": "universalbestiary:netherex_salamander",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Salamanger$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "netherex:salamander",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

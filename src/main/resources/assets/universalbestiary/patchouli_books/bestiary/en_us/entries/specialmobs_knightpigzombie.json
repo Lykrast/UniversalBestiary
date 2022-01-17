@@ -1,0 +1,18 @@
+{
+	"name": "Knight Zombie Pigman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:knightpigzombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:knightpigzombie",
+	"advancement": "universalbestiary:specialmobs_knightpigzombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Knight Zombie Pigman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:knightpigzombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

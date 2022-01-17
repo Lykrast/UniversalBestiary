@@ -1,0 +1,18 @@
+{
+	"name": "Phoenix",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'ebwizardry:phoenix'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:ebwizardry:phoenix",
+	"advancement": "universalbestiary:ebwizardry_phoenix",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Phoenix$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "ebwizardry:phoenix",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

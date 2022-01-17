@@ -1,0 +1,18 @@
+{
+	"name": "Salamander (Fish's)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mod_lavacow:salamander'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:mod_lavacow:salamander",
+	"advancement": "universalbestiary:mod_lavacow_salamander",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Salamander (Fish's)$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mod_lavacow:salamander",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

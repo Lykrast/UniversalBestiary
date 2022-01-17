@@ -1,0 +1,18 @@
+{
+	"name": "Sandstone Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_sandstone'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_sandstone",
+	"advancement": "universalbestiary:golems_golem_sandstone",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Sandstone Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_sandstone",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

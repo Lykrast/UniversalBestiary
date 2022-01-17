@@ -1,0 +1,18 @@
+{
+	"name": "Josediya",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'aether:josediya'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:aether:josediya",
+	"advancement": "universalbestiary:aether_josediya",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Josediya$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "aether:josediya",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

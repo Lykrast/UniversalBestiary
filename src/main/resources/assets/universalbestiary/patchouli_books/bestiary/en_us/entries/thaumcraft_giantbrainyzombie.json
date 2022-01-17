@@ -1,0 +1,18 @@
+{
+	"name": "Giant Brainy Zombie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:giantbrainyzombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thaumcraft:giantbrainyzombie",
+	"advancement": "universalbestiary:thaumcraft_giantbrainyzombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Giant Brainy Zombie$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:giantbrainyzombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

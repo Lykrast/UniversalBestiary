@@ -1,0 +1,18 @@
+{
+	"name": "Eldritch Warden",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:eldritchwarden'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:thaumcraft:eldritchwarden",
+	"advancement": "universalbestiary:thaumcraft_eldritchwarden",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Eldritch Warden$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:eldritchwarden",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

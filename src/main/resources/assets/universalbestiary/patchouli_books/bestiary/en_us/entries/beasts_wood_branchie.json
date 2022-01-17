@@ -1,0 +1,18 @@
+{
+	"name": "Wood Branchie",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'beasts:wood_branchie'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:beasts:wood_branchie",
+	"advancement": "universalbestiary:beasts_wood_branchie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Wood Branchie$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "beasts:wood_branchie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

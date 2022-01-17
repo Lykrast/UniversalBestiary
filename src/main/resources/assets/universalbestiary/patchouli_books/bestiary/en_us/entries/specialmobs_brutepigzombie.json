@@ -1,0 +1,18 @@
+{
+	"name": "Brute Zombie Pigman",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:brutepigzombie'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:brutepigzombie",
+	"advancement": "universalbestiary:specialmobs_brutepigzombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Brute Zombie Pigman$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:brutepigzombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

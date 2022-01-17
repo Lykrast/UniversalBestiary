@@ -1,0 +1,18 @@
+{
+	"name": "Unholy Ghast",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:unholyghast'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:unholyghast",
+	"advancement": "universalbestiary:specialmobs_unholyghast",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Unholy Ghast$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:unholyghast",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Drowning Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:drowningcreeper'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:drowningcreeper",
+	"advancement": "universalbestiary:specialmobs_drowningcreeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Drowning Creeper$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:drowningcreeper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

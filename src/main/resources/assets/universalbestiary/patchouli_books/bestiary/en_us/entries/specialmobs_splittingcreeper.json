@@ -1,0 +1,18 @@
+{
+	"name": "Splitting Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:splittingcreeper'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:splittingcreeper",
+	"advancement": "universalbestiary:specialmobs_splittingcreeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Splitting Creeper$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:splittingcreeper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

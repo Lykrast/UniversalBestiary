@@ -1,0 +1,18 @@
+{
+	"name": "Lost Miner",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'primitivemobs:lost_miner'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:primitivemobs:lost_miner",
+	"advancement": "universalbestiary:primitivemobs_lost_miner",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Lost Miner$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "primitivemobs:lost_miner",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

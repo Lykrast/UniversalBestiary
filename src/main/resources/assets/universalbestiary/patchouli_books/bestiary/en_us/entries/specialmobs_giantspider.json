@@ -1,0 +1,18 @@
+{
+	"name": "Giant Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:giantspider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:giantspider",
+	"advancement": "universalbestiary:specialmobs_giantspider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Giant Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:giantspider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Failuresaurus",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.failuresaurus'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.failuresaurus",
+	"advancement": "universalbestiary:fossil_fossil.failuresaurus",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Failuresaurus$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.failuresaurus",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Friendly Zombie Pig",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.friendlypigzombie'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.friendlypigzombie",
+	"advancement": "universalbestiary:fossil_fossil.friendlypigzombie",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Friendly Zombie Pig$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.friendlypigzombie",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Sniper Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:sniperskeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:sniperskeleton",
+	"advancement": "universalbestiary:specialmobs_sniperskeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Sniper Skeleton$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:sniperskeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

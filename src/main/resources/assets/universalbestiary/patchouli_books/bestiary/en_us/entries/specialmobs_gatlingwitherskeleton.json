@@ -1,0 +1,18 @@
+{
+	"name": "Gatling Wither Skeleton",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:gatlingwitherskeleton'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:gatlingwitherskeleton",
+	"advancement": "universalbestiary:specialmobs_gatlingwitherskeleton",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Gatling Wither Skeleton$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:gatlingwitherskeleton",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

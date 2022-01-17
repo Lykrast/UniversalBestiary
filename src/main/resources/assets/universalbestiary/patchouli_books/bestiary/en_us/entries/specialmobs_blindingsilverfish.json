@@ -1,0 +1,18 @@
+{
+	"name": "Blinding Silverfish",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:blindingsilverfish'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:blindingsilverfish",
+	"advancement": "universalbestiary:specialmobs_blindingsilverfish",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Blinding Silverfish$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:blindingsilverfish",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

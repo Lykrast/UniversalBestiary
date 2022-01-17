@@ -1,0 +1,18 @@
+{
+	"name": "Rhinopter",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thejungle:mistspider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:thejungle:mistspider",
+	"advancement": "universalbestiary:thejungle_mistspider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Rhinopter$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thejungle:mistspider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

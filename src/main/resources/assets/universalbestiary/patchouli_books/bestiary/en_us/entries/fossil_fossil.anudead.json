@@ -1,0 +1,18 @@
+{
+	"name": "Anudead",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.anudead'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:fossil:fossil.anudead",
+	"advancement": "universalbestiary:fossil_fossil.anudead",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Anudead$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "fossil:fossil.anudead",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"name": "Brain Slime",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'primitivemobs:brain_slime'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:primitivemobs:brain_slime",
+	"advancement": "universalbestiary:primitivemobs_brain_slime",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Brain Slime$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "primitivemobs:brain_slime",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

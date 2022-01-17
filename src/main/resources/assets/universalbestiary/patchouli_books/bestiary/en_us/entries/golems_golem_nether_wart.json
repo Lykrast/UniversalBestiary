@@ -1,0 +1,18 @@
+{
+	"name": "Nether Wary Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_nether_wart'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_nether_wart",
+	"advancement": "universalbestiary:golems_golem_nether_wart",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Nether Wary Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_nether_wart",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

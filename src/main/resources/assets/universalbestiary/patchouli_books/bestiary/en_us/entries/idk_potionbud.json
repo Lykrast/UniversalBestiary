@@ -1,0 +1,18 @@
+{
+	"name": "Potion Bud",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'idk:potionbud'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:idk:potionbud",
+	"advancement": "universalbestiary:idk_potionbud",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Potion Bud$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "idk:potionbud",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

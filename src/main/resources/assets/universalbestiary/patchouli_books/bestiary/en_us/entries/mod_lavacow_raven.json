@@ -1,0 +1,18 @@
+{
+	"name": "Raven (Fish's)",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mod_lavacow:raven'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:mod_lavacow:raven",
+	"advancement": "universalbestiary:mod_lavacow_raven",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Raven (Fish's)$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mod_lavacow:raven",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

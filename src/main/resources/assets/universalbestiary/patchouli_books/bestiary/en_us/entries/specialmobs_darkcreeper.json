@@ -1,0 +1,18 @@
+{
+	"name": "Dark Creeper",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:darkcreeper'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:darkcreeper",
+	"advancement": "universalbestiary:specialmobs_darkcreeper",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Dark Creeper$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:darkcreeper",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

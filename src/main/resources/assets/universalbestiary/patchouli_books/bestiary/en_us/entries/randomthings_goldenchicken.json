@@ -1,0 +1,18 @@
+{
+	"name": "Golden Chicken",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'randomthings:goldenchicken'}}",
+	"category": "animals",
+	"flag": "universalbestiary:entity:randomthings:goldenchicken",
+	"advancement": "universalbestiary:randomthings_goldenchicken",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Golden Chicken$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "randomthings:goldenchicken",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

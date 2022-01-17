@@ -7,12 +7,12 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Spectre$() is a monster that spawns in dark places in the $(thing)Overworld$(), including the surface at night. They attack players on sight by approaching them and striking them once in melee, disappearing immediately afterwards. Although a $(mob)Spectre's$() melee attack deals no damage it bestows a curse on one enchantable item carried by the target, including items worn. Wearing a $(item)Witch Hat$() prevents these curses from being bestowed."
+			"text": "The $(mob)Spectre$() is coming soon. Hang in there!"
 		},
 		{
 			"type": "entity",
 			"entity": "charm:spectre",
-			"text": "$(li)1 Health$()$(li)0 Damage$()"
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
 		}
 	]
 }

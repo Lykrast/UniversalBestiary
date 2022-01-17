@@ -1,0 +1,18 @@
+{
+	"name": "Stained Clay Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_stained_clay'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_stained_clay",
+	"advancement": "universalbestiary:golems_golem_stained_clay",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Stained Clay Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_stained_clay",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

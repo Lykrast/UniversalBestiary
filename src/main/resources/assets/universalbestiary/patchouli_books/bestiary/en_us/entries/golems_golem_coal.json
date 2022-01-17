@@ -1,0 +1,18 @@
+{
+	"name": "Coal Golem",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'golems:golem_coal'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:golems:golem_coal",
+	"advancement": "universalbestiary:golems_golem_coal",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Coal Golem$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "golems:golem_coal",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

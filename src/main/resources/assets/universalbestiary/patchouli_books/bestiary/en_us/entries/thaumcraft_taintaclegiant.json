@@ -1,0 +1,18 @@
+{
+	"name": "Giant Taintacle",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'thaumcraft:taintaclegiant'}}",
+	"category": "bosses",
+	"flag": "universalbestiary:entity:thaumcraft:taintaclegiant",
+	"advancement": "universalbestiary:thaumcraft_taintaclegiant",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Giant Taintacle$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "thaumcraft:taintaclegiant",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

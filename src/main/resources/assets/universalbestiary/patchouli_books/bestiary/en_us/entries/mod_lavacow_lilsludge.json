@@ -1,0 +1,18 @@
+{
+	"name": "Li'l Sludge",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'mod_lavacow:lilsludge'}}",
+	"category": "helpers",
+	"flag": "universalbestiary:entity:mod_lavacow:lilsludge",
+	"advancement": "universalbestiary:mod_lavacow_lilsludge",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Li'l Sludge$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "mod_lavacow:lilsludge",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}

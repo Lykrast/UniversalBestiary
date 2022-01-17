@@ -1,0 +1,18 @@
+{
+	"name": "Flying Cave Spider",
+	"icon": "minecraft:spawn_egg{EntityTag:{id:'specialmobs:flyingcavespider'}}",
+	"category": "monsters",
+	"flag": "universalbestiary:entity:specialmobs:flyingcavespider",
+	"advancement": "universalbestiary:specialmobs_flyingcavespider",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(mob)Flying Cave Spider$() is coming soon. Hang in there!"
+		},
+		{
+			"type": "entity",
+			"entity": "specialmobs:flyingcavespider",
+			"text": "$(li)?? Health$()$(li)?? Damage$()"
+		}
+	]
+}
