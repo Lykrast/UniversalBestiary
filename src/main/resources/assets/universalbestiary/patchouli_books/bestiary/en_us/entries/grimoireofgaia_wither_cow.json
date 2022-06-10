@@ -1,5 +1,5 @@
 {
-	"name": "WitherCow ",
+	"name": "Wither Cow ",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:wither_cow'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:wither_cow",
