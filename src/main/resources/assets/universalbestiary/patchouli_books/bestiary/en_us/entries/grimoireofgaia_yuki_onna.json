@@ -1,5 +1,5 @@
 {
-	"name": "Yuki_Onna",
+	"name": "Yuki-Onna",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'grimoireofgaia:yuki_onna'}}",
 	"category": "monsters",
 	"flag": "universalbestiary:entity:grimoireofgaia:yuki_onna",

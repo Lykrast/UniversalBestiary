@@ -1,7 +1,7 @@
 {
 	"name": "Anu",
 	"icon": "minecraft:spawn_egg{EntityTag:{id:'fossil:fossil.anu'}}",
-	"category": "animals",
+	"category": "bosses",
 	"flag": "universalbestiary:entity:fossil:fossil.anu",
 	"advancement": "universalbestiary:fossil_fossil.anu",
 	"pages": [
