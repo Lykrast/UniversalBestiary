@@ -7,7 +7,7 @@
 	"pages": [
 		{
 			"type": "text",
-			"text": "The $(mob)Mimic$() is a monster that disguises itself as a chest and spawns underground in the $(thing)Overworld$(). It is immune to fall damage and knockback, but vulnerable to fire. When idle, it may steal nearby items and consume them to restore 20%% of its health, but stolen items cannot be recovered. When provoked, it attacks with melee strikes that apply a $(thing)hunger$() debuff for 30 seconds.
+			"text": "The $(mob)Mimic$() is a monster that disguises itself as a chest and spawns underground in the $(thing)Overworld$(). It is immune to fall damage and knockback, but vulnerable to fire. When idle, it may steal nearby items and consume them to restore 20% of its health, but stolen items cannot be recovered. When provoked, it attacks with melee strikes that apply a $(thing)hunger$() debuff for 30 seconds.
 "
 		},
 		{
